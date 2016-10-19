@@ -1,10 +1,13 @@
 <?php
 
+namespace anstiss\complexTypes;
+
 class ct_loginSenha {
 
     /**
      * 
      * @var string $loginPrestador
+     * @see st_texto20
      * @access public
      */
     public $loginPrestador = null;
@@ -12,6 +15,7 @@ class ct_loginSenha {
     /**
      * 
      * @var string $senhaPrestador
+     * @see st_texto20
      * @access public
      */
     public $senhaPrestador = null;

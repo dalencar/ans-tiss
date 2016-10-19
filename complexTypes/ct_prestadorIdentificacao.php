@@ -1,10 +1,13 @@
 <?php
 
+namespace anstiss\complexTypes;
+
 class ct_prestadorIdentificacao {
 
     /**
      * 
      * @var string $CPF
+     * @see st_CPF
      * @access public
      */
     public $CPF = null;
@@ -12,6 +15,7 @@ class ct_prestadorIdentificacao {
     /**
      * 
      * @var string $codigoPrestadorNaOperadora
+     * @see st_texto14
      * @access public
      */
     public $codigoPrestadorNaOperadora = null;
@@ -19,6 +23,7 @@ class ct_prestadorIdentificacao {
     /**
      * 
      * @var string $CNPJ
+     * @see st_CNPJ
      * @access public
      */
     public $CNPJ = null;

@@ -1,10 +1,17 @@
 <?php
 
+namespace anstiss;
+
+use anstiss\complexTypes\ct_prestadorIdentificacao;
+
+/**
+ * Ou identificacaoPrestador ou registroANS
+ */
 class origem {
 
     /**
      * 
-     * @var identificacaoPrestador $identificacaoPrestador
+     * @var ct_prestadorIdentificacao $identificacaoPrestador
      * @access public
      */
     public $identificacaoPrestador = null;
@@ -12,13 +19,14 @@ class origem {
     /**
      * 
      * @var string $registroANS
+     * @see st_registroANS
      * @access public
      */
     public $registroANS = null;
 
     /**
      * 
-     * @param identificacaoPrestador $identificacaoPrestador
+     * @param ct_prestadorIdentificacao $identificacaoPrestador
      * @param string $registroANS
      * @access public
      */

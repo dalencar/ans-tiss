@@ -1,5 +1,13 @@
 <?php
 
+namespace anstiss;
+
+use anstiss\identificacaoTransacao;
+use anstiss\origem;
+use anstiss\destino;
+use anstiss\assinaturaDigital\assinaturaDigital;
+use anstiss\complexTypes\ct_loginSenha;
+
 class cabecalhoTransacao {
 
     /**
@@ -11,7 +19,8 @@ class cabecalhoTransacao {
 
     /**
      * 
-     * @var dm_tipoGlosa $falhaNegocio
+     * @var string $falhaNegocio
+     * @see \anstiss\simpleTypes\dm_tipoGlosa
      * @access public
      */
     public $falhaNegocio = null;
@@ -32,7 +41,8 @@ class cabecalhoTransacao {
 
     /**
      * 
-     * @var dm_versao $versaoPadrao
+     * @var string $versaoPadrao
+     * @see \anstiss\simpleTypes\dm_versao
      * @access public
      */
     public $versaoPadrao = null;
@@ -54,10 +64,10 @@ class cabecalhoTransacao {
     /**
      * 
      * @param identificacaoTransacao $identificacaoTransacao
-     * @param dm_tipoGlosa $falhaNegocio
+     * @param string $falhaNegocio
      * @param origem $origem
      * @param destino $destino
-     * @param dm_versao $versaoPadrao
+     * @param string $versaoPadrao
      * @param assinaturaDigital $assinaturaDigital
      * @param ct_loginSenha $loginSenhaPrestador
      * @access public

@@ -1,5 +1,9 @@
 <?php
 
+namespace anstiss\core;
+
+use anstiss\core\TransformType;
+
 class RetrievalMethodType {
 
     /**

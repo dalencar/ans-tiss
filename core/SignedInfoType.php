@@ -1,5 +1,11 @@
 <?php
 
+namespace anstiss\core;
+
+use anstiss\core\CanonicalizationMethodType;
+use anstiss\core\SignatureMethodType;
+use anstiss\core\ReferenceType;
+
 class SignedInfoType {
 
     /**

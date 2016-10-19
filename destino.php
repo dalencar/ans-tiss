@@ -1,10 +1,15 @@
 <?php
 
+namespace anstiss;
+
+use anstiss\complexTypes\ct_prestadorIdentificacao;
+
 class destino {
 
     /**
      * 
      * @var string $registroANS
+     * @see st_registroANS
      * @access public 
      */
     public $registroANS = null;

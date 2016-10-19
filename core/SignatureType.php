@@ -1,5 +1,12 @@
 <?php
 
+namespace anstiss\core;
+
+use anstiss\core\SignedInfoType;
+use anstiss\core\SignatureValueType;
+use anstiss\core\KeyInfoType;
+use anstiss\core\ObjectType;
+
 class SignatureType {
 
     /**

@@ -1,10 +1,13 @@
 <?php
 
+namespace anstiss;
+
 class identificacaoTransacao {
 
     /**
      * 
-     * @var dm_tipoTransacao $tipoTransacao
+     * @var string $tipoTransacao
+     * @see \anstiss\simpleTypes\dm_tipoTransacao
      * @access public
      */
     public $tipoTransacao = null;
@@ -12,6 +15,7 @@ class identificacaoTransacao {
     /**
      * 
      * @var string $sequencialTransacao
+     * @see st_texto12
      * @access public
      */
     public $sequencialTransacao = null;
@@ -19,6 +23,7 @@ class identificacaoTransacao {
     /**
      * 
      * @var date $dataRegistroTransacao
+     * @see st_data
      * @access public
      */
     public $dataRegistroTransacao = null;
@@ -26,6 +31,7 @@ class identificacaoTransacao {
     /**
      * 
      * @var time $horaRegistroTransacao
+     * @see st_hora
      * @access public
      */
     public $horaRegistroTransacao = null;

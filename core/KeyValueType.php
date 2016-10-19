@@ -1,5 +1,10 @@
 <?php
 
+namespace anstiss\core;
+
+use anstiss\core\DSAKeyValueType;
+use anstiss\core\RSAKeyValueType;
+
 class KeyValueType {
 
     /**

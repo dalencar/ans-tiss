@@ -1,43 +1,45 @@
 <?php
 
-if (!class_exists("ctm_consultaAtendimento", false)) {
+namespace anstiss\guias;
 
-    class ctm_consultaAtendimento {
+use anstiss\guias\procedimento;
 
-        /**
-         * 
-         * @var date $dataAtendimento
-         * @access public
-         */
-        public $dataAtendimento = null;
+class ctm_consultaAtendimento {
 
-        /**
-         * 
-         * @var dm_tipoConsulta $tipoConsulta
-         * @access public
-         */
-        public $tipoConsulta = null;
+    /**
+     * 
+     * @var string $dataAtendimento
+     * @see st_data
+     * @access public
+     */
+    public $dataAtendimento = null;
 
-        /**
-         * 
-         * @var procedimento $procedimento
-         * @access public
-         */
-        public $procedimento = null;
+    /**
+     * 
+     * @var string $tipoConsulta
+     * @see dm_tipoConsulta
+     * @access public
+     */
+    public $tipoConsulta = null;
 
-        /**
-         * 
-         * @param date $dataAtendimento
-         * @param dm_tipoConsulta $tipoConsulta
-         * @param procedimento $procedimento
-         * @access public
-         */
-        public function __construct($dataAtendimento, $tipoConsulta, $procedimento) {
-            $this->dataAtendimento = $dataAtendimento;
-            $this->tipoConsulta = $tipoConsulta;
-            $this->procedimento = $procedimento;
-        }
+    /**
+     * 
+     * @var procedimento $procedimento
+     * @access public
+     */
+    public $procedimento = null;
 
+    /**
+     * 
+     * @param string $dataAtendimento
+     * @param string $tipoConsulta
+     * @param procedimento $procedimento
+     * @access public
+     */
+    public function __construct($dataAtendimento, $tipoConsulta, $procedimento) {
+        $this->dataAtendimento = $dataAtendimento;
+        $this->tipoConsulta = $tipoConsulta;
+        $this->procedimento = $procedimento;
     }
 
 }

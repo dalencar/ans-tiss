@@ -1,52 +1,55 @@
 <?php
 
-if (!class_exists("ct_situacaoInicial", false)) {
+namespace anstiss\complexTypes;
 
-    class ct_situacaoInicial {
+use anstiss\complexTypes\ct_situacaoClinica;
 
-        /**
-         * 
-         * @var Ct_situacaoClinicaDentes[] $situacaoClinica
-         * @access public
-         */
-        public $situacaoClinica = null;
+class ct_situacaoInicial {
 
-        /**
-         * 
-         * @var boolean $doencaPeriodontal
-         * @access public
-         */
-        public $doencaPeriodontal = null;
+    /**
+     * 
+     * @var ct_situacaoClinica $situacaoClinica
+     * @access public
+     */
+    public $situacaoClinica = null;
 
-        /**
-         * 
-         * @var boolean $alteracaoTecidoMole
-         * @access public
-         */
-        public $alteracaoTecidoMole = null;
+    /**
+     * 
+     * @var string $doencaPeriodontal
+     * @see st_logico
+     * @access public
+     */
+    public $doencaPeriodontal = null;
 
-        /**
-         * 
-         * @var string $observacao
-         * @access public
-         */
-        public $observacao = null;
+    /**
+     * 
+     * @var string $alteracaoTecidoMole
+     * @see st_logico
+     * @access public
+     */
+    public $alteracaoTecidoMole = null;
 
-        /**
-         * 
-         * @param Ct_situacaoClinicaDentes[] $situacaoClinica
-         * @param boolean $doencaPeriodontal
-         * @param boolean $alteracaoTecidoMole
-         * @param string $observacao
-         * @access public
-         */
-        public function __construct($situacaoClinica, $doencaPeriodontal, $alteracaoTecidoMole, $observacao) {
-            $this->situacaoClinica = $situacaoClinica;
-            $this->doencaPeriodontal = $doencaPeriodontal;
-            $this->alteracaoTecidoMole = $alteracaoTecidoMole;
-            $this->observacao = $observacao;
-        }
+    /**
+     * 
+     * @var string $observacao
+     * @see st_texto500
+     * @access public
+     */
+    public $observacao = null;
 
+    /**
+     * 
+     * @param ct_situacaoClinica $situacaoClinica
+     * @param string $doencaPeriodontal
+     * @param string $alteracaoTecidoMole
+     * @param string $observacao
+     * @access public
+     */
+    public function __construct($situacaoClinica, $doencaPeriodontal, $alteracaoTecidoMole, $observacao) {
+        $this->situacaoClinica = $situacaoClinica;
+        $this->doencaPeriodontal = $doencaPeriodontal;
+        $this->alteracaoTecidoMole = $alteracaoTecidoMole;
+        $this->observacao = $observacao;
     }
 
 }

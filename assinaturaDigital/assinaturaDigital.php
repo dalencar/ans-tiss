@@ -2,14 +2,6 @@
 
 namespace anstiss\assinaturaDigital;
 
-class assinaturaDigital {
-
-    /**
-     * 
-     * @access public
-     */
-    public function __construct() {
-        
-    }
+class assinaturaDigital extends \anstiss\core\SignatureType {
 
 }

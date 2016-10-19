@@ -1,5 +1,13 @@
 <?php
 
+namespace anstiss\core;
+
+use anstiss\core\KeyValueType;
+use anstiss\core\RetrievalMethodType;
+use anstiss\core\X509DataType;
+use anstiss\core\PGPDataType;
+use anstiss\core\SPKIDataType;
+
 class KeyInfoType {
 
     /**

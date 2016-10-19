@@ -1,52 +1,55 @@
 <?php
 
-if (!class_exists("cto_anexoSituacaoInicialnaGTO", false)) {
+namespace anstiss\guias;
 
-    class cto_anexoSituacaoInicialnaGTO {
+use anstiss\complexTypes\ct_situacaoInicial;
 
-        /**
-         * 
-         * @var string $numeroGuiaAnexo
-         * @access public
-         */
-        public $numeroGuiaAnexo = null;
+class cto_anexoSituacaoInicialnaGTO {
 
-        /**
-         * 
-         * @var string $numeroGuiaReferenciada
-         * @access public
-         */
-        public $numeroGuiaReferenciada = null;
+    /**
+     * 
+     * @var string $numeroGuiaAnexo
+     * @see st_texto20
+     * @access public
+     */
+    public $numeroGuiaAnexo = null;
 
-        /**
-         * 
-         * @var string $numeroGuiaOperadora
-         * @access public
-         */
-        public $numeroGuiaOperadora = null;
+    /**
+     * 
+     * @var string $numeroGuiaReferenciada
+     * @see st_texto20
+     * @access public
+     */
+    public $numeroGuiaReferenciada = null;
 
-        /**
-         * 
-         * @var ct_situacaoInicial $ct_situacaoInicial
-         * @access public
-         */
-        public $ct_situacaoInicial = null;
+    /**
+     * 
+     * @var string $numeroGuiaOperadora
+     * @see st_texto20
+     * @access public
+     */
+    public $numeroGuiaOperadora = null;
 
-        /**
-         * 
-         * @param string $numeroGuiaAnexo
-         * @param string $numeroGuiaReferenciada
-         * @param string $numeroGuiaOperadora
-         * @param ct_situacaoInicial $ct_situacaoInicial
-         * @access public
-         */
-        public function __construct($numeroGuiaAnexo, $numeroGuiaReferenciada, $numeroGuiaOperadora, $ct_situacaoInicial) {
-            $this->numeroGuiaAnexo = $numeroGuiaAnexo;
-            $this->numeroGuiaReferenciada = $numeroGuiaReferenciada;
-            $this->numeroGuiaOperadora = $numeroGuiaOperadora;
-            $this->ct_situacaoInicial = $ct_situacaoInicial;
-        }
+    /**
+     * 
+     * @var ct_situacaoInicial $ct_situacaoInicial
+     * @access public
+     */
+    public $ct_situacaoInicial = null;
 
+    /**
+     * 
+     * @param string $numeroGuiaAnexo
+     * @param string $numeroGuiaReferenciada
+     * @param string $numeroGuiaOperadora
+     * @param ct_situacaoInicial $ct_situacaoInicial
+     * @access public
+     */
+    public function __construct($numeroGuiaAnexo, $numeroGuiaReferenciada, $numeroGuiaOperadora, $ct_situacaoInicial) {
+        $this->numeroGuiaAnexo = $numeroGuiaAnexo;
+        $this->numeroGuiaReferenciada = $numeroGuiaReferenciada;
+        $this->numeroGuiaOperadora = $numeroGuiaOperadora;
+        $this->ct_situacaoInicial = $ct_situacaoInicial;
     }
 
 }

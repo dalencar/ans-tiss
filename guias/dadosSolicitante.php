@@ -1,34 +1,35 @@
 <?php
 
-if (!class_exists("dadosSolicitante", false)) {
+namespace anstiss\guias;
 
-    class dadosSolicitante {
+use anstiss\complexTypes\ct_contratadoDados;
+use anstiss\complexTypes\ct_contratadoProfissionalDados;
 
-        /**
-         * 
-         * @var ct_contratadoDados $contratadoSolicitante
-         * @access public
-         */
-        public $contratadoSolicitante = null;
+class dadosSolicitante {
 
-        /**
-         * 
-         * @var ct_contratadoProfissionalDados $profissionalSolicitante
-         * @access public
-         */
-        public $profissionalSolicitante = null;
+    /**
+     * 
+     * @var ct_contratadoDados $contratadoSolicitante
+     * @access public
+     */
+    public $contratadoSolicitante = null;
 
-        /**
-         * 
-         * @param ct_contratadoDados $contratadoSolicitante
-         * @param ct_contratadoProfissionalDados $profissionalSolicitante
-         * @access public
-         */
-        public function __construct($contratadoSolicitante, $profissionalSolicitante) {
-            $this->contratadoSolicitante = $contratadoSolicitante;
-            $this->profissionalSolicitante = $profissionalSolicitante;
-        }
+    /**
+     * 
+     * @var ct_contratadoProfissionalDados $profissionalSolicitante
+     * @access public
+     */
+    public $profissionalSolicitante = null;
 
+    /**
+     * 
+     * @param ct_contratadoDados $contratadoSolicitante
+     * @param ct_contratadoProfissionalDados $profissionalSolicitante
+     * @access public
+     */
+    public function __construct($contratadoSolicitante, $profissionalSolicitante) {
+        $this->contratadoSolicitante = $contratadoSolicitante;
+        $this->profissionalSolicitante = $profissionalSolicitante;
     }
 
 }

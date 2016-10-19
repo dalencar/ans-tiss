@@ -1,43 +1,44 @@
 <?php
 
-if (!class_exists("ct_procedimentoDados", false)) {
+namespace anstiss\complexTypes;
 
-    class ct_procedimentoDados {
+class ct_procedimentoDados {
 
-        /**
-         * 
-         * @var dm_tabela $codigoTabela
-         * @access public
-         */
-        public $codigoTabela = null;
+    /**
+     * 
+     * @var string $codigoTabela
+     * @see dm_tabela
+     * @access public
+     */
+    public $codigoTabela = null;
 
-        /**
-         * 
-         * @var string $codigoProcedimento
-         * @access public
-         */
-        public $codigoProcedimento = null;
+    /**
+     * 
+     * @var string $codigoProcedimento
+     * @see st_texto10
+     * @access public
+     */
+    public $codigoProcedimento = null;
 
-        /**
-         * 
-         * @var string $descricaoProcedimento
-         * @access public
-         */
-        public $descricaoProcedimento = null;
+    /**
+     * 
+     * @var string $descricaoProcedimento
+     * @see st_texto150
+     * @access public
+     */
+    public $descricaoProcedimento = null;
 
-        /**
-         * 
-         * @param dm_tabela $codigoTabela
-         * @param string $codigoProcedimento
-         * @param string $descricaoProcedimento
-         * @access public
-         */
-        public function __construct($codigoTabela, $codigoProcedimento, $descricaoProcedimento) {
-            $this->codigoTabela = $codigoTabela;
-            $this->codigoProcedimento = $codigoProcedimento;
-            $this->descricaoProcedimento = $descricaoProcedimento;
-        }
-
+    /**
+     * 
+     * @param string $codigoTabela
+     * @param string $codigoProcedimento
+     * @param string $descricaoProcedimento
+     * @access public
+     */
+    public function __construct($codigoTabela, $codigoProcedimento, $descricaoProcedimento) {
+        $this->codigoTabela = $codigoTabela;
+        $this->codigoProcedimento = $codigoProcedimento;
+        $this->descricaoProcedimento = $descricaoProcedimento;
     }
 
 }

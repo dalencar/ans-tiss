@@ -1,5 +1,9 @@
 <?php
 
+namespace anstiss\core;
+
+use anstiss\core\X509IssuerSerialType;
+
 class X509DataType {
 
     /**

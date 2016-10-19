@@ -1,79 +1,85 @@
 <?php
 
-if (!class_exists("ct_identEquipeSADT", false)) {
+namespace anstiss\complexTypes;
 
-    class ct_identEquipeSADT {
+use anstiss\complexTypes\codProfissional;
 
-        /**
-         * 
-         * @var dm_grauPart $grauPart
-         * @access public
-         */
-        public $grauPart = null;
+class ct_identEquipeSADT {
 
-        /**
-         * 
-         * @var codProfissional $codProfissional
-         * @access public
-         */
-        public $codProfissional = null;
+    /**
+     * 
+     * @var string $grauPart
+     * @see dm_grauPart
+     * @access public
+     */
+    public $grauPart = null;
 
-        /**
-         * 
-         * @var string $nomeProf
-         * @access public
-         */
-        public $nomeProf = null;
+    /**
+     * 
+     * @var codProfissional $codProfissional
+     * @access public
+     */
+    public $codProfissional = null;
 
-        /**
-         * 
-         * @var dm_conselhoProfissional $conselho
-         * @access public
-         */
-        public $conselho = null;
+    /**
+     * 
+     * @var string $nomeProf
+     * @see st_texto70
+     * @access public
+     */
+    public $nomeProf = null;
 
-        /**
-         * 
-         * @var string $numeroConselhoProfissional
-         * @access public
-         */
-        public $numeroConselhoProfissional = null;
+    /**
+     * 
+     * @var string $conselho
+     * @see dm_conselhoProfissional
+     * @access public
+     */
+    public $conselho = null;
 
-        /**
-         * 
-         * @var dm_UF $UF
-         * @access public
-         */
-        public $UF = null;
+    /**
+     * 
+     * @var string $numeroConselhoProfissional
+     * @see st_texto15
+     * @access public
+     */
+    public $numeroConselhoProfissional = null;
 
-        /**
-         * 
-         * @var dm_CBOS $CBOS
-         * @access public
-         */
-        public $CBOS = null;
+    /**
+     * 
+     * @var string $UF
+     * @see dm_UF
+     * @access public
+     */
+    public $UF = null;
 
-        /**
-         * 
-         * @param dm_grauPart $grauPart
-         * @param codProfissional $codProfissional
-         * @param string $nomeProf
-         * @param dm_conselhoProfissional $conselho
-         * @param string $numeroConselhoProfissional
-         * @param dm_UF $UF
-         * @param dm_CBOS $CBOS
-         * @access public
-         */
-        public function __construct($grauPart, $codProfissional, $nomeProf, $conselho, $numeroConselhoProfissional, $UF, $CBOS) {
-            $this->grauPart = $grauPart;
-            $this->codProfissional = $codProfissional;
-            $this->nomeProf = $nomeProf;
-            $this->conselho = $conselho;
-            $this->numeroConselhoProfissional = $numeroConselhoProfissional;
-            $this->UF = $UF;
-            $this->CBOS = $CBOS;
-        }
+    /**
+     * 
+     * @var string $CBOS
+     * @see dm_CBOS
+     * @access public
+     */
+    public $CBOS = null;
 
+    /**
+     * 
+     * @param string $grauPart
+     * @param codProfissional $codProfissional
+     * @param string $nomeProf
+     * @param string $conselho
+     * @param string $numeroConselhoProfissional
+     * @param string $UF
+     * @param string $CBOS
+     * @access public
+     */
+    public function __construct($grauPart, $codProfissional, $nomeProf, $conselho, $numeroConselhoProfissional, $UF, $CBOS) {
+        $this->grauPart = $grauPart;
+        $this->codProfissional = $codProfissional;
+        $this->nomeProf = $nomeProf;
+        $this->conselho = $conselho;
+        $this->numeroConselhoProfissional = $numeroConselhoProfissional;
+        $this->UF = $UF;
+        $this->CBOS = $CBOS;
     }
 
 }

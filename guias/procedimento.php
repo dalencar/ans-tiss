@@ -1,43 +1,44 @@
 <?php
 
-if (!class_exists("procedimento", false)) {
+namespace anstiss\guias;
 
-    class procedimento {
+class procedimento {
 
-        /**
-         * 
-         * @var dm_tabela $codigoTabela
-         * @access public
-         */
-        public $codigoTabela = null;
+    /**
+     * 
+     * @var string $codigoTabela
+     * @see dm_tabela
+     * @access public
+     */
+    public $codigoTabela = null;
 
-        /**
-         * 
-         * @var string $codigoProcedimento
-         * @access public
-         */
-        public $codigoProcedimento = null;
+    /**
+     * 
+     * @var string $codigoProcedimento
+     * @see st_texto10
+     * @access public
+     */
+    public $codigoProcedimento = null;
 
-        /**
-         * 
-         * @var float $valorProcedimento
-         * @access public
-         */
-        public $valorProcedimento = null;
+    /**
+     * 
+     * @var string $valorProcedimento
+     * @see st_decimal8-2
+     * @access public
+     */
+    public $valorProcedimento = null;
 
-        /**
-         * 
-         * @param dm_tabela $codigoTabela
-         * @param string $codigoProcedimento
-         * @param float $valorProcedimento
-         * @access public
-         */
-        public function __construct($codigoTabela, $codigoProcedimento, $valorProcedimento) {
-            $this->codigoTabela = $codigoTabela;
-            $this->codigoProcedimento = $codigoProcedimento;
-            $this->valorProcedimento = $valorProcedimento;
-        }
-
+    /**
+     * 
+     * @param string $codigoTabela
+     * @param string $codigoProcedimento
+     * @param string $valorProcedimento
+     * @access public
+     */
+    public function __construct($codigoTabela, $codigoProcedimento, $valorProcedimento) {
+        $this->codigoTabela = $codigoTabela;
+        $this->codigoProcedimento = $codigoProcedimento;
+        $this->valorProcedimento = $valorProcedimento;
     }
 
 }

@@ -1,5 +1,10 @@
 <?php
 
+namespace anstiss\core;
+
+use anstiss\core\TransformType;
+use anstiss\core\DigestMethodType;
+
 class ReferenceType {
 
     /**
