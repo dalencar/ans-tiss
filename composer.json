@@ -1,0 +1,21 @@
+{
+    "name": "dalencar/ans-tiss",
+    "description": "Classes geradas apartir de um webservice tiss para auxiliar no desenvolvimento do padrão tiss na linguagem php por parte das operadoras.",
+    "keywords": ["extension", "widget", "davidsonalencar", "base", "cty"],
+    "homepage": "https://github.com/davidsonalencar/tiss-php",
+    "type": "extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Davidson Alencar",
+            "email": "davidson.t.i@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "anstiss\\": ""
+        }
+    }
+}
