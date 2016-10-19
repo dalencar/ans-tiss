@@ -13,7 +13,6 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "https://github.com/RSully/goetas-xsd2php":"^2.1"
     },
     "autoload": {
         "psr-4": {
