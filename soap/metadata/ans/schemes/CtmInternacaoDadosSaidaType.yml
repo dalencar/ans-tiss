@@ -1,0 +1,36 @@
+ans\schemes\CtmInternacaoDadosSaidaType:
+    properties:
+        diagnostico:
+            expose: true
+            access_type: public_method
+            serialized_name: diagnostico
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDiagnostico
+                setter: setDiagnostico
+            xml_list:
+                inline: true
+                entry_name: diagnostico
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<string>
+        indicadorAcidente:
+            expose: true
+            access_type: public_method
+            serialized_name: indicadorAcidente
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIndicadorAcidente
+                setter: setIndicadorAcidente
+            type: string
+        motivoSaidaInternacao:
+            expose: true
+            access_type: public_method
+            serialized_name: motivoSaidaInternacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getMotivoSaidaInternacao
+                setter: setMotivoSaidaInternacao
+            type: string

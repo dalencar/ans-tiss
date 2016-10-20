@@ -1,0 +1,26 @@
+ans\schemes\CtGuiaDadosAnexoType\ProcedimentosSolicitadosAType\ProcedimentoSolicitadoAType\GlosasProcedimentoAType:
+    properties:
+        motivoGlosa:
+            expose: true
+            access_type: public_method
+            serialized_name: motivoGlosa
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getMotivoGlosa
+                setter: setMotivoGlosa
+            xml_list:
+                inline: true
+                entry_name: motivoGlosa
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtMotivoGlosaType>
+        valorGlosaProcedimento:
+            expose: true
+            access_type: public_method
+            serialized_name: valorGlosaProcedimento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorGlosaProcedimento
+                setter: setValorGlosaProcedimento
+            type: float

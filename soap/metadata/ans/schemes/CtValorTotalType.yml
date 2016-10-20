@@ -1,0 +1,32 @@
+ans\schemes\CtValorTotalType:
+    properties:
+        valorProcessado:
+            expose: true
+            access_type: public_method
+            serialized_name: valorProcessado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorProcessado
+                setter: setValorProcessado
+            type: float
+        valorGlosa:
+            expose: true
+            access_type: public_method
+            serialized_name: valorGlosa
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorGlosa
+                setter: setValorGlosa
+            type: float
+        valorLiberado:
+            expose: true
+            access_type: public_method
+            serialized_name: valorLiberado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorLiberado
+                setter: setValorLiberado
+            type: float

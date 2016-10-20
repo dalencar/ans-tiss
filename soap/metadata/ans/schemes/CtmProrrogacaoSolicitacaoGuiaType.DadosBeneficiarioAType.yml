@@ -1,0 +1,32 @@
+ans\schemes\CtmProrrogacaoSolicitacaoGuiaType\DadosBeneficiarioAType:
+    properties:
+        numeroCarteira:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroCarteira
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroCarteira
+                setter: setNumeroCarteira
+            type: string
+        nomeBeneficiario:
+            expose: true
+            access_type: public_method
+            serialized_name: nomeBeneficiario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNomeBeneficiario
+                setter: setNomeBeneficiario
+            type: string
+        identificadorBeneficiario:
+            expose: true
+            access_type: public_method
+            serialized_name: identificadorBeneficiario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIdentificadorBeneficiario
+                setter: setIdentificadorBeneficiario
+            type: \AnySimpleType

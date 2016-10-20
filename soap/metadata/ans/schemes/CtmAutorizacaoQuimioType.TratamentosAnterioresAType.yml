@@ -1,0 +1,42 @@
+ans\schemes\CtmAutorizacaoQuimioType\TratamentosAnterioresAType:
+    properties:
+        cirurgia:
+            expose: true
+            access_type: public_method
+            serialized_name: cirurgia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCirurgia
+                setter: setCirurgia
+            type: string
+        datacirurgia:
+            expose: true
+            access_type: public_method
+            serialized_name: datacirurgia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDatacirurgia
+                setter: setDatacirurgia
+            type: 'DateTime<''Y-m-d''>'
+        areaIrradiada:
+            expose: true
+            access_type: public_method
+            serialized_name: areaIrradiada
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAreaIrradiada
+                setter: setAreaIrradiada
+            type: string
+        dataIrradiacao:
+            expose: true
+            access_type: public_method
+            serialized_name: dataIrradiacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataIrradiacao
+                setter: setDataIrradiacao
+            type: 'DateTime<''Y-m-d''>'

@@ -1,0 +1,32 @@
+ans\schemes\CtMonitoramentoGuiaType\DadosBeneficiarioAType\IdentBeneficiarioAType\DadosSemCartaoAType:
+    properties:
+        sexo:
+            expose: true
+            access_type: public_method
+            serialized_name: sexo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getSexo
+                setter: setSexo
+            type: string
+        dataNascimento:
+            expose: true
+            access_type: public_method
+            serialized_name: dataNascimento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataNascimento
+                setter: setDataNascimento
+            type: 'DateTime<''Y-m-d''>'
+        municipioResidencia:
+            expose: true
+            access_type: public_method
+            serialized_name: municipioResidencia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getMunicipioResidencia
+                setter: setMunicipioResidencia
+            type: string

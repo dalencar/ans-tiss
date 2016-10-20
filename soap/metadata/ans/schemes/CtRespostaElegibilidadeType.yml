@@ -1,0 +1,22 @@
+ans\schemes\CtRespostaElegibilidadeType:
+    properties:
+        mensagemErro:
+            expose: true
+            access_type: public_method
+            serialized_name: mensagemErro
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getMensagemErro
+                setter: setMensagemErro
+            type: ans\schemes\CtMotivoGlosaType
+        reciboElegibilidade:
+            expose: true
+            access_type: public_method
+            serialized_name: reciboElegibilidade
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getReciboElegibilidade
+                setter: setReciboElegibilidade
+            type: ans\schemes\CtElegibilidadeReciboType

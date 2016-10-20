@@ -1,0 +1,52 @@
+ans\schemes\CtOpmUtilizadaType\OPMAType\IdentificacaoOPMAType:
+    properties:
+        identificacaoOPME:
+            expose: true
+            access_type: public_method
+            serialized_name: identificacaoOPME
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIdentificacaoOPME
+                setter: setIdentificacaoOPME
+            type: ans\schemes\CtProcedimentoDadosType
+        quantidade:
+            expose: true
+            access_type: public_method
+            serialized_name: quantidade
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getQuantidade
+                setter: setQuantidade
+            type: integer
+        codigoBarra:
+            expose: true
+            access_type: public_method
+            serialized_name: codigoBarra
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodigoBarra
+                setter: setCodigoBarra
+            type: string
+        valorUnitario:
+            expose: true
+            access_type: public_method
+            serialized_name: valorUnitario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorUnitario
+                setter: setValorUnitario
+            type: float
+        valorTotal:
+            expose: true
+            access_type: public_method
+            serialized_name: valorTotal
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorTotal
+                setter: setValorTotal
+            type: float

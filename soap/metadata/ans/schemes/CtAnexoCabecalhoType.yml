@@ -1,0 +1,72 @@
+ans\schemes\CtAnexoCabecalhoType:
+    properties:
+        registroANS:
+            expose: true
+            access_type: public_method
+            serialized_name: registroANS
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRegistroANS
+                setter: setRegistroANS
+            type: string
+        numeroGuiaAnexo:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroGuiaAnexo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroGuiaAnexo
+                setter: setNumeroGuiaAnexo
+            type: string
+        numeroGuiaReferenciada:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroGuiaReferenciada
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroGuiaReferenciada
+                setter: setNumeroGuiaReferenciada
+            type: string
+        numeroGuiaOperadora:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroGuiaOperadora
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroGuiaOperadora
+                setter: setNumeroGuiaOperadora
+            type: string
+        dataSolicitacao:
+            expose: true
+            access_type: public_method
+            serialized_name: dataSolicitacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataSolicitacao
+                setter: setDataSolicitacao
+            type: 'DateTime<''Y-m-d''>'
+        senha:
+            expose: true
+            access_type: public_method
+            serialized_name: senha
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getSenha
+                setter: setSenha
+            type: string
+        dataAutorizacao:
+            expose: true
+            access_type: public_method
+            serialized_name: dataAutorizacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataAutorizacao
+                setter: setDataAutorizacao
+            type: 'DateTime<''Y-m-d''>'

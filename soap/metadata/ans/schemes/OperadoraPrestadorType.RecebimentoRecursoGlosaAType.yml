@@ -1,0 +1,22 @@
+ans\schemes\OperadoraPrestadorType\RecebimentoRecursoGlosaAType:
+    properties:
+        mensagemErro:
+            expose: true
+            access_type: public_method
+            serialized_name: mensagemErro
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getMensagemErro
+                setter: setMensagemErro
+            type: ans\schemes\CtMotivoGlosaType
+        protocoloRecebimento:
+            expose: true
+            access_type: public_method
+            serialized_name: protocoloRecebimento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getProtocoloRecebimento
+                setter: setProtocoloRecebimento
+            type: ans\schemes\CtRecursoGlosaRecebimentoType

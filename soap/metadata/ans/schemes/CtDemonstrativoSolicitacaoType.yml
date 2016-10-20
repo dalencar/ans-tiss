@@ -1,0 +1,52 @@
+ans\schemes\CtDemonstrativoSolicitacaoType:
+    properties:
+        dadosPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosPrestador
+                setter: setDadosPrestador
+            type: ans\schemes\CtContratadoDadosType
+        dataSolicitacao:
+            expose: true
+            access_type: public_method
+            serialized_name: dataSolicitacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataSolicitacao
+                setter: setDataSolicitacao
+            type: 'DateTime<''Y-m-d''>'
+        tipoDemonstrativo:
+            expose: true
+            access_type: public_method
+            serialized_name: tipoDemonstrativo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTipoDemonstrativo
+                setter: setTipoDemonstrativo
+            type: string
+        periodo:
+            expose: true
+            access_type: public_method
+            serialized_name: periodo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getPeriodo
+                setter: setPeriodo
+            type: ans\schemes\CtDemonstrativoSolicitacaoType\PeriodoAType
+        numeroProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroProtocolo
+                setter: setNumeroProtocolo
+            type: string

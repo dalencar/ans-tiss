@@ -1,0 +1,86 @@
+ans\schemes\CtAnexoRecebimentoType:
+    properties:
+        nrProtocoloRecebimento:
+            expose: true
+            access_type: public_method
+            serialized_name: nrProtocoloRecebimento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNrProtocoloRecebimento
+                setter: setNrProtocoloRecebimento
+            type: string
+        dataEnvioAnexo:
+            expose: true
+            access_type: public_method
+            serialized_name: dataEnvioAnexo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataEnvioAnexo
+                setter: setDataEnvioAnexo
+            type: 'DateTime<''Y-m-d''>'
+        numeroLote:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroLote
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroLote
+                setter: setNumeroLote
+            type: string
+        registroANS:
+            expose: true
+            access_type: public_method
+            serialized_name: registroANS
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRegistroANS
+                setter: setRegistroANS
+            type: string
+        dadosPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosPrestador
+                setter: setDadosPrestador
+            type: ans\schemes\CtContratadoDadosType
+        qtAnexosClinicos:
+            expose: true
+            access_type: public_method
+            serialized_name: qtAnexosClinicos
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getQtAnexosClinicos
+                setter: setQtAnexosClinicos
+            type: integer
+        anexosClinicos:
+            expose: true
+            access_type: public_method
+            serialized_name: anexosClinicos
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAnexosClinicos
+                setter: setAnexosClinicos
+            xml_list:
+                inline: true
+                entry_name: anexosClinicos
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtAnexoRecebimentoType\AnexosClinicosAType>
+        observacao:
+            expose: true
+            access_type: public_method
+            serialized_name: observacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getObservacao
+                setter: setObservacao
+            type: string

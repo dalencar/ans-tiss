@@ -1,0 +1,32 @@
+ans\schemes\CtProcedimentosComplementaresType:
+    properties:
+        dataProvavel:
+            expose: true
+            access_type: public_method
+            serialized_name: dataProvavel
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataProvavel
+                setter: setDataProvavel
+            type: 'DateTime<''Y-m-d''>'
+        identificacao:
+            expose: true
+            access_type: public_method
+            serialized_name: identificacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIdentificacao
+                setter: setIdentificacao
+            type: ans\schemes\CtProcedimentoDadosType
+        quantidade:
+            expose: true
+            access_type: public_method
+            serialized_name: quantidade
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getQuantidade
+                setter: setQuantidade
+            type: float

@@ -1,0 +1,46 @@
+ans\schemes\OperadoraPrestadorType\SituacaoAutorizacaoAType\AutorizacaoProrrogacaoAType:
+    properties:
+        autorizaServico:
+            expose: true
+            access_type: public_method
+            serialized_name: autorizaServico
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAutorizaServico
+                setter: setAutorizaServico
+            xml_list:
+                inline: true
+                entry_name: autorizaServico
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtmAutorizacaoServicoType>
+        tipoAcomodacaoAutorizada:
+            expose: true
+            access_type: public_method
+            serialized_name: tipoAcomodacaoAutorizada
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTipoAcomodacaoAutorizada
+                setter: setTipoAcomodacaoAutorizada
+            type: string
+        quantidadeAutorizada:
+            expose: true
+            access_type: public_method
+            serialized_name: quantidadeAutorizada
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getQuantidadeAutorizada
+                setter: setQuantidadeAutorizada
+            type: integer
+        motivoNegativa:
+            expose: true
+            access_type: public_method
+            serialized_name: motivoNegativa
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getMotivoNegativa
+                setter: setMotivoNegativa
+            type: ans\schemes\CtMotivoGlosaType

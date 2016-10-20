@@ -1,0 +1,50 @@
+ans\schemes\OperadoraPrestadorType\SituacaoAutorizacaoAType:
+    properties:
+        mensagemErro:
+            expose: true
+            access_type: public_method
+            serialized_name: mensagemErro
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getMensagemErro
+                setter: setMensagemErro
+            type: ans\schemes\CtMotivoGlosaType
+        autorizacaoServico:
+            expose: true
+            access_type: public_method
+            serialized_name: autorizacaoServico
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAutorizacaoServico
+                setter: setAutorizacaoServico
+            xml_list:
+                inline: true
+                entry_name: autorizacaoServico
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtmAutorizacaoServicoType>
+        autorizacaoProrrogacao:
+            expose: true
+            access_type: public_method
+            serialized_name: autorizacaoProrrogacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAutorizacaoProrrogacao
+                setter: setAutorizacaoProrrogacao
+            type: ans\schemes\OperadoraPrestadorType\SituacaoAutorizacaoAType\AutorizacaoProrrogacaoAType
+        autorizacaoOdonto:
+            expose: true
+            access_type: public_method
+            serialized_name: autorizacaoOdonto
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAutorizacaoOdonto
+                setter: setAutorizacaoOdonto
+            xml_list:
+                inline: true
+                entry_name: autorizacaoOdonto
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtoAutorizacaoServicoType>

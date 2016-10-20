@@ -1,0 +1,32 @@
+ans\schemes\CtmRecursoGlosaType\OpcaoRecursoAType\RecursoGuiaAType:
+    properties:
+        numeroGuiaOrigem:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroGuiaOrigem
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroGuiaOrigem
+                setter: setNumeroGuiaOrigem
+            type: string
+        senha:
+            expose: true
+            access_type: public_method
+            serialized_name: senha
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getSenha
+                setter: setSenha
+            type: string
+        opcaoRecursoGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: opcaoRecursoGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getOpcaoRecursoGuia
+                setter: setOpcaoRecursoGuia
+            type: ans\schemes\CtmRecursoGlosaType\OpcaoRecursoAType\RecursoGuiaAType\OpcaoRecursoGuiaAType

@@ -1,0 +1,72 @@
+ans\schemes\CtmInternacaoObstetricaType:
+    properties:
+        emGestacao:
+            expose: true
+            access_type: public_method
+            serialized_name: emGestacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getEmGestacao
+                setter: setEmGestacao
+            type: boolean
+        transtornoMaterno:
+            expose: true
+            access_type: public_method
+            serialized_name: transtornoMaterno
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTranstornoMaterno
+                setter: setTranstornoMaterno
+            type: boolean
+        complicacaoPuerperio:
+            expose: true
+            access_type: public_method
+            serialized_name: complicacaoPuerperio
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getComplicacaoPuerperio
+                setter: setComplicacaoPuerperio
+            type: boolean
+        atendimentoRNSalaParto:
+            expose: true
+            access_type: public_method
+            serialized_name: atendimentoRNSalaParto
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAtendimentoRNSalaParto
+                setter: setAtendimentoRNSalaParto
+            type: boolean
+        complicacaoNeonatal:
+            expose: true
+            access_type: public_method
+            serialized_name: complicacaoNeonatal
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getComplicacaoNeonatal
+                setter: setComplicacaoNeonatal
+            type: boolean
+        baixoPeso:
+            expose: true
+            access_type: public_method
+            serialized_name: baixoPeso
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getBaixoPeso
+                setter: setBaixoPeso
+            type: boolean
+        tipoParto:
+            expose: true
+            access_type: public_method
+            serialized_name: tipoParto
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTipoParto
+                setter: setTipoParto
+            type: ans\schemes\CtmInternacaoObstetricaType\TipoPartoAType

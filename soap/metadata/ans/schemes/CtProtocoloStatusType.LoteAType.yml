@@ -1,0 +1,22 @@
+ans\schemes\CtProtocoloStatusType\LoteAType:
+    properties:
+        detalheLote:
+            expose: true
+            access_type: public_method
+            serialized_name: detalheLote
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDetalheLote
+                setter: setDetalheLote
+            type: ans\schemes\CtLoteStatusType
+        mensagemErro:
+            expose: true
+            access_type: public_method
+            serialized_name: mensagemErro
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getMensagemErro
+                setter: setMensagemErro
+            type: ans\schemes\CtMotivoGlosaType

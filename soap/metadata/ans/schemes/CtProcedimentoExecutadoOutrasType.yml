@@ -1,0 +1,142 @@
+ans\schemes\CtProcedimentoExecutadoOutrasType:
+    properties:
+        dataExecucao:
+            expose: true
+            access_type: public_method
+            serialized_name: dataExecucao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataExecucao
+                setter: setDataExecucao
+            type: 'DateTime<''Y-m-d''>'
+        horaInicial:
+            expose: true
+            access_type: public_method
+            serialized_name: horaInicial
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getHoraInicial
+                setter: setHoraInicial
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        horaFinal:
+            expose: true
+            access_type: public_method
+            serialized_name: horaFinal
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getHoraFinal
+                setter: setHoraFinal
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        codigoTabela:
+            expose: true
+            access_type: public_method
+            serialized_name: codigoTabela
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodigoTabela
+                setter: setCodigoTabela
+            type: string
+        codigoProcedimento:
+            expose: true
+            access_type: public_method
+            serialized_name: codigoProcedimento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodigoProcedimento
+                setter: setCodigoProcedimento
+            type: string
+        quantidadeExecutada:
+            expose: true
+            access_type: public_method
+            serialized_name: quantidadeExecutada
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getQuantidadeExecutada
+                setter: setQuantidadeExecutada
+            type: float
+        unidadeMedida:
+            expose: true
+            access_type: public_method
+            serialized_name: unidadeMedida
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getUnidadeMedida
+                setter: setUnidadeMedida
+            type: string
+        reducaoAcrescimo:
+            expose: true
+            access_type: public_method
+            serialized_name: reducaoAcrescimo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getReducaoAcrescimo
+                setter: setReducaoAcrescimo
+            type: float
+        valorUnitario:
+            expose: true
+            access_type: public_method
+            serialized_name: valorUnitario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorUnitario
+                setter: setValorUnitario
+            type: float
+        valorTotal:
+            expose: true
+            access_type: public_method
+            serialized_name: valorTotal
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorTotal
+                setter: setValorTotal
+            type: float
+        descricaoProcedimento:
+            expose: true
+            access_type: public_method
+            serialized_name: descricaoProcedimento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDescricaoProcedimento
+                setter: setDescricaoProcedimento
+            type: string
+        registroANVISA:
+            expose: true
+            access_type: public_method
+            serialized_name: registroANVISA
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRegistroANVISA
+                setter: setRegistroANVISA
+            type: string
+        codigoRefFabricante:
+            expose: true
+            access_type: public_method
+            serialized_name: codigoRefFabricante
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodigoRefFabricante
+                setter: setCodigoRefFabricante
+            type: string
+        autorizacaoFuncionamento:
+            expose: true
+            access_type: public_method
+            serialized_name: autorizacaoFuncionamento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAutorizacaoFuncionamento
+                setter: setAutorizacaoFuncionamento
+            type: string

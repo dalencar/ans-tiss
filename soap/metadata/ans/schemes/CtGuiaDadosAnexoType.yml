@@ -1,0 +1,76 @@
+ans\schemes\CtGuiaDadosAnexoType:
+    properties:
+        numeroGuiaPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroGuiaPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroGuiaPrestador
+                setter: setNumeroGuiaPrestador
+            type: string
+        numeroGuiaOperadora:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroGuiaOperadora
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroGuiaOperadora
+                setter: setNumeroGuiaOperadora
+            type: string
+        dadosBeneficiario:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosBeneficiario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosBeneficiario
+                setter: setDadosBeneficiario
+            type: ans\schemes\CtBeneficiarioDadosType
+        dataEmissaoSolicitacaoAnexo:
+            expose: true
+            access_type: public_method
+            serialized_name: dataEmissao_SolicitacaoAnexo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataEmissaoSolicitacaoAnexo
+                setter: setDataEmissaoSolicitacaoAnexo
+            type: 'DateTime<''Y-m-d''>'
+        vlInformadoGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: vlInformadoGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getVlInformadoGuia
+                setter: setVlInformadoGuia
+            type: ans\schemes\CtValorTotalType
+        glosaAnexo:
+            expose: true
+            access_type: public_method
+            serialized_name: glosaAnexo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getGlosaAnexo
+                setter: setGlosaAnexo
+            type: ans\schemes\CtGuiaDadosAnexoType\GlosaAnexoAType
+        procedimentosSolicitados:
+            expose: true
+            access_type: public_method
+            serialized_name: procedimentosSolicitados
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getProcedimentosSolicitados
+                setter: setProcedimentosSolicitados
+            type: array<ans\schemes\CtGuiaDadosAnexoType\ProcedimentosSolicitadosAType\ProcedimentoSolicitadoAType>
+            xml_list:
+                inline: false
+                entry_name: procedimentoSolicitado
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'

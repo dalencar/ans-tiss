@@ -1,0 +1,160 @@
+ans\schemes\CtmAutorizacaoRadioType:
+    properties:
+        dadosAutorizacao:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosAutorizacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosAutorizacao
+                setter: setDadosAutorizacao
+            type: ans\schemes\CtAutorizacaoDadosType
+        numeroCarteira:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroCarteira
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroCarteira
+                setter: setNumeroCarteira
+            type: string
+        nomeBeneficiario:
+            expose: true
+            access_type: public_method
+            serialized_name: nomeBeneficiario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNomeBeneficiario
+                setter: setNomeBeneficiario
+            type: string
+        numeroCNS:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroCNS
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroCNS
+                setter: setNumeroCNS
+            type: string
+        dadosComplementaresBeneficiario:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosComplementaresBeneficiario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosComplementaresBeneficiario
+                setter: setDadosComplementaresBeneficiario
+            type: ans\schemes\CtDadosComplementaresBeneficiarioRadioType
+        medicoSolicitante:
+            expose: true
+            access_type: public_method
+            serialized_name: medicoSolicitante
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getMedicoSolicitante
+                setter: setMedicoSolicitante
+            type: ans\schemes\CtmAnexoSolicitanteType
+        diagnosticoOncologicoRadio:
+            expose: true
+            access_type: public_method
+            serialized_name: diagnosticoOncologicoRadio
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDiagnosticoOncologicoRadio
+                setter: setDiagnosticoOncologicoRadio
+            type: ans\schemes\CtmAutorizacaoRadioType\DiagnosticoOncologicoRadioAType
+        tratamentosAnteriores:
+            expose: true
+            access_type: public_method
+            serialized_name: tratamentosAnteriores
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTratamentosAnteriores
+                setter: setTratamentosAnteriores
+            type: ans\schemes\CtmAutorizacaoRadioType\TratamentosAnterioresAType
+        procedimentosComplementares:
+            expose: true
+            access_type: public_method
+            serialized_name: procedimentosComplementares
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getProcedimentosComplementares
+                setter: setProcedimentosComplementares
+            type: array<ans\schemes\CtProcedimentosComplementaresType>
+            xml_list:
+                inline: false
+                entry_name: procedimentoComplementar
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+        numeroCampos:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroCampos
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroCampos
+                setter: setNumeroCampos
+            type: integer
+        doseCampo:
+            expose: true
+            access_type: public_method
+            serialized_name: doseCampo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDoseCampo
+                setter: setDoseCampo
+            type: integer
+        doseTotal:
+            expose: true
+            access_type: public_method
+            serialized_name: doseTotal
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDoseTotal
+                setter: setDoseTotal
+            type: integer
+        nrDias:
+            expose: true
+            access_type: public_method
+            serialized_name: nrDias
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNrDias
+                setter: setNrDias
+            type: integer
+        dtPrevistaInicio:
+            expose: true
+            access_type: public_method
+            serialized_name: dtPrevistaInicio
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDtPrevistaInicio
+                setter: setDtPrevistaInicio
+            type: 'DateTime<''Y-m-d''>'
+        motivosNegativa:
+            expose: true
+            access_type: public_method
+            serialized_name: motivosNegativa
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getMotivosNegativa
+                setter: setMotivosNegativa
+            type: array<ans\schemes\CtMotivoGlosaType>
+            xml_list:
+                inline: false
+                entry_name: motivoNegativa
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'

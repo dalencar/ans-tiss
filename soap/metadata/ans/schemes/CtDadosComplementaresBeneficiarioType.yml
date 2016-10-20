@@ -1,0 +1,52 @@
+ans\schemes\CtDadosComplementaresBeneficiarioType:
+    properties:
+        peso:
+            expose: true
+            access_type: public_method
+            serialized_name: peso
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getPeso
+                setter: setPeso
+            type: float
+        altura:
+            expose: true
+            access_type: public_method
+            serialized_name: altura
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAltura
+                setter: setAltura
+            type: float
+        superficieCorporal:
+            expose: true
+            access_type: public_method
+            serialized_name: superficieCorporal
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getSuperficieCorporal
+                setter: setSuperficieCorporal
+            type: float
+        idade:
+            expose: true
+            access_type: public_method
+            serialized_name: idade
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIdade
+                setter: setIdade
+            type: integer
+        sexo:
+            expose: true
+            access_type: public_method
+            serialized_name: sexo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getSexo
+                setter: setSexo
+            type: string

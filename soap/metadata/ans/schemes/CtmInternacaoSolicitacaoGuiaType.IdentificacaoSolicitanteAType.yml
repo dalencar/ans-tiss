@@ -1,0 +1,22 @@
+ans\schemes\CtmInternacaoSolicitacaoGuiaType\IdentificacaoSolicitanteAType:
+    properties:
+        dadosDoContratado:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosDoContratado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosDoContratado
+                setter: setDadosDoContratado
+            type: ans\schemes\CtContratadoDadosType
+        dadosProfissionalContratado:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosProfissionalContratado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosProfissionalContratado
+                setter: setDadosProfissionalContratado
+            type: ans\schemes\CtContratadoProfissionalDadosType

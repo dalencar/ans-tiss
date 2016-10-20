@@ -1,0 +1,92 @@
+ans\schemes\CtmConsultaGuiaType:
+    properties:
+        cabecalhoConsulta:
+            expose: true
+            access_type: public_method
+            serialized_name: cabecalhoConsulta
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCabecalhoConsulta
+                setter: setCabecalhoConsulta
+            type: ans\schemes\CtGuiaCabecalhoType
+        numeroGuiaOperadora:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroGuiaOperadora
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroGuiaOperadora
+                setter: setNumeroGuiaOperadora
+            type: string
+        dadosBeneficiario:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosBeneficiario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosBeneficiario
+                setter: setDadosBeneficiario
+            type: ans\schemes\CtBeneficiarioDadosType
+        contratadoExecutante:
+            expose: true
+            access_type: public_method
+            serialized_name: contratadoExecutante
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getContratadoExecutante
+                setter: setContratadoExecutante
+            type: ans\schemes\CtmConsultaGuiaType\ContratadoExecutanteAType
+        profissionalExecutante:
+            expose: true
+            access_type: public_method
+            serialized_name: profissionalExecutante
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getProfissionalExecutante
+                setter: setProfissionalExecutante
+            type: ans\schemes\CtContratadoProfissionalDadosType
+        indicacaoAcidente:
+            expose: true
+            access_type: public_method
+            serialized_name: indicacaoAcidente
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIndicacaoAcidente
+                setter: setIndicacaoAcidente
+            type: string
+        dadosAtendimento:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosAtendimento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosAtendimento
+                setter: setDadosAtendimento
+            type: ans\schemes\CtmConsultaAtendimentoType
+        observacao:
+            expose: true
+            access_type: public_method
+            serialized_name: observacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getObservacao
+                setter: setObservacao
+            type: string
+        assinaturaDigital:
+            expose: true
+            access_type: public_method
+            serialized_name: assinaturaDigital
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAssinaturaDigital
+                setter: setAssinaturaDigital
+            type: ans\schemes\AssinaturaDigitalType

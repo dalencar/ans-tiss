@@ -1,0 +1,32 @@
+ans\schemes\CtmAnexoSolicitanteType:
+    properties:
+        nomeContratado:
+            expose: true
+            access_type: public_method
+            serialized_name: nomeContratado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNomeContratado
+                setter: setNomeContratado
+            type: string
+        telefoneCirurgiao:
+            expose: true
+            access_type: public_method
+            serialized_name: telefoneCirurgiao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTelefoneCirurgiao
+                setter: setTelefoneCirurgiao
+            type: string
+        emailCirurgiao:
+            expose: true
+            access_type: public_method
+            serialized_name: emailCirurgiao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getEmailCirurgiao
+                setter: setEmailCirurgiao
+            type: string

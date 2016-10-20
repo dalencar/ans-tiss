@@ -1,0 +1,92 @@
+ans\schemes\CtRespostaGlosaType\ReciboGlosaStatusAType:
+    properties:
+        nrProtocoloRecursoGlosa:
+            expose: true
+            access_type: public_method
+            serialized_name: nrProtocoloRecursoGlosa
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNrProtocoloRecursoGlosa
+                setter: setNrProtocoloRecursoGlosa
+            type: string
+        dataEnvioRecurso:
+            expose: true
+            access_type: public_method
+            serialized_name: dataEnvioRecurso
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataEnvioRecurso
+                setter: setDataEnvioRecurso
+            type: 'DateTime<''Y-m-d''>'
+        dataRecebimentoRecurso:
+            expose: true
+            access_type: public_method
+            serialized_name: dataRecebimentoRecurso
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataRecebimentoRecurso
+                setter: setDataRecebimentoRecurso
+            type: 'DateTime<''Y-m-d''>'
+        numeroLote:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroLote
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroLote
+                setter: setNumeroLote
+            type: string
+        registroANS:
+            expose: true
+            access_type: public_method
+            serialized_name: registroANS
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRegistroANS
+                setter: setRegistroANS
+            type: string
+        dadosPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosPrestador
+                setter: setDadosPrestador
+            type: ans\schemes\CtContratadoDadosType
+        nrProtocoloSituacaoRecursoGlosa:
+            expose: true
+            access_type: public_method
+            serialized_name: nrProtocoloSituacaoRecursoGlosa
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNrProtocoloSituacaoRecursoGlosa
+                setter: setNrProtocoloSituacaoRecursoGlosa
+            type: string
+        dataSituacao:
+            expose: true
+            access_type: public_method
+            serialized_name: dataSituacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataSituacao
+                setter: setDataSituacao
+            type: 'DateTime<''Y-m-d''>'
+        situacaoProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: situacaoProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getSituacaoProtocolo
+                setter: setSituacaoProtocolo
+            type: string

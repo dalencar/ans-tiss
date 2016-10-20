@@ -1,0 +1,16 @@
+ans\schemes\CtGuiaCancelamentoReciboType\GuiasCanceladasAType:
+    properties:
+        dadosGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosGuia
+                setter: setDadosGuia
+            xml_list:
+                inline: true
+                entry_name: dadosGuia
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtGuiaCancelamentoReciboType\GuiasCanceladasAType\DadosGuiaAType>

@@ -1,0 +1,12 @@
+ans\schemes\CtGuiaDadosOdontoType\ProcedimentosRealizadosAType\ProcedimentoRealizadoAType:
+    properties:
+        glosasProcedimento:
+            expose: true
+            access_type: public_method
+            serialized_name: glosasProcedimento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getGlosasProcedimento
+                setter: setGlosasProcedimento
+            type: ans\schemes\CtGuiaDadosOdontoType\ProcedimentosRealizadosAType\ProcedimentoRealizadoAType\GlosasProcedimentoAType

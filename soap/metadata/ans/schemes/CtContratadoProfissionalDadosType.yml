@@ -1,0 +1,52 @@
+ans\schemes\CtContratadoProfissionalDadosType:
+    properties:
+        nomeProfissional:
+            expose: true
+            access_type: public_method
+            serialized_name: nomeProfissional
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNomeProfissional
+                setter: setNomeProfissional
+            type: string
+        conselhoProfissional:
+            expose: true
+            access_type: public_method
+            serialized_name: conselhoProfissional
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getConselhoProfissional
+                setter: setConselhoProfissional
+            type: string
+        numeroConselhoProfissional:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroConselhoProfissional
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroConselhoProfissional
+                setter: setNumeroConselhoProfissional
+            type: string
+        uF:
+            expose: true
+            access_type: public_method
+            serialized_name: UF
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getUF
+                setter: setUF
+            type: string
+        cBOS:
+            expose: true
+            access_type: public_method
+            serialized_name: CBOS
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCBOS
+                setter: setCBOS
+            type: string

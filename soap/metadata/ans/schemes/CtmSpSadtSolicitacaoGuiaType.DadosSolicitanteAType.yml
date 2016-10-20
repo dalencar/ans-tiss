@@ -1,0 +1,22 @@
+ans\schemes\CtmSpSadtSolicitacaoGuiaType\DadosSolicitanteAType:
+    properties:
+        contratadoSolicitante:
+            expose: true
+            access_type: public_method
+            serialized_name: contratadoSolicitante
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getContratadoSolicitante
+                setter: setContratadoSolicitante
+            type: ans\schemes\CtContratadoDadosType
+        profissionalSolicitante:
+            expose: true
+            access_type: public_method
+            serialized_name: profissionalSolicitante
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getProfissionalSolicitante
+                setter: setProfissionalSolicitante
+            type: ans\schemes\CtContratadoProfissionalDadosType

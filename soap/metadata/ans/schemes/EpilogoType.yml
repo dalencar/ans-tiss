@@ -1,0 +1,12 @@
+ans\schemes\EpilogoType:
+    properties:
+        hash:
+            expose: true
+            access_type: public_method
+            serialized_name: hash
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getHash
+                setter: setHash
+            type: string

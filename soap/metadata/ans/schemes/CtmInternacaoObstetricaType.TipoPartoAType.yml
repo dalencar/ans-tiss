@@ -1,0 +1,32 @@
+ans\schemes\CtmInternacaoObstetricaType\TipoPartoAType:
+    properties:
+        aborto:
+            expose: true
+            access_type: public_method
+            serialized_name: aborto
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAborto
+                setter: setAborto
+            type: boolean
+        partoCesareo:
+            expose: true
+            access_type: public_method
+            serialized_name: partoCesareo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getPartoCesareo
+                setter: setPartoCesareo
+            type: boolean
+        partoNormal:
+            expose: true
+            access_type: public_method
+            serialized_name: partoNormal
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getPartoNormal
+                setter: setPartoNormal
+            type: boolean

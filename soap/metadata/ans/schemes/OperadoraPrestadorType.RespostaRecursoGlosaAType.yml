@@ -1,0 +1,22 @@
+ans\schemes\OperadoraPrestadorType\RespostaRecursoGlosaAType:
+    properties:
+        mensagemErro:
+            expose: true
+            access_type: public_method
+            serialized_name: mensagemErro
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getMensagemErro
+                setter: setMensagemErro
+            type: ans\schemes\CtMotivoGlosaType
+        recursoGlosa:
+            expose: true
+            access_type: public_method
+            serialized_name: recursoGlosa
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRecursoGlosa
+                setter: setRecursoGlosa
+            type: ans\schemes\CtRespostaGlosaType

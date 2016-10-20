@@ -1,0 +1,42 @@
+ans\schemes\CtProtocoloDetalheType:
+    properties:
+        numeroProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroProtocolo
+                setter: setNumeroProtocolo
+            type: string
+        valorTotalProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: valorTotalProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorTotalProtocolo
+                setter: setValorTotalProtocolo
+            type: float
+        glosaProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: glosaProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getGlosaProtocolo
+                setter: setGlosaProtocolo
+            type: ans\schemes\CtProtocoloDetalheType\GlosaProtocoloAType
+        dadosGuiasProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosGuiasProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosGuiasProtocolo
+                setter: setDadosGuiasProtocolo
+            type: ans\schemes\CtProtocoloDetalheType\DadosGuiasProtocoloAType

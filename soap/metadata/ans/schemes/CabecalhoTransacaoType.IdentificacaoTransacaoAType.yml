@@ -1,0 +1,52 @@
+ans\schemes\CabecalhoTransacaoType\IdentificacaoTransacaoAType:
+    properties:
+        tipoTransacao:
+            expose: true
+            access_type: public_method
+            serialized_name: tipoTransacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTipoTransacao
+                setter: setTipoTransacao
+            type: string
+        numeroLote:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroLote
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroLote
+                setter: setNumeroLote
+            type: string
+        competenciaLote:
+            expose: true
+            access_type: public_method
+            serialized_name: competenciaLote
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCompetenciaLote
+                setter: setCompetenciaLote
+            type: string
+        dataRegistroTransacao:
+            expose: true
+            access_type: public_method
+            serialized_name: dataRegistroTransacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataRegistroTransacao
+                setter: setDataRegistroTransacao
+            type: 'DateTime<''Y-m-d''>'
+        horaRegistroTransacao:
+            expose: true
+            access_type: public_method
+            serialized_name: horaRegistroTransacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getHoraRegistroTransacao
+                setter: setHoraRegistroTransacao
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time

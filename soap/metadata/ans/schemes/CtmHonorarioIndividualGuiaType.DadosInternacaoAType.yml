@@ -1,0 +1,22 @@
+ans\schemes\CtmHonorarioIndividualGuiaType\DadosInternacaoAType:
+    properties:
+        dataInicioFaturamento:
+            expose: true
+            access_type: public_method
+            serialized_name: dataInicioFaturamento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataInicioFaturamento
+                setter: setDataInicioFaturamento
+            type: 'DateTime<''Y-m-d''>'
+        dataFimFaturamento:
+            expose: true
+            access_type: public_method
+            serialized_name: dataFimFaturamento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataFimFaturamento
+                setter: setDataFimFaturamento
+            type: 'DateTime<''Y-m-d''>'

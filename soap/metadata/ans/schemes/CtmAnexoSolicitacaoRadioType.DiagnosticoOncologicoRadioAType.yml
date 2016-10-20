@@ -1,0 +1,22 @@
+ans\schemes\CtmAnexoSolicitacaoRadioType\DiagnosticoOncologicoRadioAType:
+    properties:
+        diagRadio:
+            expose: true
+            access_type: public_method
+            serialized_name: diagRadio
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDiagRadio
+                setter: setDiagRadio
+            type: ans\schemes\CtDiagnosticoOncologicoType
+        diagnosticoImagem:
+            expose: true
+            access_type: public_method
+            serialized_name: diagnosticoImagem
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDiagnosticoImagem
+                setter: setDiagnosticoImagem
+            type: string

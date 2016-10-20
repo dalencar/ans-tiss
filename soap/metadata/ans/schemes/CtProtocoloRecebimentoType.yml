@@ -1,0 +1,52 @@
+ans\schemes\CtProtocoloRecebimentoType:
+    properties:
+        registroANS:
+            expose: true
+            access_type: public_method
+            serialized_name: registroANS
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRegistroANS
+                setter: setRegistroANS
+            type: string
+        dadosPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosPrestador
+                setter: setDadosPrestador
+            type: ans\schemes\CtContratadoDadosType
+        numeroLote:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroLote
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroLote
+                setter: setNumeroLote
+            type: string
+        dataEnvioLote:
+            expose: true
+            access_type: public_method
+            serialized_name: dataEnvioLote
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataEnvioLote
+                setter: setDataEnvioLote
+            type: 'DateTime<''Y-m-d''>'
+        detalheProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: detalheProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDetalheProtocolo
+                setter: setDetalheProtocolo
+            type: ans\schemes\CtProtocoloDetalheType

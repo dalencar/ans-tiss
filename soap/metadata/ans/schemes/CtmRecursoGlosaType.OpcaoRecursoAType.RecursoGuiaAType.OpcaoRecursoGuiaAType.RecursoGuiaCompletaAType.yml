@@ -1,0 +1,22 @@
+ans\schemes\CtmRecursoGlosaType\OpcaoRecursoAType\RecursoGuiaAType\OpcaoRecursoGuiaAType\RecursoGuiaCompletaAType:
+    properties:
+        codGlosaGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: codGlosaGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodGlosaGuia
+                setter: setCodGlosaGuia
+            type: string
+        justificativaGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: justificativaGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getJustificativaGuia
+                setter: setJustificativaGuia
+            type: string

@@ -1,0 +1,22 @@
+ans\schemes\CtSituacaoClinicaType\DentesAType:
+    properties:
+        elementoDentario:
+            expose: true
+            access_type: public_method
+            serialized_name: elementoDentario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getElementoDentario
+                setter: setElementoDentario
+            type: string
+        condicaoClinica:
+            expose: true
+            access_type: public_method
+            serialized_name: condicaoClinica
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCondicaoClinica
+                setter: setCondicaoClinica
+            type: string

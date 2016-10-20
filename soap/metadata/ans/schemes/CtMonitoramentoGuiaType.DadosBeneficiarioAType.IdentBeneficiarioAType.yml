@@ -1,0 +1,22 @@
+ans\schemes\CtMonitoramentoGuiaType\DadosBeneficiarioAType\IdentBeneficiarioAType:
+    properties:
+        numeroCartaoNacionalSaude:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroCartaoNacionalSaude
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroCartaoNacionalSaude
+                setter: setNumeroCartaoNacionalSaude
+            type: string
+        dadosSemCartao:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosSemCartao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosSemCartao
+                setter: setDadosSemCartao
+            type: ans\schemes\CtMonitoramentoGuiaType\DadosBeneficiarioAType\IdentBeneficiarioAType\DadosSemCartaoAType

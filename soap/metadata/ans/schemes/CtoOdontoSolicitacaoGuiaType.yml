@@ -1,0 +1,206 @@
+ans\schemes\CtoOdontoSolicitacaoGuiaType:
+    properties:
+        registroANS:
+            expose: true
+            access_type: public_method
+            serialized_name: registroANS
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRegistroANS
+                setter: setRegistroANS
+            type: string
+        numeroGuiaPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroGuiaPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroGuiaPrestador
+                setter: setNumeroGuiaPrestador
+            type: string
+        numeroGuiaPrincipal:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroGuiaPrincipal
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroGuiaPrincipal
+                setter: setNumeroGuiaPrincipal
+            type: string
+        numeroCarteira:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroCarteira
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroCarteira
+                setter: setNumeroCarteira
+            type: string
+        nomeBeneficiario:
+            expose: true
+            access_type: public_method
+            serialized_name: nomeBeneficiario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNomeBeneficiario
+                setter: setNomeBeneficiario
+            type: string
+        numeroCNS:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroCNS
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroCNS
+                setter: setNumeroCNS
+            type: string
+        identificadorBeneficiario:
+            expose: true
+            access_type: public_method
+            serialized_name: identificadorBeneficiario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIdentificadorBeneficiario
+                setter: setIdentificadorBeneficiario
+            type: \AnySimpleType
+        planoBeneficiario:
+            expose: true
+            access_type: public_method
+            serialized_name: planoBeneficiario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getPlanoBeneficiario
+                setter: setPlanoBeneficiario
+            type: string
+        nomeEmpresa:
+            expose: true
+            access_type: public_method
+            serialized_name: nomeEmpresa
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNomeEmpresa
+                setter: setNomeEmpresa
+            type: string
+        numeroTelefone:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroTelefone
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroTelefone
+                setter: setNumeroTelefone
+            type: string
+        nomeTitular:
+            expose: true
+            access_type: public_method
+            serialized_name: nomeTitular
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNomeTitular
+                setter: setNomeTitular
+            type: string
+        dadosProfissionaisResponsaveis:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosProfissionaisResponsaveis
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosProfissionaisResponsaveis
+                setter: setDadosProfissionaisResponsaveis
+            type: ans\schemes\CtoOdontoSolicitacaoGuiaType\DadosProfissionaisResponsaveisAType
+        procedimentosSolicitados:
+            expose: true
+            access_type: public_method
+            serialized_name: procedimentosSolicitados
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getProcedimentosSolicitados
+                setter: setProcedimentosSolicitados
+            xml_list:
+                inline: true
+                entry_name: procedimentosSolicitados
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtoOdontoSolicitacaoGuiaType\ProcedimentosSolicitadosAType>
+        dataTerminoTrat:
+            expose: true
+            access_type: public_method
+            serialized_name: dataTerminoTrat
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataTerminoTrat
+                setter: setDataTerminoTrat
+            type: 'DateTime<''Y-m-d''>'
+        tipoAtendimento:
+            expose: true
+            access_type: public_method
+            serialized_name: tipoAtendimento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTipoAtendimento
+                setter: setTipoAtendimento
+            type: string
+        qtdTotalUS:
+            expose: true
+            access_type: public_method
+            serialized_name: qtdTotalUS
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getQtdTotalUS
+                setter: setQtdTotalUS
+            type: float
+        valorTotalProc:
+            expose: true
+            access_type: public_method
+            serialized_name: valorTotalProc
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorTotalProc
+                setter: setValorTotalProc
+            type: float
+        valorTotalFranquia:
+            expose: true
+            access_type: public_method
+            serialized_name: valorTotalFranquia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorTotalFranquia
+                setter: setValorTotalFranquia
+            type: float
+        observacao:
+            expose: true
+            access_type: public_method
+            serialized_name: observacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getObservacao
+                setter: setObservacao
+            type: string
+        odontoInicial:
+            expose: true
+            access_type: public_method
+            serialized_name: odontoInicial
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getOdontoInicial
+                setter: setOdontoInicial
+            type: ans\schemes\CtoAnexoSituacaoInicialType

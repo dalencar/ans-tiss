@@ -1,0 +1,22 @@
+ans\schemes\CtMonitoramentoGuiaType\ProcedimentosAType\IdentProcedimentoAType\ProcedimentoAType:
+    properties:
+        grupoProcedimento:
+            expose: true
+            access_type: public_method
+            serialized_name: grupoProcedimento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getGrupoProcedimento
+                setter: setGrupoProcedimento
+            type: string
+        codigoProcedimento:
+            expose: true
+            access_type: public_method
+            serialized_name: codigoProcedimento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodigoProcedimento
+                setter: setCodigoProcedimento
+            type: string

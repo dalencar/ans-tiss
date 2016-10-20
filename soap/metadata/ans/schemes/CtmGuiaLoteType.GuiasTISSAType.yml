@@ -1,0 +1,72 @@
+ans\schemes\CtmGuiaLoteType\GuiasTISSAType:
+    properties:
+        guiaSPSADT:
+            expose: true
+            access_type: public_method
+            serialized_name: guiaSP-SADT
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getGuiaSPSADT
+                setter: setGuiaSPSADT
+            xml_list:
+                inline: true
+                entry_name: guiaSP-SADT
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtmSpSadtGuiaType>
+        guiaResumoInternacao:
+            expose: true
+            access_type: public_method
+            serialized_name: guiaResumoInternacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getGuiaResumoInternacao
+                setter: setGuiaResumoInternacao
+            xml_list:
+                inline: true
+                entry_name: guiaResumoInternacao
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtmInternacaoResumoGuiaType>
+        guiaHonorarioIndividual:
+            expose: true
+            access_type: public_method
+            serialized_name: guiaHonorarioIndividual
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getGuiaHonorarioIndividual
+                setter: setGuiaHonorarioIndividual
+            xml_list:
+                inline: true
+                entry_name: guiaHonorarioIndividual
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtmHonorarioIndividualGuiaType>
+        guiaConsulta:
+            expose: true
+            access_type: public_method
+            serialized_name: guiaConsulta
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getGuiaConsulta
+                setter: setGuiaConsulta
+            xml_list:
+                inline: true
+                entry_name: guiaConsulta
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtmConsultaGuiaType>
+        guiaOdonto:
+            expose: true
+            access_type: public_method
+            serialized_name: guiaOdonto
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getGuiaOdonto
+                setter: setGuiaOdonto
+            xml_list:
+                inline: true
+                entry_name: guiaOdonto
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtoGuiaOdontologiaType>

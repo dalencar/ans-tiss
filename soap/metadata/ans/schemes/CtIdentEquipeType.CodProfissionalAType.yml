@@ -1,0 +1,22 @@
+ans\schemes\CtIdentEquipeType\CodProfissionalAType:
+    properties:
+        codigoPrestadorNaOperadora:
+            expose: true
+            access_type: public_method
+            serialized_name: codigoPrestadorNaOperadora
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodigoPrestadorNaOperadora
+                setter: setCodigoPrestadorNaOperadora
+            type: string
+        cpfContratado:
+            expose: true
+            access_type: public_method
+            serialized_name: cpfContratado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCpfContratado
+                setter: setCpfContratado
+            type: string

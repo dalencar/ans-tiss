@@ -1,0 +1,32 @@
+ans\schemes\CtProcedimentoDadosType:
+    properties:
+        codigoTabela:
+            expose: true
+            access_type: public_method
+            serialized_name: codigoTabela
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodigoTabela
+                setter: setCodigoTabela
+            type: string
+        codigoProcedimento:
+            expose: true
+            access_type: public_method
+            serialized_name: codigoProcedimento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodigoProcedimento
+                setter: setCodigoProcedimento
+            type: string
+        descricaoProcedimento:
+            expose: true
+            access_type: public_method
+            serialized_name: descricaoProcedimento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDescricaoProcedimento
+                setter: setDescricaoProcedimento
+            type: string

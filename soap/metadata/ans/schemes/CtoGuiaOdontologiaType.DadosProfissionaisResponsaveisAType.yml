@@ -1,0 +1,132 @@
+ans\schemes\CtoGuiaOdontologiaType\DadosProfissionaisResponsaveisAType:
+    properties:
+        nomeProfSolic:
+            expose: true
+            access_type: public_method
+            serialized_name: nomeProfSolic
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNomeProfSolic
+                setter: setNomeProfSolic
+            type: string
+        croSolic:
+            expose: true
+            access_type: public_method
+            serialized_name: croSolic
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCroSolic
+                setter: setCroSolic
+            type: string
+        ufSolic:
+            expose: true
+            access_type: public_method
+            serialized_name: ufSolic
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getUfSolic
+                setter: setUfSolic
+            type: string
+        cbosSolic:
+            expose: true
+            access_type: public_method
+            serialized_name: cbosSolic
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCbosSolic
+                setter: setCbosSolic
+            type: string
+        codigoProfExec:
+            expose: true
+            access_type: public_method
+            serialized_name: codigoProfExec
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodigoProfExec
+                setter: setCodigoProfExec
+            type: string
+        nomeProfExec:
+            expose: true
+            access_type: public_method
+            serialized_name: nomeProfExec
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNomeProfExec
+                setter: setNomeProfExec
+            type: string
+        croExec:
+            expose: true
+            access_type: public_method
+            serialized_name: croExec
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCroExec
+                setter: setCroExec
+            type: string
+        ufExec:
+            expose: true
+            access_type: public_method
+            serialized_name: ufExec
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getUfExec
+                setter: setUfExec
+            type: string
+        cnesExec:
+            expose: true
+            access_type: public_method
+            serialized_name: cnesExec
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCnesExec
+                setter: setCnesExec
+            type: string
+        nomeProfExec2:
+            expose: true
+            access_type: public_method
+            serialized_name: nomeProfExec2
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNomeProfExec2
+                setter: setNomeProfExec2
+            type: string
+        croExec2:
+            expose: true
+            access_type: public_method
+            serialized_name: croExec2
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCroExec2
+                setter: setCroExec2
+            type: string
+        ufExec2:
+            expose: true
+            access_type: public_method
+            serialized_name: ufExec2
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getUfExec2
+                setter: setUfExec2
+            type: string
+        cbosExec2:
+            expose: true
+            access_type: public_method
+            serialized_name: cbosExec2
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCbosExec2
+                setter: setCbosExec2
+            type: string

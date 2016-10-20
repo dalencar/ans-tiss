@@ -1,0 +1,72 @@
+ans\schemes\CabecalhoTransacaoType:
+    properties:
+        identificacaoTransacao:
+            expose: true
+            access_type: public_method
+            serialized_name: identificacaoTransacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIdentificacaoTransacao
+                setter: setIdentificacaoTransacao
+            type: ans\schemes\CabecalhoTransacaoType\IdentificacaoTransacaoAType
+        falhaNegocio:
+            expose: true
+            access_type: public_method
+            serialized_name: falhaNegocio
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getFalhaNegocio
+                setter: setFalhaNegocio
+            type: string
+        origem:
+            expose: true
+            access_type: public_method
+            serialized_name: origem
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getOrigem
+                setter: setOrigem
+            type: ans\schemes\CabecalhoTransacaoType\OrigemAType
+        destino:
+            expose: true
+            access_type: public_method
+            serialized_name: destino
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDestino
+                setter: setDestino
+            type: ans\schemes\CabecalhoTransacaoType\DestinoAType
+        versaoPadrao:
+            expose: true
+            access_type: public_method
+            serialized_name: versaoPadrao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getVersaoPadrao
+                setter: setVersaoPadrao
+            type: string
+        assinaturaDigital:
+            expose: true
+            access_type: public_method
+            serialized_name: assinaturaDigital
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAssinaturaDigital
+                setter: setAssinaturaDigital
+            type: ans\schemes\AssinaturaDigitalType
+        loginSenhaPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: loginSenhaPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getLoginSenhaPrestador
+                setter: setLoginSenhaPrestador
+            type: ans\schemes\CtLoginSenhaType

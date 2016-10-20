@@ -1,0 +1,112 @@
+ans\schemes\PrestadorOperadoraType:
+    properties:
+        loteGuias:
+            expose: true
+            access_type: public_method
+            serialized_name: loteGuias
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getLoteGuias
+                setter: setLoteGuias
+            type: ans\schemes\CtmGuiaLoteType
+        loteAnexos:
+            expose: true
+            access_type: public_method
+            serialized_name: loteAnexos
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getLoteAnexos
+                setter: setLoteAnexos
+            type: ans\schemes\CtAnexoLoteType
+        solicitacaoDemonstrativoRetorno:
+            expose: true
+            access_type: public_method
+            serialized_name: solicitacaoDemonstrativoRetorno
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getSolicitacaoDemonstrativoRetorno
+                setter: setSolicitacaoDemonstrativoRetorno
+            type: ans\schemes\CtDemonstrativoSolicitacaoType
+        solicitacaoStatusProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: solicitacaoStatusProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getSolicitacaoStatusProtocolo
+                setter: setSolicitacaoStatusProtocolo
+            type: ans\schemes\CtProtocoloSolicitacaoStatusType
+        solicitacaoProcedimento:
+            expose: true
+            access_type: public_method
+            serialized_name: solicitacaoProcedimento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getSolicitacaoProcedimento
+                setter: setSolicitacaoProcedimento
+            type: ans\schemes\CtmSolicitacaoLoteType
+        solicitaStatusAutorizacao:
+            expose: true
+            access_type: public_method
+            serialized_name: solicitaStatusAutorizacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getSolicitaStatusAutorizacao
+                setter: setSolicitaStatusAutorizacao
+            type: ans\schemes\CtAutorizacaoSolicitaStatusType
+        verificaElegibilidade:
+            expose: true
+            access_type: public_method
+            serialized_name: verificaElegibilidade
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getVerificaElegibilidade
+                setter: setVerificaElegibilidade
+            type: ans\schemes\CtElegibilidadeVerificaType
+        cancelaGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: cancelaGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCancelaGuia
+                setter: setCancelaGuia
+            type: ans\schemes\CtGuiaCancelamentoType
+        comunicacaoInternacao:
+            expose: true
+            access_type: public_method
+            serialized_name: comunicacaoInternacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getComunicacaoInternacao
+                setter: setComunicacaoInternacao
+            type: ans\schemes\CtmBeneficiarioComunicacaoType
+        recursoGlosa:
+            expose: true
+            access_type: public_method
+            serialized_name: recursoGlosa
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRecursoGlosa
+                setter: setRecursoGlosa
+            type: ans\schemes\CtGuiaRecursoLoteType
+        solicitacaoStatusRecursoGlosa:
+            expose: true
+            access_type: public_method
+            serialized_name: solicitacaoStatusRecursoGlosa
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getSolicitacaoStatusRecursoGlosa
+                setter: setSolicitacaoStatusRecursoGlosa
+            type: ans\schemes\CtProtocoloSolicitacaoStatusType

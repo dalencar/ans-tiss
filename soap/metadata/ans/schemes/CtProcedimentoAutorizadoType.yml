@@ -1,0 +1,106 @@
+ans\schemes\CtProcedimentoAutorizadoType:
+    properties:
+        procedimento:
+            expose: true
+            access_type: public_method
+            serialized_name: procedimento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getProcedimento
+                setter: setProcedimento
+            type: ans\schemes\CtProcedimentoDadosType
+        quantidadeSolicitada:
+            expose: true
+            access_type: public_method
+            serialized_name: quantidadeSolicitada
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getQuantidadeSolicitada
+                setter: setQuantidadeSolicitada
+            type: integer
+        quantidadeAutorizada:
+            expose: true
+            access_type: public_method
+            serialized_name: quantidadeAutorizada
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getQuantidadeAutorizada
+                setter: setQuantidadeAutorizada
+            type: integer
+        valorSolicitado:
+            expose: true
+            access_type: public_method
+            serialized_name: valorSolicitado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorSolicitado
+                setter: setValorSolicitado
+            type: float
+        valorAutorizado:
+            expose: true
+            access_type: public_method
+            serialized_name: valorAutorizado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorAutorizado
+                setter: setValorAutorizado
+            type: float
+        opcaoFabricante:
+            expose: true
+            access_type: public_method
+            serialized_name: opcaoFabricante
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getOpcaoFabricante
+                setter: setOpcaoFabricante
+            type: string
+        registroANVISA:
+            expose: true
+            access_type: public_method
+            serialized_name: registroANVISA
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRegistroANVISA
+                setter: setRegistroANVISA
+            type: string
+        codigoRefFabricante:
+            expose: true
+            access_type: public_method
+            serialized_name: codigoRefFabricante
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodigoRefFabricante
+                setter: setCodigoRefFabricante
+            type: string
+        autorizacaoFuncionamento:
+            expose: true
+            access_type: public_method
+            serialized_name: autorizacaoFuncionamento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAutorizacaoFuncionamento
+                setter: setAutorizacaoFuncionamento
+            type: string
+        motivosNegativa:
+            expose: true
+            access_type: public_method
+            serialized_name: motivosNegativa
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getMotivosNegativa
+                setter: setMotivosNegativa
+            type: array<ans\schemes\CtMotivoGlosaType>
+            xml_list:
+                inline: false
+                entry_name: motivoNegativa
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'

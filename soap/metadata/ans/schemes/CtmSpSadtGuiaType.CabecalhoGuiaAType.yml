@@ -1,0 +1,12 @@
+ans\schemes\CtmSpSadtGuiaType\CabecalhoGuiaAType:
+    properties:
+        guiaPrincipal:
+            expose: true
+            access_type: public_method
+            serialized_name: guiaPrincipal
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getGuiaPrincipal
+                setter: setGuiaPrincipal
+            type: string

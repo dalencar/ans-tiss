@@ -1,0 +1,106 @@
+ans\schemes\CtoDemonstrativoOdontologiaType\DadosPagamentoProtocoloAType\DadosPagamentoGuiaAType:
+    properties:
+        numeroGuiaPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroGuiaPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroGuiaPrestador
+                setter: setNumeroGuiaPrestador
+            type: string
+        carteiraBeneficiario:
+            expose: true
+            access_type: public_method
+            serialized_name: carteiraBeneficiario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCarteiraBeneficiario
+                setter: setCarteiraBeneficiario
+            type: string
+        nomeBeneficiario:
+            expose: true
+            access_type: public_method
+            serialized_name: nomeBeneficiario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNomeBeneficiario
+                setter: setNomeBeneficiario
+            type: string
+        dadosPagamento:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosPagamento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosPagamento
+                setter: setDadosPagamento
+            xml_list:
+                inline: true
+                entry_name: dadosPagamento
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtoDemonstrativoOdontologiaType\DadosPagamentoProtocoloAType\DadosPagamentoGuiaAType\DadosPagamentoAType>
+        observacaoGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: observacaoGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getObservacaoGuia
+                setter: setObservacaoGuia
+            type: string
+        valorTotalInformadoGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: valorTotalInformadoGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorTotalInformadoGuia
+                setter: setValorTotalInformadoGuia
+            type: float
+        valorTotalProcessadoGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: valorTotalProcessadoGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorTotalProcessadoGuia
+                setter: setValorTotalProcessadoGuia
+            type: float
+        valorTotalGlosaGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: valorTotalGlosaGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorTotalGlosaGuia
+                setter: setValorTotalGlosaGuia
+            type: float
+        valorTotalFranquiaGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: valorTotalFranquiaGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorTotalFranquiaGuia
+                setter: setValorTotalFranquiaGuia
+            type: float
+        valorTotalLiberadoGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: valorTotalLiberadoGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorTotalLiberadoGuia
+                setter: setValorTotalLiberadoGuia
+            type: float

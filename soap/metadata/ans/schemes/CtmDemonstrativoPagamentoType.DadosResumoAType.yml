@@ -1,0 +1,12 @@
+ans\schemes\CtmDemonstrativoPagamentoType\DadosResumoAType:
+    properties:
+        relacaoProtocolos:
+            expose: true
+            access_type: public_method
+            serialized_name: relacaoProtocolos
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRelacaoProtocolos
+                setter: setRelacaoProtocolos
+            type: ans\schemes\CtDadosResumoDemonstrativoType

@@ -1,0 +1,22 @@
+ans\schemes\CtmAnexoLoteType:
+    properties:
+        numeroLote:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroLote
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroLote
+                setter: setNumeroLote
+            type: string
+        anexosClinicos:
+            expose: true
+            access_type: public_method
+            serialized_name: anexosClinicos
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAnexosClinicos
+                setter: setAnexosClinicos
+            type: ans\schemes\CtmAnexoLoteType\AnexosClinicosAType

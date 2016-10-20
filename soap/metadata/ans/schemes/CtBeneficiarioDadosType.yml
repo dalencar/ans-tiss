@@ -1,0 +1,52 @@
+ans\schemes\CtBeneficiarioDadosType:
+    properties:
+        numeroCarteira:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroCarteira
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroCarteira
+                setter: setNumeroCarteira
+            type: string
+        atendimentoRN:
+            expose: true
+            access_type: public_method
+            serialized_name: atendimentoRN
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAtendimentoRN
+                setter: setAtendimentoRN
+            type: string
+        nomeBeneficiario:
+            expose: true
+            access_type: public_method
+            serialized_name: nomeBeneficiario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNomeBeneficiario
+                setter: setNomeBeneficiario
+            type: string
+        numeroCNS:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroCNS
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroCNS
+                setter: setNumeroCNS
+            type: string
+        identificadorBeneficiario:
+            expose: true
+            access_type: public_method
+            serialized_name: identificadorBeneficiario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIdentificadorBeneficiario
+                setter: setIdentificadorBeneficiario
+            type: \AnySimpleType

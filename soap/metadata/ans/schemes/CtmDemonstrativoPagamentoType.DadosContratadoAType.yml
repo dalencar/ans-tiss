@@ -1,0 +1,22 @@
+ans\schemes\CtmDemonstrativoPagamentoType\DadosContratadoAType:
+    properties:
+        dadosPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosPrestador
+                setter: setDadosPrestador
+            type: ans\schemes\CtContratadoDadosType
+        cNES:
+            expose: true
+            access_type: public_method
+            serialized_name: CNES
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCNES
+                setter: setCNES
+            type: string

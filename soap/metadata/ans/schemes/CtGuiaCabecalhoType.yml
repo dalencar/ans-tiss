@@ -1,0 +1,22 @@
+ans\schemes\CtGuiaCabecalhoType:
+    properties:
+        registroANS:
+            expose: true
+            access_type: public_method
+            serialized_name: registroANS
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRegistroANS
+                setter: setRegistroANS
+            type: string
+        numeroGuiaPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroGuiaPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroGuiaPrestador
+                setter: setNumeroGuiaPrestador
+            type: string

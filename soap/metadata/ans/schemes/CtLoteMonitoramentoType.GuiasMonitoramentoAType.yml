@@ -1,0 +1,16 @@
+ans\schemes\CtLoteMonitoramentoType\GuiasMonitoramentoAType:
+    properties:
+        guiaMonitoramento:
+            expose: true
+            access_type: public_method
+            serialized_name: guiaMonitoramento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getGuiaMonitoramento
+                setter: setGuiaMonitoramento
+            xml_list:
+                inline: true
+                entry_name: guiaMonitoramento
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtMonitoramentoGuiaType>

@@ -1,0 +1,26 @@
+ans\schemes\CtmInternacaoSolicitacaoGuiaType\HipotesesDiagnosticasAType:
+    properties:
+        diagnosticoCID:
+            expose: true
+            access_type: public_method
+            serialized_name: diagnosticoCID
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDiagnosticoCID
+                setter: setDiagnosticoCID
+            xml_list:
+                inline: true
+                entry_name: diagnosticoCID
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<string>
+        indicadorAcidente:
+            expose: true
+            access_type: public_method
+            serialized_name: indicadorAcidente
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIndicadorAcidente
+                setter: setIndicadorAcidente
+            type: string

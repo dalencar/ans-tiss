@@ -1,0 +1,126 @@
+ans\schemes\CtoDemonstrativoOdontologiaType\DadosPagamentoProtocoloAType:
+    properties:
+        dataPagamento:
+            expose: true
+            access_type: public_method
+            serialized_name: dataPagamento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataPagamento
+                setter: setDataPagamento
+            type: 'DateTime<''Y-m-d''>'
+        banco:
+            expose: true
+            access_type: public_method
+            serialized_name: banco
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getBanco
+                setter: setBanco
+            type: string
+        agencia:
+            expose: true
+            access_type: public_method
+            serialized_name: agencia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAgencia
+                setter: setAgencia
+            type: string
+        conta:
+            expose: true
+            access_type: public_method
+            serialized_name: conta
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getConta
+                setter: setConta
+            type: string
+        numeroLote:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroLote
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroLote
+                setter: setNumeroLote
+            type: string
+        numeroProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroProtocolo
+                setter: setNumeroProtocolo
+            type: string
+        dadosPagamentoGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosPagamentoGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosPagamentoGuia
+                setter: setDadosPagamentoGuia
+            xml_list:
+                inline: true
+                entry_name: dadosPagamentoGuia
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtoDemonstrativoOdontologiaType\DadosPagamentoProtocoloAType\DadosPagamentoGuiaAType>
+        valorTotalInformadoProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: valorTotalInformadoProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorTotalInformadoProtocolo
+                setter: setValorTotalInformadoProtocolo
+            type: float
+        valorTotalProcessadoProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: valorTotalProcessadoProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorTotalProcessadoProtocolo
+                setter: setValorTotalProcessadoProtocolo
+            type: float
+        valorTotalGlosaProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: valorTotalGlosaProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorTotalGlosaProtocolo
+                setter: setValorTotalGlosaProtocolo
+            type: float
+        valorTotalFranquiaProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: valorTotalFranquiaProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorTotalFranquiaProtocolo
+                setter: setValorTotalFranquiaProtocolo
+            type: float
+        valorTotalLiberadoProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: valorTotalLiberadoProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorTotalLiberadoProtocolo
+                setter: setValorTotalLiberadoProtocolo
+            type: float

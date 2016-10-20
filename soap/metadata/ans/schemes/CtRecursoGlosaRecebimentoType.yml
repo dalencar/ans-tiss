@@ -1,0 +1,126 @@
+ans\schemes\CtRecursoGlosaRecebimentoType:
+    properties:
+        nrProtocoloRecursoGlosa:
+            expose: true
+            access_type: public_method
+            serialized_name: nrProtocoloRecursoGlosa
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNrProtocoloRecursoGlosa
+                setter: setNrProtocoloRecursoGlosa
+            type: string
+        dataEnvioRecurso:
+            expose: true
+            access_type: public_method
+            serialized_name: dataEnvioRecurso
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataEnvioRecurso
+                setter: setDataEnvioRecurso
+            type: 'DateTime<''Y-m-d''>'
+        dataRecebimentoRecurso:
+            expose: true
+            access_type: public_method
+            serialized_name: dataRecebimentoRecurso
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataRecebimentoRecurso
+                setter: setDataRecebimentoRecurso
+            type: 'DateTime<''Y-m-d''>'
+        numeroLote:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroLote
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroLote
+                setter: setNumeroLote
+            type: string
+        registroANS:
+            expose: true
+            access_type: public_method
+            serialized_name: registroANS
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRegistroANS
+                setter: setRegistroANS
+            type: string
+        dadosPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosPrestador
+                setter: setDadosPrestador
+            type: ans\schemes\CtContratadoDadosType
+        nrProtocoloRecursado:
+            expose: true
+            access_type: public_method
+            serialized_name: nrProtocoloRecursado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNrProtocoloRecursado
+                setter: setNrProtocoloRecursado
+            type: string
+        recursoProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: recursoProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRecursoProtocolo
+                setter: setRecursoProtocolo
+            type: ans\schemes\CtRecursoGlosaRecebimentoType\RecursoProtocoloAType
+        qtGuiasRecurso:
+            expose: true
+            access_type: public_method
+            serialized_name: qtGuiasRecurso
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getQtGuiasRecurso
+                setter: setQtGuiasRecurso
+            type: integer
+        guiasRecurso:
+            expose: true
+            access_type: public_method
+            serialized_name: guiasRecurso
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getGuiasRecurso
+                setter: setGuiasRecurso
+            xml_list:
+                inline: true
+                entry_name: guiasRecurso
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtRecursoGlosaRecebimentoType\GuiasRecursoAType>
+        observacao:
+            expose: true
+            access_type: public_method
+            serialized_name: observacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getObservacao
+                setter: setObservacao
+            type: string
+        valorTotalRecursado:
+            expose: true
+            access_type: public_method
+            serialized_name: valorTotalRecursado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorTotalRecursado
+                setter: setValorTotalRecursado
+            type: float

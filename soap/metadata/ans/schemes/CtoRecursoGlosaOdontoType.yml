@@ -1,0 +1,102 @@
+ans\schemes\CtoRecursoGlosaOdontoType:
+    properties:
+        registroANS:
+            expose: true
+            access_type: public_method
+            serialized_name: registroANS
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRegistroANS
+                setter: setRegistroANS
+            type: string
+        numeroGuiaPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroGuiaPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroGuiaPrestador
+                setter: setNumeroGuiaPrestador
+            type: string
+        nomeOperadora:
+            expose: true
+            access_type: public_method
+            serialized_name: nomeOperadora
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNomeOperadora
+                setter: setNomeOperadora
+            type: string
+        objetoRecurso:
+            expose: true
+            access_type: public_method
+            serialized_name: objetoRecurso
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getObjetoRecurso
+                setter: setObjetoRecurso
+            type: string
+        numeroGuiaOperadora:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroGuiaOperadora
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroGuiaOperadora
+                setter: setNumeroGuiaOperadora
+            type: string
+        dadosContratado:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosContratado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosContratado
+                setter: setDadosContratado
+            type: ans\schemes\CtoRecursoGlosaOdontoType\DadosContratadoAType
+        numeroLote:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroLote
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroLote
+                setter: setNumeroLote
+            type: string
+        numeroProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroProtocolo
+                setter: setNumeroProtocolo
+            type: integer
+        opcaoRecurso:
+            expose: true
+            access_type: public_method
+            serialized_name: opcaoRecurso
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getOpcaoRecurso
+                setter: setOpcaoRecurso
+            type: ans\schemes\CtoRecursoGlosaOdontoType\OpcaoRecursoAType
+        dataRecurso:
+            expose: true
+            access_type: public_method
+            serialized_name: dataRecurso
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataRecurso
+                setter: setDataRecurso
+            type: 'DateTime<''Y-m-d''>'

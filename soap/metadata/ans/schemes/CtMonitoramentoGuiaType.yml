@@ -1,0 +1,328 @@
+ans\schemes\CtMonitoramentoGuiaType:
+    properties:
+        dadosContratadoExecutante:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosContratadoExecutante
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosContratadoExecutante
+                setter: setDadosContratadoExecutante
+            type: ans\schemes\CtMonitoramentoGuiaType\DadosContratadoExecutanteAType
+        dadosBeneficiario:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosBeneficiario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosBeneficiario
+                setter: setDadosBeneficiario
+            type: ans\schemes\CtMonitoramentoGuiaType\DadosBeneficiarioAType
+        tipoEventoAtencao:
+            expose: true
+            access_type: public_method
+            serialized_name: tipoEventoAtencao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTipoEventoAtencao
+                setter: setTipoEventoAtencao
+            type: string
+        origemEventoAtencao:
+            expose: true
+            access_type: public_method
+            serialized_name: origemEventoAtencao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getOrigemEventoAtencao
+                setter: setOrigemEventoAtencao
+            type: string
+        numeroGuiaPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroGuia_prestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroGuiaPrestador
+                setter: setNumeroGuiaPrestador
+            type: string
+        numeroGuiaOperadora:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroGuia_operadora
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroGuiaOperadora
+                setter: setNumeroGuiaOperadora
+            type: string
+        guiaSolicitacaoInternacao:
+            expose: true
+            access_type: public_method
+            serialized_name: guiaSolicitacaoInternacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getGuiaSolicitacaoInternacao
+                setter: setGuiaSolicitacaoInternacao
+            type: string
+        dataSolicitacao:
+            expose: true
+            access_type: public_method
+            serialized_name: dataSolicitacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataSolicitacao
+                setter: setDataSolicitacao
+            type: 'DateTime<''Y-m-d''>'
+        dataAutorizacao:
+            expose: true
+            access_type: public_method
+            serialized_name: dataAutorizacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataAutorizacao
+                setter: setDataAutorizacao
+            type: 'DateTime<''Y-m-d''>'
+        dataRealizacao:
+            expose: true
+            access_type: public_method
+            serialized_name: dataRealizacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataRealizacao
+                setter: setDataRealizacao
+            type: 'DateTime<''Y-m-d''>'
+        dataInicialFaturamento:
+            expose: true
+            access_type: public_method
+            serialized_name: dataInicialFaturamento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataInicialFaturamento
+                setter: setDataInicialFaturamento
+            type: 'DateTime<''Y-m-d''>'
+        dataFimPeriodo:
+            expose: true
+            access_type: public_method
+            serialized_name: dataFimPeriodo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataFimPeriodo
+                setter: setDataFimPeriodo
+            type: 'DateTime<''Y-m-d''>'
+        dataProtocoloCobranca:
+            expose: true
+            access_type: public_method
+            serialized_name: dataProtocoloCobranca
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataProtocoloCobranca
+                setter: setDataProtocoloCobranca
+            type: 'DateTime<''Y-m-d''>'
+        dataPagamento:
+            expose: true
+            access_type: public_method
+            serialized_name: dataPagamento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataPagamento
+                setter: setDataPagamento
+            type: 'DateTime<''Y-m-d''>'
+        tipoConsulta:
+            expose: true
+            access_type: public_method
+            serialized_name: tipoConsulta
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTipoConsulta
+                setter: setTipoConsulta
+            type: string
+        cboExecutante:
+            expose: true
+            access_type: public_method
+            serialized_name: cboExecutante
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCboExecutante
+                setter: setCboExecutante
+            type: string
+        indicacaoRecemNato:
+            expose: true
+            access_type: public_method
+            serialized_name: indicacaoRecemNato
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIndicacaoRecemNato
+                setter: setIndicacaoRecemNato
+            type: string
+        indicacaoAcidente:
+            expose: true
+            access_type: public_method
+            serialized_name: indicacaoAcidente
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIndicacaoAcidente
+                setter: setIndicacaoAcidente
+            type: string
+        caraterAtendimento:
+            expose: true
+            access_type: public_method
+            serialized_name: caraterAtendimento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCaraterAtendimento
+                setter: setCaraterAtendimento
+            type: string
+        tipoInternacao:
+            expose: true
+            access_type: public_method
+            serialized_name: tipoInternacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTipoInternacao
+                setter: setTipoInternacao
+            type: string
+        regimeInternacao:
+            expose: true
+            access_type: public_method
+            serialized_name: regimeInternacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRegimeInternacao
+                setter: setRegimeInternacao
+            type: string
+        diagnosticosCID10:
+            expose: true
+            access_type: public_method
+            serialized_name: diagnosticosCID10
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDiagnosticosCID10
+                setter: setDiagnosticosCID10
+            type: array<string>
+            xml_list:
+                inline: false
+                entry_name: diagnoticoCID
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+        tipoAtendimento:
+            expose: true
+            access_type: public_method
+            serialized_name: tipoAtendimento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTipoAtendimento
+                setter: setTipoAtendimento
+            type: string
+        tipoFaturamento:
+            expose: true
+            access_type: public_method
+            serialized_name: tipoFaturamento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTipoFaturamento
+                setter: setTipoFaturamento
+            type: string
+        diariasAcompanhante:
+            expose: true
+            access_type: public_method
+            serialized_name: diariasAcompanhante
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDiariasAcompanhante
+                setter: setDiariasAcompanhante
+            type: integer
+        diariasUTI:
+            expose: true
+            access_type: public_method
+            serialized_name: diariasUTI
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDiariasUTI
+                setter: setDiariasUTI
+            type: integer
+        motivoSaida:
+            expose: true
+            access_type: public_method
+            serialized_name: motivoSaida
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getMotivoSaida
+                setter: setMotivoSaida
+            type: string
+        declaracaoNascido:
+            expose: true
+            access_type: public_method
+            serialized_name: declaracaoNascido
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDeclaracaoNascido
+                setter: setDeclaracaoNascido
+            xml_list:
+                inline: true
+                entry_name: declaracaoNascido
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<string>
+        declaracaoObito:
+            expose: true
+            access_type: public_method
+            serialized_name: declaracaoObito
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDeclaracaoObito
+                setter: setDeclaracaoObito
+            xml_list:
+                inline: true
+                entry_name: declaracaoObito
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<string>
+        procedimentos:
+            expose: true
+            access_type: public_method
+            serialized_name: procedimentos
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getProcedimentos
+                setter: setProcedimentos
+            xml_list:
+                inline: true
+                entry_name: procedimentos
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtMonitoramentoGuiaType\ProcedimentosAType>
+        valoresGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: valoresGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValoresGuia
+                setter: setValoresGuia
+            type: ans\schemes\CtMonitoramentoGuiaType\ValoresGuiaAType

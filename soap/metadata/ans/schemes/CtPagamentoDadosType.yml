@@ -1,0 +1,52 @@
+ans\schemes\CtPagamentoDadosType:
+    properties:
+        dataPagamento:
+            expose: true
+            access_type: public_method
+            serialized_name: dataPagamento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataPagamento
+                setter: setDataPagamento
+            type: 'DateTime<''Y-m-d''>'
+        formaPagamento:
+            expose: true
+            access_type: public_method
+            serialized_name: formaPagamento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getFormaPagamento
+                setter: setFormaPagamento
+            type: string
+        banco:
+            expose: true
+            access_type: public_method
+            serialized_name: banco
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getBanco
+                setter: setBanco
+            type: string
+        agencia:
+            expose: true
+            access_type: public_method
+            serialized_name: agencia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAgencia
+                setter: setAgencia
+            type: string
+        nrContaCheque:
+            expose: true
+            access_type: public_method
+            serialized_name: nrContaCheque
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNrContaCheque
+                setter: setNrContaCheque
+            type: string

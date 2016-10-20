@@ -1,0 +1,32 @@
+ans\schemes\CtmConsultaAtendimentoType\ProcedimentoAType:
+    properties:
+        codigoTabela:
+            expose: true
+            access_type: public_method
+            serialized_name: codigoTabela
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodigoTabela
+                setter: setCodigoTabela
+            type: string
+        codigoProcedimento:
+            expose: true
+            access_type: public_method
+            serialized_name: codigoProcedimento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodigoProcedimento
+                setter: setCodigoProcedimento
+            type: string
+        valorProcedimento:
+            expose: true
+            access_type: public_method
+            serialized_name: valorProcedimento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorProcedimento
+                setter: setValorProcedimento
+            type: float

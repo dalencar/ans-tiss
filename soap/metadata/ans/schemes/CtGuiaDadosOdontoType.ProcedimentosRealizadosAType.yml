@@ -1,0 +1,16 @@
+ans\schemes\CtGuiaDadosOdontoType\ProcedimentosRealizadosAType:
+    properties:
+        procedimentoRealizado:
+            expose: true
+            access_type: public_method
+            serialized_name: procedimentoRealizado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getProcedimentoRealizado
+                setter: setProcedimentoRealizado
+            xml_list:
+                inline: true
+                entry_name: procedimentoRealizado
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtGuiaDadosOdontoType\ProcedimentosRealizadosAType\ProcedimentoRealizadoAType>

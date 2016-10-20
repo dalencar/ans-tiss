@@ -1,0 +1,22 @@
+ans\schemes\CtContaMedicaResumoType\RelacaoGuiasAType\DetalhesGuiaAType\RelacaoGlosaAType:
+    properties:
+        valorGlosa:
+            expose: true
+            access_type: public_method
+            serialized_name: valorGlosa
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorGlosa
+                setter: setValorGlosa
+            type: float
+        tipoGlosa:
+            expose: true
+            access_type: public_method
+            serialized_name: tipoGlosa
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTipoGlosa
+                setter: setTipoGlosa
+            type: string

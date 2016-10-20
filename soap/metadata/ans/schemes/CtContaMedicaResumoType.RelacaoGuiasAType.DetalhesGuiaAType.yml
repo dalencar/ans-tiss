@@ -1,0 +1,86 @@
+ans\schemes\CtContaMedicaResumoType\RelacaoGuiasAType\DetalhesGuiaAType:
+    properties:
+        dataRealizacao:
+            expose: true
+            access_type: public_method
+            serialized_name: dataRealizacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataRealizacao
+                setter: setDataRealizacao
+            type: 'DateTime<''Y-m-d''>'
+        procedimento:
+            expose: true
+            access_type: public_method
+            serialized_name: procedimento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getProcedimento
+                setter: setProcedimento
+            type: ans\schemes\CtProcedimentoDadosType
+        grauParticipacao:
+            expose: true
+            access_type: public_method
+            serialized_name: grauParticipacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getGrauParticipacao
+                setter: setGrauParticipacao
+            type: string
+        valorInformado:
+            expose: true
+            access_type: public_method
+            serialized_name: valorInformado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorInformado
+                setter: setValorInformado
+            type: float
+        qtdExecutada:
+            expose: true
+            access_type: public_method
+            serialized_name: qtdExecutada
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getQtdExecutada
+                setter: setQtdExecutada
+            type: float
+        valorProcessado:
+            expose: true
+            access_type: public_method
+            serialized_name: valorProcessado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorProcessado
+                setter: setValorProcessado
+            type: float
+        valorLiberado:
+            expose: true
+            access_type: public_method
+            serialized_name: valorLiberado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorLiberado
+                setter: setValorLiberado
+            type: float
+        relacaoGlosa:
+            expose: true
+            access_type: public_method
+            serialized_name: relacaoGlosa
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRelacaoGlosa
+                setter: setRelacaoGlosa
+            xml_list:
+                inline: true
+                entry_name: relacaoGlosa
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtContaMedicaResumoType\RelacaoGuiasAType\DetalhesGuiaAType\RelacaoGlosaAType>

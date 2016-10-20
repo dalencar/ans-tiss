@@ -1,0 +1,72 @@
+ans\schemes\CtmInternacaoSolicitacaoGuiaType\DadosInternacaoAType:
+    properties:
+        caraterAtendimento:
+            expose: true
+            access_type: public_method
+            serialized_name: caraterAtendimento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCaraterAtendimento
+                setter: setCaraterAtendimento
+            type: string
+        tipoInternacao:
+            expose: true
+            access_type: public_method
+            serialized_name: tipoInternacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTipoInternacao
+                setter: setTipoInternacao
+            type: string
+        regimeInternacao:
+            expose: true
+            access_type: public_method
+            serialized_name: regimeInternacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRegimeInternacao
+                setter: setRegimeInternacao
+            type: string
+        qtDiariasSolicitadas:
+            expose: true
+            access_type: public_method
+            serialized_name: qtDiariasSolicitadas
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getQtDiariasSolicitadas
+                setter: setQtDiariasSolicitadas
+            type: integer
+        indicadorOPME:
+            expose: true
+            access_type: public_method
+            serialized_name: indicadorOPME
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIndicadorOPME
+                setter: setIndicadorOPME
+            type: string
+        indicadorQuimio:
+            expose: true
+            access_type: public_method
+            serialized_name: indicadorQuimio
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIndicadorQuimio
+                setter: setIndicadorQuimio
+            type: string
+        indicacaoClinica:
+            expose: true
+            access_type: public_method
+            serialized_name: indicacaoClinica
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIndicacaoClinica
+                setter: setIndicacaoClinica
+            type: string

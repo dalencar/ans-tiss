@@ -1,0 +1,22 @@
+ans\schemes\CtOutrasDespesasType\DespesaAType:
+    properties:
+        codigoDespesa:
+            expose: true
+            access_type: public_method
+            serialized_name: codigoDespesa
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodigoDespesa
+                setter: setCodigoDespesa
+            type: string
+        servicosExecutados:
+            expose: true
+            access_type: public_method
+            serialized_name: servicosExecutados
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getServicosExecutados
+                setter: setServicosExecutados
+            type: ans\schemes\CtProcedimentoExecutadoOutrasType

@@ -1,0 +1,32 @@
+ans\schemes\CtmAnexoLoteType\AnexosClinicosAType:
+    properties:
+        solicitacaoQuimioterapia:
+            expose: true
+            access_type: public_method
+            serialized_name: solicitacaoQuimioterapia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getSolicitacaoQuimioterapia
+                setter: setSolicitacaoQuimioterapia
+            type: ans\schemes\CtmAnexoSolicitacaoQuimioType
+        solicitacaoRadioterapia:
+            expose: true
+            access_type: public_method
+            serialized_name: solicitacaoRadioterapia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getSolicitacaoRadioterapia
+                setter: setSolicitacaoRadioterapia
+            type: ans\schemes\CtmAnexoSolicitacaoRadioType
+        solicitacaoOPME:
+            expose: true
+            access_type: public_method
+            serialized_name: solicitacaoOPME
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getSolicitacaoOPME
+                setter: setSolicitacaoOPME
+            type: ans\schemes\CtmAnexoSolicitacaoOPMEType

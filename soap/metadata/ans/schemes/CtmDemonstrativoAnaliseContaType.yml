@@ -1,0 +1,76 @@
+ans\schemes\CtmDemonstrativoAnaliseContaType:
+    properties:
+        cabecalhoDemonstrativo:
+            expose: true
+            access_type: public_method
+            serialized_name: cabecalhoDemonstrativo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCabecalhoDemonstrativo
+                setter: setCabecalhoDemonstrativo
+            type: ans\schemes\CtDemonstrativoCabecalhoType
+        dadosPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosPrestador
+                setter: setDadosPrestador
+            type: ans\schemes\CtmDemonstrativoAnaliseContaType\DadosPrestadorAType
+        dadosConta:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosConta
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosConta
+                setter: setDadosConta
+            type: array<ans\schemes\CtmDemonstrativoAnaliseContaType\DadosContaAType\DadosProtocoloAType>
+            xml_list:
+                inline: false
+                entry_name: dadosProtocolo
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+        valorInformadoGeral:
+            expose: true
+            access_type: public_method
+            serialized_name: valorInformadoGeral
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorInformadoGeral
+                setter: setValorInformadoGeral
+            type: float
+        valorProcessadoGeral:
+            expose: true
+            access_type: public_method
+            serialized_name: valorProcessadoGeral
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorProcessadoGeral
+                setter: setValorProcessadoGeral
+            type: float
+        valorLiberadoGeral:
+            expose: true
+            access_type: public_method
+            serialized_name: valorLiberadoGeral
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorLiberadoGeral
+                setter: setValorLiberadoGeral
+            type: float
+        valorGlosaGeral:
+            expose: true
+            access_type: public_method
+            serialized_name: valorGlosaGeral
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorGlosaGeral
+                setter: setValorGlosaGeral
+            type: float

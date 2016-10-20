@@ -1,0 +1,58 @@
+ans\schemes\CtAnexoLoteType\AnexosGuiasTISSAType:
+    properties:
+        anexoSituacaoInicial:
+            expose: true
+            access_type: public_method
+            serialized_name: anexoSituacaoInicial
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAnexoSituacaoInicial
+                setter: setAnexoSituacaoInicial
+            xml_list:
+                inline: true
+                entry_name: anexoSituacaoInicial
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtoAnexoSituacaoInicialType>
+        anexoSolicitacaoRadio:
+            expose: true
+            access_type: public_method
+            serialized_name: anexoSolicitacaoRadio
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAnexoSolicitacaoRadio
+                setter: setAnexoSolicitacaoRadio
+            xml_list:
+                inline: true
+                entry_name: anexoSolicitacaoRadio
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtmAnexoSolicitacaoRadioType>
+        anexoSolicitacaoQuimio:
+            expose: true
+            access_type: public_method
+            serialized_name: anexoSolicitacaoQuimio
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAnexoSolicitacaoQuimio
+                setter: setAnexoSolicitacaoQuimio
+            xml_list:
+                inline: true
+                entry_name: anexoSolicitacaoQuimio
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtmAnexoSolicitacaoQuimioType>
+        anexoSolicitacaoOPME:
+            expose: true
+            access_type: public_method
+            serialized_name: anexoSolicitacaoOPME
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAnexoSolicitacaoOPME
+                setter: setAnexoSolicitacaoOPME
+            xml_list:
+                inline: true
+                entry_name: anexoSolicitacaoOPME
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtmAnexoSolicitacaoOPMEType>

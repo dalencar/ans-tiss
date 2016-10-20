@@ -1,0 +1,32 @@
+ans\schemes\CtmBeneficiarioComunicacaoReciboType:
+    properties:
+        statusComunicacao:
+            expose: true
+            access_type: public_method
+            serialized_name: statusComunicacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getStatusComunicacao
+                setter: setStatusComunicacao
+            type: string
+        beneficiarioComunicacao:
+            expose: true
+            access_type: public_method
+            serialized_name: beneficiarioComunicacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getBeneficiarioComunicacao
+                setter: setBeneficiarioComunicacao
+            type: ans\schemes\CtmBeneficiarioComunicacaoType
+        mensagemErro:
+            expose: true
+            access_type: public_method
+            serialized_name: mensagemErro
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getMensagemErro
+                setter: setMensagemErro
+            type: ans\schemes\CtMotivoGlosaType

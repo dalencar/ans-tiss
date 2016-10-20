@@ -1,0 +1,22 @@
+ans\schemes\CtmAutorizacaoServicoType\PrestadorAutorizadoAType:
+    properties:
+        dadosContratado:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosContratado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosContratado
+                setter: setDadosContratado
+            type: ans\schemes\CtContratadoDadosType
+        cnesContratado:
+            expose: true
+            access_type: public_method
+            serialized_name: cnesContratado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCnesContratado
+                setter: setCnesContratado
+            type: string

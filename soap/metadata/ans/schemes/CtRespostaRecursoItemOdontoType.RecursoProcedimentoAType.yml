@@ -1,0 +1,102 @@
+ans\schemes\CtRespostaRecursoItemOdontoType\RecursoProcedimentoAType:
+    properties:
+        dataRealizacao:
+            expose: true
+            access_type: public_method
+            serialized_name: dataRealizacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataRealizacao
+                setter: setDataRealizacao
+            type: 'DateTime<''Y-m-d''>'
+        denteRegiao:
+            expose: true
+            access_type: public_method
+            serialized_name: denteRegiao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDenteRegiao
+                setter: setDenteRegiao
+            type: string
+        denteFace:
+            expose: true
+            access_type: public_method
+            serialized_name: denteFace
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDenteFace
+                setter: setDenteFace
+            type: string
+        quantidade:
+            expose: true
+            access_type: public_method
+            serialized_name: quantidade
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getQuantidade
+                setter: setQuantidade
+            type: integer
+        procRecurso:
+            expose: true
+            access_type: public_method
+            serialized_name: procRecurso
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getProcRecurso
+                setter: setProcRecurso
+            type: ans\schemes\CtProcedimentoDadosType
+        codGlosaProc:
+            expose: true
+            access_type: public_method
+            serialized_name: codGlosaProc
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodGlosaProc
+                setter: setCodGlosaProc
+            type: string
+        valorRecursado:
+            expose: true
+            access_type: public_method
+            serialized_name: valorRecursado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorRecursado
+                setter: setValorRecursado
+            type: float
+        justificativaPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: justificativaPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getJustificativaPrestador
+                setter: setJustificativaPrestador
+            type: string
+        valorAcatadado:
+            expose: true
+            access_type: public_method
+            serialized_name: valorAcatadado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorAcatadado
+                setter: setValorAcatadado
+            type: float
+        justificativaOperadora:
+            expose: true
+            access_type: public_method
+            serialized_name: justificativaOperadora
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getJustificativaOperadora
+                setter: setJustificativaOperadora
+            type: string

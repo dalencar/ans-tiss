@@ -1,0 +1,22 @@
+ans\schemes\CabecalhoTransacaoType\OrigemAType:
+    properties:
+        identificacaoPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: identificacaoPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIdentificacaoPrestador
+                setter: setIdentificacaoPrestador
+            type: ans\schemes\CabecalhoTransacaoType\OrigemAType\IdentificacaoPrestadorAType
+        registroANS:
+            expose: true
+            access_type: public_method
+            serialized_name: registroANS
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRegistroANS
+                setter: setRegistroANS
+            type: string

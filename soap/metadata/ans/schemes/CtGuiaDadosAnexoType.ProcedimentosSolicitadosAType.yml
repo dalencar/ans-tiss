@@ -1,0 +1,16 @@
+ans\schemes\CtGuiaDadosAnexoType\ProcedimentosSolicitadosAType:
+    properties:
+        procedimentoSolicitado:
+            expose: true
+            access_type: public_method
+            serialized_name: procedimentoSolicitado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getProcedimentoSolicitado
+                setter: setProcedimentoSolicitado
+            xml_list:
+                inline: true
+                entry_name: procedimentoSolicitado
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtGuiaDadosAnexoType\ProcedimentosSolicitadosAType\ProcedimentoSolicitadoAType>

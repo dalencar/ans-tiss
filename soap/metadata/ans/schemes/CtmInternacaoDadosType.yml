@@ -1,0 +1,96 @@
+ans\schemes\CtmInternacaoDadosType:
+    properties:
+        caraterAtendimento:
+            expose: true
+            access_type: public_method
+            serialized_name: caraterAtendimento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCaraterAtendimento
+                setter: setCaraterAtendimento
+            type: string
+        tipoFaturamento:
+            expose: true
+            access_type: public_method
+            serialized_name: tipoFaturamento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTipoFaturamento
+                setter: setTipoFaturamento
+            type: string
+        dataInicioFaturamento:
+            expose: true
+            access_type: public_method
+            serialized_name: dataInicioFaturamento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataInicioFaturamento
+                setter: setDataInicioFaturamento
+            type: 'DateTime<''Y-m-d''>'
+        horaInicioFaturamento:
+            expose: true
+            access_type: public_method
+            serialized_name: horaInicioFaturamento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getHoraInicioFaturamento
+                setter: setHoraInicioFaturamento
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        dataFinalFaturamento:
+            expose: true
+            access_type: public_method
+            serialized_name: dataFinalFaturamento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataFinalFaturamento
+                setter: setDataFinalFaturamento
+            type: 'DateTime<''Y-m-d''>'
+        horaFinalFaturamento:
+            expose: true
+            access_type: public_method
+            serialized_name: horaFinalFaturamento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getHoraFinalFaturamento
+                setter: setHoraFinalFaturamento
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        tipoInternacao:
+            expose: true
+            access_type: public_method
+            serialized_name: tipoInternacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTipoInternacao
+                setter: setTipoInternacao
+            type: string
+        regimeInternacao:
+            expose: true
+            access_type: public_method
+            serialized_name: regimeInternacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRegimeInternacao
+                setter: setRegimeInternacao
+            type: string
+        declaracoes:
+            expose: true
+            access_type: public_method
+            serialized_name: declaracoes
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDeclaracoes
+                setter: setDeclaracoes
+            xml_list:
+                inline: true
+                entry_name: declaracoes
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtmInternacaoDadosType\DeclaracoesAType>

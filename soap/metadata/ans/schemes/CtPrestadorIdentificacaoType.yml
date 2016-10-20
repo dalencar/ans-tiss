@@ -1,0 +1,32 @@
+ans\schemes\CtPrestadorIdentificacaoType:
+    properties:
+        cNPJ:
+            expose: true
+            access_type: public_method
+            serialized_name: CNPJ
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCNPJ
+                setter: setCNPJ
+            type: string
+        cPF:
+            expose: true
+            access_type: public_method
+            serialized_name: CPF
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCPF
+                setter: setCPF
+            type: string
+        codigoPrestadorNaOperadora:
+            expose: true
+            access_type: public_method
+            serialized_name: codigoPrestadorNaOperadora
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodigoPrestadorNaOperadora
+                setter: setCodigoPrestadorNaOperadora
+            type: string

@@ -1,0 +1,56 @@
+ans\schemes\CtLoteAnexoStatusType:
+    properties:
+        statusProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: statusProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getStatusProtocolo
+                setter: setStatusProtocolo
+            type: string
+        numeroProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroProtocolo
+                setter: setNumeroProtocolo
+            type: string
+        numeroLote:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroLote
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroLote
+                setter: setNumeroLote
+            type: string
+        dataEnvioLote:
+            expose: true
+            access_type: public_method
+            serialized_name: dataEnvioLote
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataEnvioLote
+                setter: setDataEnvioLote
+            type: 'DateTime<''Y-m-d''>'
+        anexosClinicos:
+            expose: true
+            access_type: public_method
+            serialized_name: anexosClinicos
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAnexosClinicos
+                setter: setAnexosClinicos
+            xml_list:
+                inline: true
+                entry_name: anexosClinicos
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtLoteAnexoStatusType\AnexosClinicosAType>

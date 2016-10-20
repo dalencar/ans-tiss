@@ -1,0 +1,102 @@
+ans\schemes\CtRespostaGlosaItemMedicoType:
+    properties:
+        numeroGuiaPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroGuiaPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroGuiaPrestador
+                setter: setNumeroGuiaPrestador
+            type: string
+        senha:
+            expose: true
+            access_type: public_method
+            serialized_name: senha
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getSenha
+                setter: setSenha
+            type: string
+        dataRealizacao:
+            expose: true
+            access_type: public_method
+            serialized_name: dataRealizacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataRealizacao
+                setter: setDataRealizacao
+            type: 'DateTime<''Y-m-d''>'
+        dataFim:
+            expose: true
+            access_type: public_method
+            serialized_name: dataFim
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataFim
+                setter: setDataFim
+            type: 'DateTime<''Y-m-d''>'
+        procRecurso:
+            expose: true
+            access_type: public_method
+            serialized_name: procRecurso
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getProcRecurso
+                setter: setProcRecurso
+            type: ans\schemes\CtProcedimentoDadosType
+        codGlosa:
+            expose: true
+            access_type: public_method
+            serialized_name: codGlosa
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodGlosa
+                setter: setCodGlosa
+            type: string
+        valorRecursado:
+            expose: true
+            access_type: public_method
+            serialized_name: valorRecursado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorRecursado
+                setter: setValorRecursado
+            type: float
+        justificativaPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: justificativaPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getJustificativaPrestador
+                setter: setJustificativaPrestador
+            type: string
+        valorAcatadado:
+            expose: true
+            access_type: public_method
+            serialized_name: valorAcatadado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorAcatadado
+                setter: setValorAcatadado
+            type: float
+        justificativaOperadora:
+            expose: true
+            access_type: public_method
+            serialized_name: justificativaOperadora
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getJustificativaOperadora
+                setter: setJustificativaOperadora
+            type: string

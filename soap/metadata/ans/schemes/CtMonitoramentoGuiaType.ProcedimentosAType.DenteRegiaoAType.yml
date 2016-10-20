@@ -1,0 +1,22 @@
+ans\schemes\CtMonitoramentoGuiaType\ProcedimentosAType\DenteRegiaoAType:
+    properties:
+        codDente:
+            expose: true
+            access_type: public_method
+            serialized_name: codDente
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodDente
+                setter: setCodDente
+            type: string
+        codRegiao:
+            expose: true
+            access_type: public_method
+            serialized_name: codRegiao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodRegiao
+                setter: setCodRegiao
+            type: string

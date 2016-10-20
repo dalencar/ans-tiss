@@ -1,0 +1,22 @@
+ans\schemes\CtAnexoLoteType:
+    properties:
+        numeroLote:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroLote
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroLote
+                setter: setNumeroLote
+            type: string
+        anexosGuiasTISS:
+            expose: true
+            access_type: public_method
+            serialized_name: AnexosGuiasTISS
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAnexosGuiasTISS
+                setter: setAnexosGuiasTISS
+            type: ans\schemes\CtAnexoLoteType\AnexosGuiasTISSAType

@@ -1,0 +1,22 @@
+ans\schemes\CtMotivoGlosaType:
+    properties:
+        codigoGlosa:
+            expose: true
+            access_type: public_method
+            serialized_name: codigoGlosa
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodigoGlosa
+                setter: setCodigoGlosa
+            type: string
+        descricaoGlosa:
+            expose: true
+            access_type: public_method
+            serialized_name: descricaoGlosa
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDescricaoGlosa
+                setter: setDescricaoGlosa
+            type: string

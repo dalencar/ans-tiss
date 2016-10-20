@@ -1,0 +1,52 @@
+ans\schemes\OperadoraPrestadorType\AutorizacaoServicosAType:
+    properties:
+        mensagemErro:
+            expose: true
+            access_type: public_method
+            serialized_name: mensagemErro
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getMensagemErro
+                setter: setMensagemErro
+            type: ans\schemes\CtMotivoGlosaType
+        autorizacaoInternacao:
+            expose: true
+            access_type: public_method
+            serialized_name: autorizacaoInternacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAutorizacaoInternacao
+                setter: setAutorizacaoInternacao
+            type: ans\schemes\CtmAutorizacaoInternacaoType
+        autorizacaoServico:
+            expose: true
+            access_type: public_method
+            serialized_name: autorizacaoServico
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAutorizacaoServico
+                setter: setAutorizacaoServico
+            type: ans\schemes\CtmAutorizacaoServicoType
+        autorizacaoServicoOdonto:
+            expose: true
+            access_type: public_method
+            serialized_name: autorizacaoServicoOdonto
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAutorizacaoServicoOdonto
+                setter: setAutorizacaoServicoOdonto
+            type: ans\schemes\CtoAutorizacaoServicoType
+        autorizacaoProrrogacao:
+            expose: true
+            access_type: public_method
+            serialized_name: autorizacaoProrrogacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAutorizacaoProrrogacao
+                setter: setAutorizacaoProrrogacao
+            type: ans\schemes\CtmAutorizacaoProrrogacaoType

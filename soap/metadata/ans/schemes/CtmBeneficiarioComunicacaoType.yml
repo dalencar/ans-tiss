@@ -1,0 +1,42 @@
+ans\schemes\CtmBeneficiarioComunicacaoType:
+    properties:
+        dadosBeneficiario:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosBeneficiario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosBeneficiario
+                setter: setDadosBeneficiario
+            type: ans\schemes\CtBeneficiarioDadosType
+        dataEvento:
+            expose: true
+            access_type: public_method
+            serialized_name: dataEvento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataEvento
+                setter: setDataEvento
+            type: 'DateTime<''Y-m-d''>'
+        tipoEvento:
+            expose: true
+            access_type: public_method
+            serialized_name: tipoEvento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTipoEvento
+                setter: setTipoEvento
+            type: string
+        dadosInternacao:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosInternacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosInternacao
+                setter: setDadosInternacao
+            type: ans\schemes\CtmBeneficiarioComunicacaoType\DadosInternacaoAType

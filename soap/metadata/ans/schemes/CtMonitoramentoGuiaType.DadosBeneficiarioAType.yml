@@ -1,0 +1,22 @@
+ans\schemes\CtMonitoramentoGuiaType\DadosBeneficiarioAType:
+    properties:
+        identBeneficiario:
+            expose: true
+            access_type: public_method
+            serialized_name: identBeneficiario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIdentBeneficiario
+                setter: setIdentBeneficiario
+            type: ans\schemes\CtMonitoramentoGuiaType\DadosBeneficiarioAType\IdentBeneficiarioAType
+        numeroRegistroPlano:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroRegistroPlano
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroRegistroPlano
+                setter: setNumeroRegistroPlano
+            type: string

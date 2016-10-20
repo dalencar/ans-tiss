@@ -1,0 +1,62 @@
+ans\schemes\CtElegibilidadeVerificaType:
+    properties:
+        dadosPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosPrestador
+                setter: setDadosPrestador
+            type: ans\schemes\CtContratadoDadosType
+        numeroCarteira:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroCarteira
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroCarteira
+                setter: setNumeroCarteira
+            type: string
+        nomeBeneficiario:
+            expose: true
+            access_type: public_method
+            serialized_name: nomeBeneficiario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNomeBeneficiario
+                setter: setNomeBeneficiario
+            type: string
+        numeroCNS:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroCNS
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroCNS
+                setter: setNumeroCNS
+            type: string
+        identificadorBeneficiario:
+            expose: true
+            access_type: public_method
+            serialized_name: identificadorBeneficiario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIdentificadorBeneficiario
+                setter: setIdentificadorBeneficiario
+            type: \AnySimpleType
+        validadeCarteira:
+            expose: true
+            access_type: public_method
+            serialized_name: validadeCarteira
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValidadeCarteira
+                setter: setValidadeCarteira
+            type: 'DateTime<''Y-m-d''>'

@@ -1,0 +1,40 @@
+ans\schemes\CtSituacaoAutorizacaoType:
+    properties:
+        mensagemErro:
+            expose: true
+            access_type: public_method
+            serialized_name: mensagemErro
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getMensagemErro
+                setter: setMensagemErro
+            type: ans\schemes\CtMotivoGlosaType
+        autorizacaoServico:
+            expose: true
+            access_type: public_method
+            serialized_name: autorizacaoServico
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAutorizacaoServico
+                setter: setAutorizacaoServico
+            xml_list:
+                inline: true
+                entry_name: autorizacaoServico
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtmAutorizacaoServicoType>
+        prorrogacao:
+            expose: true
+            access_type: public_method
+            serialized_name: prorrogacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getProrrogacao
+                setter: setProrrogacao
+            xml_list:
+                inline: true
+                entry_name: prorrogacao
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtmAutorizacaoServicoType>

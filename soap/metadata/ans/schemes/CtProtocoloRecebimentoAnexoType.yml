@@ -1,0 +1,62 @@
+ans\schemes\CtProtocoloRecebimentoAnexoType:
+    properties:
+        numeroProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroProtocolo
+                setter: setNumeroProtocolo
+            type: string
+        identificacaoOperadora:
+            expose: true
+            access_type: public_method
+            serialized_name: identificacaoOperadora
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIdentificacaoOperadora
+                setter: setIdentificacaoOperadora
+            type: ans\schemes\CtFontePagadoraType
+        dadosPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosPrestador
+                setter: setDadosPrestador
+            type: ans\schemes\CtContratadoDadosType
+        numeroLote:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroLote
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroLote
+                setter: setNumeroLote
+            type: string
+        dataEnvioLote:
+            expose: true
+            access_type: public_method
+            serialized_name: dataEnvioLote
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataEnvioLote
+                setter: setDataEnvioLote
+            type: string
+        detalheProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: detalheProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDetalheProtocolo
+                setter: setDetalheProtocolo
+            type: ans\schemes\CtProtocoloDetalheAnexoType

@@ -1,0 +1,62 @@
+ans\schemes\CtRecursoGlosaRecebimentoType\GuiasRecursoAType\OpcaoRecursoGuiaAType\ItensGuiaAType:
+    properties:
+        dataInicio:
+            expose: true
+            access_type: public_method
+            serialized_name: dataInicio
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataInicio
+                setter: setDataInicio
+            type: 'DateTime<''Y-m-d''>'
+        dataFim:
+            expose: true
+            access_type: public_method
+            serialized_name: dataFim
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataFim
+                setter: setDataFim
+            type: 'DateTime<''Y-m-d''>'
+        procRecurso:
+            expose: true
+            access_type: public_method
+            serialized_name: procRecurso
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getProcRecurso
+                setter: setProcRecurso
+            type: ans\schemes\CtProcedimentoDadosType
+        codGlosaItem:
+            expose: true
+            access_type: public_method
+            serialized_name: codGlosaItem
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodGlosaItem
+                setter: setCodGlosaItem
+            type: string
+        valorRecursado:
+            expose: true
+            access_type: public_method
+            serialized_name: valorRecursado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorRecursado
+                setter: setValorRecursado
+            type: float
+        justificativaItem:
+            expose: true
+            access_type: public_method
+            serialized_name: justificativaItem
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getJustificativaItem
+                setter: setJustificativaItem
+            type: string

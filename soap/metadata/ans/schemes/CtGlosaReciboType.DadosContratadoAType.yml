@@ -1,0 +1,22 @@
+ans\schemes\CtGlosaReciboType\DadosContratadoAType:
+    properties:
+        codigoPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: codigoPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodigoPrestador
+                setter: setCodigoPrestador
+            type: string
+        nomePrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: nomePrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNomePrestador
+                setter: setNomePrestador
+            type: string

@@ -1,0 +1,52 @@
+ans\schemes\CtRespostaGlosaGuiaMedicaType:
+    properties:
+        numeroGuiaPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroGuiaPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroGuiaPrestador
+                setter: setNumeroGuiaPrestador
+            type: string
+        senha:
+            expose: true
+            access_type: public_method
+            serialized_name: senha
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getSenha
+                setter: setSenha
+            type: string
+        codGlosa:
+            expose: true
+            access_type: public_method
+            serialized_name: codGlosa
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodGlosa
+                setter: setCodGlosa
+            type: string
+        justificativaPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: justificativaPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getJustificativaPrestador
+                setter: setJustificativaPrestador
+            type: string
+        recursoGuiaAcatado:
+            expose: true
+            access_type: public_method
+            serialized_name: recursoGuiaAcatado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRecursoGuiaAcatado
+                setter: setRecursoGuiaAcatado
+            type: string

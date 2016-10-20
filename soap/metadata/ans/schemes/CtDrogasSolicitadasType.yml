@@ -1,0 +1,52 @@
+ans\schemes\CtDrogasSolicitadasType:
+    properties:
+        dataProvavel:
+            expose: true
+            access_type: public_method
+            serialized_name: dataProvavel
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataProvavel
+                setter: setDataProvavel
+            type: 'DateTime<''Y-m-d''>'
+        identificacao:
+            expose: true
+            access_type: public_method
+            serialized_name: identificacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIdentificacao
+                setter: setIdentificacao
+            type: ans\schemes\CtProcedimentoDadosType
+        qtDoses:
+            expose: true
+            access_type: public_method
+            serialized_name: qtDoses
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getQtDoses
+                setter: setQtDoses
+            type: float
+        viaAdministracao:
+            expose: true
+            access_type: public_method
+            serialized_name: viaAdministracao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getViaAdministracao
+                setter: setViaAdministracao
+            type: string
+        frequencia:
+            expose: true
+            access_type: public_method
+            serialized_name: frequencia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getFrequencia
+                setter: setFrequencia
+            type: integer

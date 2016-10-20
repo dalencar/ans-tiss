@@ -1,0 +1,12 @@
+ans\schemes\CtmAutorizacaoServicoType\ServicosAutorizadosAType:
+    properties:
+        servicoAutorizado:
+            expose: true
+            access_type: public_method
+            serialized_name: servicoAutorizado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getServicoAutorizado
+                setter: setServicoAutorizado
+            type: ans\schemes\CtProcedimentoAutorizadoType

@@ -1,0 +1,92 @@
+ans\schemes\CtoGuiaOdontologiaType\ProcedimentosExecutadosAType:
+    properties:
+        procSolic:
+            expose: true
+            access_type: public_method
+            serialized_name: procSolic
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getProcSolic
+                setter: setProcSolic
+            type: ans\schemes\CtProcedimentoDadosType
+        denteRegiao:
+            expose: true
+            access_type: public_method
+            serialized_name: denteRegiao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDenteRegiao
+                setter: setDenteRegiao
+            type: ans\schemes\CtoGuiaOdontologiaType\ProcedimentosExecutadosAType\DenteRegiaoAType
+        denteFace:
+            expose: true
+            access_type: public_method
+            serialized_name: denteFace
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDenteFace
+                setter: setDenteFace
+            type: string
+        qtdProc:
+            expose: true
+            access_type: public_method
+            serialized_name: qtdProc
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getQtdProc
+                setter: setQtdProc
+            type: integer
+        qtdUS:
+            expose: true
+            access_type: public_method
+            serialized_name: qtdUS
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getQtdUS
+                setter: setQtdUS
+            type: float
+        valorProc:
+            expose: true
+            access_type: public_method
+            serialized_name: valorProc
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorProc
+                setter: setValorProc
+            type: float
+        valorFranquia:
+            expose: true
+            access_type: public_method
+            serialized_name: valorFranquia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorFranquia
+                setter: setValorFranquia
+            type: float
+        autorizado:
+            expose: true
+            access_type: public_method
+            serialized_name: autorizado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAutorizado
+                setter: setAutorizado
+            type: boolean
+        dataRealizacao:
+            expose: true
+            access_type: public_method
+            serialized_name: dataRealizacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataRealizacao
+                setter: setDataRealizacao
+            type: 'DateTime<''Y-m-d''>'

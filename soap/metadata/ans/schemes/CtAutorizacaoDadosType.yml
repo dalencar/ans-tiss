@@ -1,0 +1,52 @@
+ans\schemes\CtAutorizacaoDadosType:
+    properties:
+        numeroGuiaPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroGuiaPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroGuiaPrestador
+                setter: setNumeroGuiaPrestador
+            type: string
+        numeroGuiaOperadora:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroGuiaOperadora
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroGuiaOperadora
+                setter: setNumeroGuiaOperadora
+            type: string
+        dataAutorizacao:
+            expose: true
+            access_type: public_method
+            serialized_name: dataAutorizacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataAutorizacao
+                setter: setDataAutorizacao
+            type: 'DateTime<''Y-m-d''>'
+        senha:
+            expose: true
+            access_type: public_method
+            serialized_name: senha
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getSenha
+                setter: setSenha
+            type: string
+        dataValidadeSenha:
+            expose: true
+            access_type: public_method
+            serialized_name: dataValidadeSenha
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataValidadeSenha
+                setter: setDataValidadeSenha
+            type: 'DateTime<''Y-m-d''>'

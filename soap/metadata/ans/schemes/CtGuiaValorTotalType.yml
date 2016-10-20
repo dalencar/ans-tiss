@@ -1,0 +1,82 @@
+ans\schemes\CtGuiaValorTotalType:
+    properties:
+        valorProcedimentos:
+            expose: true
+            access_type: public_method
+            serialized_name: valorProcedimentos
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorProcedimentos
+                setter: setValorProcedimentos
+            type: float
+        valorDiarias:
+            expose: true
+            access_type: public_method
+            serialized_name: valorDiarias
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorDiarias
+                setter: setValorDiarias
+            type: float
+        valorTaxasAlugueis:
+            expose: true
+            access_type: public_method
+            serialized_name: valorTaxasAlugueis
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorTaxasAlugueis
+                setter: setValorTaxasAlugueis
+            type: float
+        valorMateriais:
+            expose: true
+            access_type: public_method
+            serialized_name: valorMateriais
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorMateriais
+                setter: setValorMateriais
+            type: float
+        valorMedicamentos:
+            expose: true
+            access_type: public_method
+            serialized_name: valorMedicamentos
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorMedicamentos
+                setter: setValorMedicamentos
+            type: float
+        valorOPME:
+            expose: true
+            access_type: public_method
+            serialized_name: valorOPME
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorOPME
+                setter: setValorOPME
+            type: float
+        valorGasesMedicinais:
+            expose: true
+            access_type: public_method
+            serialized_name: valorGasesMedicinais
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorGasesMedicinais
+                setter: setValorGasesMedicinais
+            type: float
+        valorTotalGeral:
+            expose: true
+            access_type: public_method
+            serialized_name: valorTotalGeral
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorTotalGeral
+                setter: setValorTotalGeral
+            type: float

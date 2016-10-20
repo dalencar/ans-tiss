@@ -1,0 +1,42 @@
+ans\schemes\CtmInternacaoDadosType\DeclaracoesAType:
+    properties:
+        declaracaoNascido:
+            expose: true
+            access_type: public_method
+            serialized_name: declaracaoNascido
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDeclaracaoNascido
+                setter: setDeclaracaoNascido
+            type: string
+        diagnosticoObito:
+            expose: true
+            access_type: public_method
+            serialized_name: diagnosticoObito
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDiagnosticoObito
+                setter: setDiagnosticoObito
+            type: string
+        declaracaoObito:
+            expose: true
+            access_type: public_method
+            serialized_name: declaracaoObito
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDeclaracaoObito
+                setter: setDeclaracaoObito
+            type: string
+        indicadorDORN:
+            expose: true
+            access_type: public_method
+            serialized_name: indicadorDORN
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIndicadorDORN
+                setter: setIndicadorDORN
+            type: string

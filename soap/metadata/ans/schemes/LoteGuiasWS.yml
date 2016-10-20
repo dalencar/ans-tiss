@@ -1,0 +1,34 @@
+ans\schemes\LoteGuiasWS:
+    xml_root_name: loteGuiasWS
+    xml_root_namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+    properties:
+        cabecalho:
+            expose: true
+            access_type: public_method
+            serialized_name: cabecalho
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCabecalho
+                setter: setCabecalho
+            type: ans\schemes\CabecalhoTransacaoType
+        loteGuias:
+            expose: true
+            access_type: public_method
+            serialized_name: loteGuias
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getLoteGuias
+                setter: setLoteGuias
+            type: ans\schemes\CtmGuiaLoteType
+        hash:
+            expose: true
+            access_type: public_method
+            serialized_name: hash
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getHash
+                setter: setHash
+            type: string

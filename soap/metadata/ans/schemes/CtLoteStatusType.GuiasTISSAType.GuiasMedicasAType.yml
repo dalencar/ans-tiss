@@ -1,0 +1,12 @@
+ans\schemes\CtLoteStatusType\GuiasTISSAType\GuiasMedicasAType:
+    properties:
+        guias:
+            expose: true
+            access_type: public_method
+            serialized_name: guias
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getGuias
+                setter: setGuias
+            type: ans\schemes\CtGuiaDadosType

@@ -1,0 +1,22 @@
+ans\schemes\CtReciboCancelaGuiaType:
+    properties:
+        mensagemErro:
+            expose: true
+            access_type: public_method
+            serialized_name: mensagemErro
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getMensagemErro
+                setter: setMensagemErro
+            type: ans\schemes\CtMotivoGlosaType
+        reciboCancelaGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: reciboCancelaGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getReciboCancelaGuia
+                setter: setReciboCancelaGuia
+            type: ans\schemes\CtGuiaCancelamentoReciboType

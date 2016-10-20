@@ -1,0 +1,22 @@
+ans\schemes\CtmGuiaLoteType:
+    properties:
+        numeroLote:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroLote
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroLote
+                setter: setNumeroLote
+            type: string
+        guiasTISS:
+            expose: true
+            access_type: public_method
+            serialized_name: guiasTISS
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getGuiasTISS
+                setter: setGuiasTISS
+            type: ans\schemes\CtmGuiaLoteType\GuiasTISSAType

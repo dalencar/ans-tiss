@@ -1,0 +1,22 @@
+ans\schemes\CtmSpSadtSolicitacaoGuiaType\ProcedimentosSolicitadosAType:
+    properties:
+        procedimento:
+            expose: true
+            access_type: public_method
+            serialized_name: procedimento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getProcedimento
+                setter: setProcedimento
+            type: ans\schemes\CtProcedimentoDadosType
+        quantidadeSolicitada:
+            expose: true
+            access_type: public_method
+            serialized_name: quantidadeSolicitada
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getQuantidadeSolicitada
+                setter: setQuantidadeSolicitada
+            type: integer

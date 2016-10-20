@@ -1,0 +1,160 @@
+ans\schemes\CtContaMedicaResumoType\RelacaoGuiasAType:
+    properties:
+        numeroGuiaPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroGuiaPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroGuiaPrestador
+                setter: setNumeroGuiaPrestador
+            type: string
+        numeroGuiaOperadora:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroGuiaOperadora
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroGuiaOperadora
+                setter: setNumeroGuiaOperadora
+            type: string
+        senha:
+            expose: true
+            access_type: public_method
+            serialized_name: senha
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getSenha
+                setter: setSenha
+            type: string
+        nomeBeneficiario:
+            expose: true
+            access_type: public_method
+            serialized_name: nomeBeneficiario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNomeBeneficiario
+                setter: setNomeBeneficiario
+            type: string
+        numeroCarteira:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroCarteira
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroCarteira
+                setter: setNumeroCarteira
+            type: string
+        dataInicioFat:
+            expose: true
+            access_type: public_method
+            serialized_name: dataInicioFat
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataInicioFat
+                setter: setDataInicioFat
+            type: 'DateTime<''Y-m-d''>'
+        horaInicioFat:
+            expose: true
+            access_type: public_method
+            serialized_name: horaInicioFat
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getHoraInicioFat
+                setter: setHoraInicioFat
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        dataFimFat:
+            expose: true
+            access_type: public_method
+            serialized_name: dataFimFat
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataFimFat
+                setter: setDataFimFat
+            type: 'DateTime<''Y-m-d''>'
+        horaFimFat:
+            expose: true
+            access_type: public_method
+            serialized_name: horaFimFat
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getHoraFimFat
+                setter: setHoraFimFat
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\Time
+        motivoGlosaGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: motivoGlosaGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getMotivoGlosaGuia
+                setter: setMotivoGlosaGuia
+            xml_list:
+                inline: true
+                entry_name: motivoGlosaGuia
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtMotivoGlosaType>
+        detalhesGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: detalhesGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDetalhesGuia
+                setter: setDetalhesGuia
+            xml_list:
+                inline: true
+                entry_name: detalhesGuia
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtContaMedicaResumoType\RelacaoGuiasAType\DetalhesGuiaAType>
+        valorInformadoGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: valorInformadoGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorInformadoGuia
+                setter: setValorInformadoGuia
+            type: float
+        valorProcessadoGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: valorProcessadoGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorProcessadoGuia
+                setter: setValorProcessadoGuia
+            type: float
+        valorLiberadoGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: valorLiberadoGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorLiberadoGuia
+                setter: setValorLiberadoGuia
+            type: float
+        valorGlosaGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: valorGlosaGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorGlosaGuia
+                setter: setValorGlosaGuia
+            type: float

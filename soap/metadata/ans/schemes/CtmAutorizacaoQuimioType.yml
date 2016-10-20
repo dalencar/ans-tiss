@@ -1,0 +1,140 @@
+ans\schemes\CtmAutorizacaoQuimioType:
+    properties:
+        dadosAutorizacao:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosAutorizacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosAutorizacao
+                setter: setDadosAutorizacao
+            type: ans\schemes\CtAutorizacaoDadosType
+        numeroCarteira:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroCarteira
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroCarteira
+                setter: setNumeroCarteira
+            type: string
+        nomeBeneficiario:
+            expose: true
+            access_type: public_method
+            serialized_name: nomeBeneficiario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNomeBeneficiario
+                setter: setNomeBeneficiario
+            type: string
+        numeroCNS:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroCNS
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroCNS
+                setter: setNumeroCNS
+            type: string
+        dadosComplementaresBeneficiario:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosComplementaresBeneficiario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosComplementaresBeneficiario
+                setter: setDadosComplementaresBeneficiario
+            type: ans\schemes\CtDadosComplementaresBeneficiarioType
+        medicoSolicitante:
+            expose: true
+            access_type: public_method
+            serialized_name: medicoSolicitante
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getMedicoSolicitante
+                setter: setMedicoSolicitante
+            type: ans\schemes\CtmAnexoSolicitanteType
+        diagnosticoOncologicoQuimioterapia:
+            expose: true
+            access_type: public_method
+            serialized_name: diagnosticoOncologicoQuimioterapia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDiagnosticoOncologicoQuimioterapia
+                setter: setDiagnosticoOncologicoQuimioterapia
+            type: ans\schemes\CtmAutorizacaoQuimioType\DiagnosticoOncologicoQuimioterapiaAType
+        drogasSolicitadas:
+            expose: true
+            access_type: public_method
+            serialized_name: drogasSolicitadas
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDrogasSolicitadas
+                setter: setDrogasSolicitadas
+            type: array<ans\schemes\CtDrogasSolicitadasType>
+            xml_list:
+                inline: false
+                entry_name: drogaSolicitada
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+        tratamentosAnteriores:
+            expose: true
+            access_type: public_method
+            serialized_name: tratamentosAnteriores
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTratamentosAnteriores
+                setter: setTratamentosAnteriores
+            type: ans\schemes\CtmAutorizacaoQuimioType\TratamentosAnterioresAType
+        numeroCiclos:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroCiclos
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroCiclos
+                setter: setNumeroCiclos
+            type: integer
+        cicloAtual:
+            expose: true
+            access_type: public_method
+            serialized_name: cicloAtual
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCicloAtual
+                setter: setCicloAtual
+            type: integer
+        intervaloCiclos:
+            expose: true
+            access_type: public_method
+            serialized_name: intervaloCiclos
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIntervaloCiclos
+                setter: setIntervaloCiclos
+            type: integer
+        motivosNegativa:
+            expose: true
+            access_type: public_method
+            serialized_name: motivosNegativa
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getMotivosNegativa
+                setter: setMotivosNegativa
+            type: array<ans\schemes\CtMotivoGlosaType>
+            xml_list:
+                inline: false
+                entry_name: motivoNegativa
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'

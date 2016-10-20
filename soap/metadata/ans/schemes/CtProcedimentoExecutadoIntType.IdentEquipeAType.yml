@@ -1,0 +1,12 @@
+ans\schemes\CtProcedimentoExecutadoIntType\IdentEquipeAType:
+    properties:
+        identificacaoEquipe:
+            expose: true
+            access_type: public_method
+            serialized_name: identificacaoEquipe
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIdentificacaoEquipe
+                setter: setIdentificacaoEquipe
+            type: ans\schemes\CtIdentEquipeType

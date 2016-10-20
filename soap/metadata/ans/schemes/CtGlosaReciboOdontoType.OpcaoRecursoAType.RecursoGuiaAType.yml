@@ -1,0 +1,22 @@
+ans\schemes\CtGlosaReciboOdontoType\OpcaoRecursoAType\RecursoGuiaAType:
+    properties:
+        respostaRecursoGuiaOdonto:
+            expose: true
+            access_type: public_method
+            serialized_name: respostaRecursoGuiaOdonto
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRespostaRecursoGuiaOdonto
+                setter: setRespostaRecursoGuiaOdonto
+            type: ans\schemes\CtRespostaRecursoGuiaOdontoType
+        respostaRecursoItemOdonto:
+            expose: true
+            access_type: public_method
+            serialized_name: respostaRecursoItemOdonto
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRespostaRecursoItemOdonto
+                setter: setRespostaRecursoItemOdonto
+            type: ans\schemes\CtRespostaRecursoItemOdontoType

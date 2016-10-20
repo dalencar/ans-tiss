@@ -1,0 +1,120 @@
+ans\schemes\CtmSpSadtSolicitacaoGuiaType:
+    properties:
+        cabecalhoSolicitacao:
+            expose: true
+            access_type: public_method
+            serialized_name: cabecalhoSolicitacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCabecalhoSolicitacao
+                setter: setCabecalhoSolicitacao
+            type: ans\schemes\CtGuiaCabecalhoType
+        numeroGuiaPrincipal:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroGuiaPrincipal
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroGuiaPrincipal
+                setter: setNumeroGuiaPrincipal
+            type: string
+        dadosBeneficiario:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosBeneficiario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosBeneficiario
+                setter: setDadosBeneficiario
+            type: ans\schemes\CtBeneficiarioDadosType
+        dadosSolicitante:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosSolicitante
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosSolicitante
+                setter: setDadosSolicitante
+            type: ans\schemes\CtmSpSadtSolicitacaoGuiaType\DadosSolicitanteAType
+        dataSolicitacao:
+            expose: true
+            access_type: public_method
+            serialized_name: dataSolicitacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataSolicitacao
+                setter: setDataSolicitacao
+            type: 'DateTime<''Y-m-d''>'
+        caraterAtendimento:
+            expose: true
+            access_type: public_method
+            serialized_name: caraterAtendimento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCaraterAtendimento
+                setter: setCaraterAtendimento
+            type: string
+        indicacaoClinica:
+            expose: true
+            access_type: public_method
+            serialized_name: indicacaoClinica
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIndicacaoClinica
+                setter: setIndicacaoClinica
+            type: string
+        procedimentosSolicitados:
+            expose: true
+            access_type: public_method
+            serialized_name: procedimentosSolicitados
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getProcedimentosSolicitados
+                setter: setProcedimentosSolicitados
+            xml_list:
+                inline: true
+                entry_name: procedimentosSolicitados
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtmSpSadtSolicitacaoGuiaType\ProcedimentosSolicitadosAType>
+        dadosExecutante:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosExecutante
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosExecutante
+                setter: setDadosExecutante
+            type: ans\schemes\CtmSpSadtSolicitacaoGuiaType\DadosExecutanteAType
+        anexoClinico:
+            expose: true
+            access_type: public_method
+            serialized_name: anexoClinico
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAnexoClinico
+                setter: setAnexoClinico
+            xml_list:
+                inline: true
+                entry_name: anexoClinico
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtmSpSadtSolicitacaoGuiaType\AnexoClinicoAType>
+        observacao:
+            expose: true
+            access_type: public_method
+            serialized_name: observacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getObservacao
+                setter: setObservacao
+            type: string

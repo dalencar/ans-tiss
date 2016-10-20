@@ -1,0 +1,22 @@
+ans\schemes\CtFontePagadoraType:
+    properties:
+        registroANS:
+            expose: true
+            access_type: public_method
+            serialized_name: registroANS
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRegistroANS
+                setter: setRegistroANS
+            type: string
+        identificacaoUnidadePagadora:
+            expose: true
+            access_type: public_method
+            serialized_name: identificacaoUnidadePagadora
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIdentificacaoUnidadePagadora
+                setter: setIdentificacaoUnidadePagadora
+            type: string

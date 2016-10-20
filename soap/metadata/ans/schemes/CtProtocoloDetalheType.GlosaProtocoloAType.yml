@@ -1,0 +1,26 @@
+ans\schemes\CtProtocoloDetalheType\GlosaProtocoloAType:
+    properties:
+        motivosGlosa:
+            expose: true
+            access_type: public_method
+            serialized_name: motivosGlosa
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getMotivosGlosa
+                setter: setMotivosGlosa
+            type: array<ans\schemes\CtMotivoGlosaType>
+            xml_list:
+                inline: false
+                entry_name: motivoGlosa
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+        vlGlosaProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: vlGlosaProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getVlGlosaProtocolo
+                setter: setVlGlosaProtocolo
+            type: float

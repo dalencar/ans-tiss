@@ -1,0 +1,56 @@
+ans\schemes\CtGuiaRecursoType:
+    properties:
+        numeroProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroProtocolo
+                setter: setNumeroProtocolo
+            type: string
+        numDemoAnalisePagto:
+            expose: true
+            access_type: public_method
+            serialized_name: numDemoAnalisePagto
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumDemoAnalisePagto
+                setter: setNumDemoAnalisePagto
+            type: string
+        numeroGuiaRecurso:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroGuiaRecurso
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroGuiaRecurso
+                setter: setNumeroGuiaRecurso
+            type: string
+        numeroGuiaOrigem:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroGuiaOrigem
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroGuiaOrigem
+                setter: setNumeroGuiaOrigem
+            type: string
+        motivosGlosa:
+            expose: true
+            access_type: public_method
+            serialized_name: motivosGlosa
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getMotivosGlosa
+                setter: setMotivosGlosa
+            xml_list:
+                inline: true
+                entry_name: motivosGlosa
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtMotivoGlosaType>

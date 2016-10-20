@@ -1,0 +1,26 @@
+ans\schemes\CtRecursoGlosaRecebimentoType\GuiasRecursoAType\OpcaoRecursoGuiaAType:
+    properties:
+        recursoGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: recursoGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRecursoGuia
+                setter: setRecursoGuia
+            type: ans\schemes\CtRecursoGlosaRecebimentoType\GuiasRecursoAType\OpcaoRecursoGuiaAType\RecursoGuiaAType
+        itensGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: itensGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getItensGuia
+                setter: setItensGuia
+            xml_list:
+                inline: true
+                entry_name: itensGuia
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtRecursoGlosaRecebimentoType\GuiasRecursoAType\OpcaoRecursoGuiaAType\ItensGuiaAType>

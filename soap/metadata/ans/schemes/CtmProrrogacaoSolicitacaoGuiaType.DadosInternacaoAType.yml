@@ -1,0 +1,32 @@
+ans\schemes\CtmProrrogacaoSolicitacaoGuiaType\DadosInternacaoAType:
+    properties:
+        qtDiariasAdicionais:
+            expose: true
+            access_type: public_method
+            serialized_name: qtDiariasAdicionais
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getQtDiariasAdicionais
+                setter: setQtDiariasAdicionais
+            type: integer
+        tipoAcomodacaoSolicitada:
+            expose: true
+            access_type: public_method
+            serialized_name: tipoAcomodacaoSolicitada
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTipoAcomodacaoSolicitada
+                setter: setTipoAcomodacaoSolicitada
+            type: string
+        indicacaoClinica:
+            expose: true
+            access_type: public_method
+            serialized_name: indicacaoClinica
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIndicacaoClinica
+                setter: setIndicacaoClinica
+            type: string

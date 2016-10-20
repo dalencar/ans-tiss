@@ -1,0 +1,22 @@
+ans\schemes\CtmBeneficiarioComunicacaoType\DadosInternacaoAType:
+    properties:
+        motivoEncerramento:
+            expose: true
+            access_type: public_method
+            serialized_name: motivoEncerramento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getMotivoEncerramento
+                setter: setMotivoEncerramento
+            type: string
+        tipoInternacao:
+            expose: true
+            access_type: public_method
+            serialized_name: tipoInternacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTipoInternacao
+                setter: setTipoInternacao
+            type: string

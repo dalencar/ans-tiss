@@ -1,0 +1,42 @@
+ans\schemes\CtPagamentoResumoType:
+    properties:
+        numeroFatura:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroFatura
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroFatura
+                setter: setNumeroFatura
+            type: string
+        numeroLote:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroLote
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroLote
+                setter: setNumeroLote
+            type: string
+        numeroProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroProtocolo
+                setter: setNumeroProtocolo
+            type: string
+        valorTotalLote:
+            expose: true
+            access_type: public_method
+            serialized_name: valorTotalLote
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorTotalLote
+                setter: setValorTotalLote
+            type: ans\schemes\CtValorTotalType

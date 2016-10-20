@@ -1,0 +1,42 @@
+ans\schemes\CtmSolicitacaoLoteType:
+    properties:
+        solicitacaoSPSADT:
+            expose: true
+            access_type: public_method
+            serialized_name: solicitacaoSP-SADT
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getSolicitacaoSPSADT
+                setter: setSolicitacaoSPSADT
+            type: ans\schemes\CtmSpSadtSolicitacaoGuiaType
+        solicitacaoInternacao:
+            expose: true
+            access_type: public_method
+            serialized_name: solicitacaoInternacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getSolicitacaoInternacao
+                setter: setSolicitacaoInternacao
+            type: ans\schemes\CtmInternacaoSolicitacaoGuiaType
+        solicitacaoProrrogacao:
+            expose: true
+            access_type: public_method
+            serialized_name: solicitacaoProrrogacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getSolicitacaoProrrogacao
+                setter: setSolicitacaoProrrogacao
+            type: ans\schemes\CtmProrrogacaoSolicitacaoGuiaType
+        solicitacaoOdontologia:
+            expose: true
+            access_type: public_method
+            serialized_name: solicitacaoOdontologia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getSolicitacaoOdontologia
+                setter: setSolicitacaoOdontologia
+            type: ans\schemes\CtoOdontoSolicitacaoGuiaType

@@ -1,0 +1,22 @@
+ans\schemes\CtDadosComplementaresBeneficiarioRadioType:
+    properties:
+        idade:
+            expose: true
+            access_type: public_method
+            serialized_name: idade
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIdade
+                setter: setIdade
+            type: integer
+        sexo:
+            expose: true
+            access_type: public_method
+            serialized_name: sexo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getSexo
+                setter: setSexo
+            type: string

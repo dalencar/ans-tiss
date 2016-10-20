@@ -1,0 +1,42 @@
+ans\schemes\CtDescontosType:
+    properties:
+        indicador:
+            expose: true
+            access_type: public_method
+            serialized_name: indicador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIndicador
+                setter: setIndicador
+            type: string
+        tipoDebitoCredito:
+            expose: true
+            access_type: public_method
+            serialized_name: tipoDebitoCredito
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTipoDebitoCredito
+                setter: setTipoDebitoCredito
+            type: string
+        descricaoDbCr:
+            expose: true
+            access_type: public_method
+            serialized_name: descricaoDbCr
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDescricaoDbCr
+                setter: setDescricaoDbCr
+            type: string
+        valorDbCr:
+            expose: true
+            access_type: public_method
+            serialized_name: valorDbCr
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorDbCr
+                setter: setValorDbCr
+            type: float

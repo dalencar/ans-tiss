@@ -1,0 +1,22 @@
+ans\schemes\CtmDemonstrativoAnaliseContaType\DadosPrestadorAType:
+    properties:
+        dadosContratado:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosContratado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosContratado
+                setter: setDadosContratado
+            type: ans\schemes\CtContratadoDadosType
+        cNES:
+            expose: true
+            access_type: public_method
+            serialized_name: CNES
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCNES
+                setter: setCNES
+            type: string

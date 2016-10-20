@@ -1,0 +1,112 @@
+ans\schemes\OperadoraPrestadorType:
+    properties:
+        recebimentoLote:
+            expose: true
+            access_type: public_method
+            serialized_name: recebimentoLote
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRecebimentoLote
+                setter: setRecebimentoLote
+            type: ans\schemes\OperadoraPrestadorType\RecebimentoLoteAType
+        recebimentoAnexo:
+            expose: true
+            access_type: public_method
+            serialized_name: recebimentoAnexo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRecebimentoAnexo
+                setter: setRecebimentoAnexo
+            type: ans\schemes\OperadoraPrestadorType\RecebimentoAnexoAType
+        recebimentoRecursoGlosa:
+            expose: true
+            access_type: public_method
+            serialized_name: recebimentoRecursoGlosa
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRecebimentoRecursoGlosa
+                setter: setRecebimentoRecursoGlosa
+            type: ans\schemes\OperadoraPrestadorType\RecebimentoRecursoGlosaAType
+        demonstrativosRetorno:
+            expose: true
+            access_type: public_method
+            serialized_name: demonstrativosRetorno
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDemonstrativosRetorno
+                setter: setDemonstrativosRetorno
+            type: ans\schemes\OperadoraPrestadorType\DemonstrativosRetornoAType
+        situacaoProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: situacaoProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getSituacaoProtocolo
+                setter: setSituacaoProtocolo
+            type: ans\schemes\OperadoraPrestadorType\SituacaoProtocoloAType
+        autorizacaoServicos:
+            expose: true
+            access_type: public_method
+            serialized_name: autorizacaoServicos
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAutorizacaoServicos
+                setter: setAutorizacaoServicos
+            type: ans\schemes\OperadoraPrestadorType\AutorizacaoServicosAType
+        situacaoAutorizacao:
+            expose: true
+            access_type: public_method
+            serialized_name: situacaoAutorizacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getSituacaoAutorizacao
+                setter: setSituacaoAutorizacao
+            type: ans\schemes\OperadoraPrestadorType\SituacaoAutorizacaoAType
+        respostaElegibilidade:
+            expose: true
+            access_type: public_method
+            serialized_name: respostaElegibilidade
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRespostaElegibilidade
+                setter: setRespostaElegibilidade
+            type: ans\schemes\OperadoraPrestadorType\RespostaElegibilidadeAType
+        reciboCancelaGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: reciboCancelaGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getReciboCancelaGuia
+                setter: setReciboCancelaGuia
+            type: ans\schemes\OperadoraPrestadorType\ReciboCancelaGuiaAType
+        reciboComunicacao:
+            expose: true
+            access_type: public_method
+            serialized_name: reciboComunicacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getReciboComunicacao
+                setter: setReciboComunicacao
+            type: ans\schemes\OperadoraPrestadorType\ReciboComunicacaoAType
+        respostaRecursoGlosa:
+            expose: true
+            access_type: public_method
+            serialized_name: respostaRecursoGlosa
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRespostaRecursoGlosa
+                setter: setRespostaRecursoGlosa
+            type: ans\schemes\OperadoraPrestadorType\RespostaRecursoGlosaAType

@@ -1,0 +1,14 @@
+ans\schemes\TissFaultWS:
+    xml_root_name: tissFaultWS
+    xml_root_namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+    properties:
+        tissFault:
+            expose: true
+            access_type: public_method
+            serialized_name: tissFault
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTissFault
+                setter: setTissFault
+            type: string

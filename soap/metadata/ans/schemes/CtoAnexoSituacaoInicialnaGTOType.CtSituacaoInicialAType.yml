@@ -1,0 +1,46 @@
+ans\schemes\CtoAnexoSituacaoInicialnaGTOType\CtSituacaoInicialAType:
+    properties:
+        situacaoClinica:
+            expose: true
+            access_type: public_method
+            serialized_name: situacaoClinica
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getSituacaoClinica
+                setter: setSituacaoClinica
+            type: array<ans\schemes\CtSituacaoClinicaType\DentesAType>
+            xml_list:
+                inline: false
+                entry_name: dentes
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+        doencaPeriodontal:
+            expose: true
+            access_type: public_method
+            serialized_name: doencaPeriodontal
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDoencaPeriodontal
+                setter: setDoencaPeriodontal
+            type: boolean
+        alteracaoTecidoMole:
+            expose: true
+            access_type: public_method
+            serialized_name: alteracaoTecidoMole
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAlteracaoTecidoMole
+                setter: setAlteracaoTecidoMole
+            type: boolean
+        observacao:
+            expose: true
+            access_type: public_method
+            serialized_name: observacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getObservacao
+                setter: setObservacao
+            type: string

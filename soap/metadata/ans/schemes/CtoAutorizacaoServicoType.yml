@@ -1,0 +1,100 @@
+ans\schemes\CtoAutorizacaoServicoType:
+    properties:
+        dadosAutorizacao:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosAutorizacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosAutorizacao
+                setter: setDadosAutorizacao
+            type: ans\schemes\CtAutorizacaoDadosType
+        numeroCarteira:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroCarteira
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroCarteira
+                setter: setNumeroCarteira
+            type: string
+        nomeBeneficiario:
+            expose: true
+            access_type: public_method
+            serialized_name: nomeBeneficiario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNomeBeneficiario
+                setter: setNomeBeneficiario
+            type: string
+        numeroCNS:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroCNS
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroCNS
+                setter: setNumeroCNS
+            type: string
+        identificadorBeneficiario:
+            expose: true
+            access_type: public_method
+            serialized_name: identificadorBeneficiario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIdentificadorBeneficiario
+                setter: setIdentificadorBeneficiario
+            type: \AnySimpleType
+        statusSolicitacao:
+            expose: true
+            access_type: public_method
+            serialized_name: statusSolicitacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getStatusSolicitacao
+                setter: setStatusSolicitacao
+            type: string
+        prestadorAutorizado:
+            expose: true
+            access_type: public_method
+            serialized_name: prestadorAutorizado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getPrestadorAutorizado
+                setter: setPrestadorAutorizado
+            type: ans\schemes\CtContratadoDadosType
+        procedimentosAutorizados:
+            expose: true
+            access_type: public_method
+            serialized_name: procedimentosAutorizados
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getProcedimentosAutorizados
+                setter: setProcedimentosAutorizados
+            xml_list:
+                inline: true
+                entry_name: procedimentosAutorizados
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtoAutorizacaoServicoType\ProcedimentosAutorizadosAType>
+        motivosNegativa:
+            expose: true
+            access_type: public_method
+            serialized_name: motivosNegativa
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getMotivosNegativa
+                setter: setMotivosNegativa
+            type: array<ans\schemes\CtMotivoGlosaType>
+            xml_list:
+                inline: false
+                entry_name: motivoNegativa
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'

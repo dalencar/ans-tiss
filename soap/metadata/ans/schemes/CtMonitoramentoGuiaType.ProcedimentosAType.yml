@@ -1,0 +1,52 @@
+ans\schemes\CtMonitoramentoGuiaType\ProcedimentosAType:
+    properties:
+        identProcedimento:
+            expose: true
+            access_type: public_method
+            serialized_name: identProcedimento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIdentProcedimento
+                setter: setIdentProcedimento
+            type: ans\schemes\CtMonitoramentoGuiaType\ProcedimentosAType\IdentProcedimentoAType
+        denteRegiao:
+            expose: true
+            access_type: public_method
+            serialized_name: denteRegiao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDenteRegiao
+                setter: setDenteRegiao
+            type: ans\schemes\CtMonitoramentoGuiaType\ProcedimentosAType\DenteRegiaoAType
+        denteFace:
+            expose: true
+            access_type: public_method
+            serialized_name: denteFace
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDenteFace
+                setter: setDenteFace
+            type: string
+        quantidadeRealizada:
+            expose: true
+            access_type: public_method
+            serialized_name: quantidadeRealizada
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getQuantidadeRealizada
+                setter: setQuantidadeRealizada
+            type: integer
+        valorPagoProc:
+            expose: true
+            access_type: public_method
+            serialized_name: valorPagoProc
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorPagoProc
+                setter: setValorPagoProc
+            type: float

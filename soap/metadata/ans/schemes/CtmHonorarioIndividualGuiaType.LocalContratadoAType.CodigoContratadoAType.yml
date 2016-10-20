@@ -1,0 +1,22 @@
+ans\schemes\CtmHonorarioIndividualGuiaType\LocalContratadoAType\CodigoContratadoAType:
+    properties:
+        codigoNaOperadora:
+            expose: true
+            access_type: public_method
+            serialized_name: codigoNaOperadora
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodigoNaOperadora
+                setter: setCodigoNaOperadora
+            type: string
+        cnpjLocalExecutante:
+            expose: true
+            access_type: public_method
+            serialized_name: cnpjLocalExecutante
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCnpjLocalExecutante
+                setter: setCnpjLocalExecutante
+            type: string

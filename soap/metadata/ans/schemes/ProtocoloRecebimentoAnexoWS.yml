@@ -1,0 +1,34 @@
+ans\schemes\ProtocoloRecebimentoAnexoWS:
+    xml_root_name: protocoloRecebimentoAnexoWS
+    xml_root_namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+    properties:
+        cabecalho:
+            expose: true
+            access_type: public_method
+            serialized_name: cabecalho
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCabecalho
+                setter: setCabecalho
+            type: ans\schemes\CabecalhoTransacaoType
+        loteAnexo:
+            expose: true
+            access_type: public_method
+            serialized_name: loteAnexo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getLoteAnexo
+                setter: setLoteAnexo
+            type: ans\schemes\CtAnexoRecebimentoType
+        hash:
+            expose: true
+            access_type: public_method
+            serialized_name: hash
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getHash
+                setter: setHash
+            type: string

@@ -1,0 +1,22 @@
+ans\schemes\CtHipoteseDiagnosticaType:
+    properties:
+        diagnostico:
+            expose: true
+            access_type: public_method
+            serialized_name: diagnostico
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDiagnostico
+                setter: setDiagnostico
+            type: ans\schemes\CtDiagnosticoType
+        indicacaoAcidente:
+            expose: true
+            access_type: public_method
+            serialized_name: indicacaoAcidente
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIndicacaoAcidente
+                setter: setIndicacaoAcidente
+            type: string

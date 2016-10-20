@@ -1,0 +1,30 @@
+ans\schemes\CtLoteStatusType\GuiasTISSAType:
+    properties:
+        guiasMedicas:
+            expose: true
+            access_type: public_method
+            serialized_name: guiasMedicas
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getGuiasMedicas
+                setter: setGuiasMedicas
+            xml_list:
+                inline: true
+                entry_name: guiasMedicas
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtLoteStatusType\GuiasTISSAType\GuiasMedicasAType>
+        guiasOdonto:
+            expose: true
+            access_type: public_method
+            serialized_name: guiasOdonto
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getGuiasOdonto
+                setter: setGuiasOdonto
+            xml_list:
+                inline: true
+                entry_name: guiasOdonto
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtLoteStatusType\GuiasTISSAType\GuiasOdontoAType>

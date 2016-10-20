@@ -1,0 +1,22 @@
+ans\schemes\CtDemonstrativoSolicitacaoType\PeriodoAType:
+    properties:
+        dataInicial:
+            expose: true
+            access_type: public_method
+            serialized_name: dataInicial
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataInicial
+                setter: setDataInicial
+            type: 'DateTime<''Y-m-d''>'
+        dataFinal:
+            expose: true
+            access_type: public_method
+            serialized_name: dataFinal
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataFinal
+                setter: setDataFinal
+            type: 'DateTime<''Y-m-d''>'

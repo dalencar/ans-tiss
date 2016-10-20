@@ -1,0 +1,156 @@
+ans\schemes\CtmHonorarioIndividualGuiaType:
+    properties:
+        cabecalhoGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: cabecalhoGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCabecalhoGuia
+                setter: setCabecalhoGuia
+            type: ans\schemes\CtGuiaCabecalhoType
+        guiaSolicInternacao:
+            expose: true
+            access_type: public_method
+            serialized_name: guiaSolicInternacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getGuiaSolicInternacao
+                setter: setGuiaSolicInternacao
+            type: string
+        senha:
+            expose: true
+            access_type: public_method
+            serialized_name: senha
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getSenha
+                setter: setSenha
+            type: string
+        numeroGuiaOperadora:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroGuiaOperadora
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroGuiaOperadora
+                setter: setNumeroGuiaOperadora
+            type: string
+        numeroCarteira:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroCarteira
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroCarteira
+                setter: setNumeroCarteira
+            type: string
+        nomeBeneficiario:
+            expose: true
+            access_type: public_method
+            serialized_name: nomeBeneficiario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNomeBeneficiario
+                setter: setNomeBeneficiario
+            type: string
+        atendimentoRN:
+            expose: true
+            access_type: public_method
+            serialized_name: atendimentoRN
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAtendimentoRN
+                setter: setAtendimentoRN
+            type: string
+        localContratado:
+            expose: true
+            access_type: public_method
+            serialized_name: localContratado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getLocalContratado
+                setter: setLocalContratado
+            type: ans\schemes\CtmHonorarioIndividualGuiaType\LocalContratadoAType
+        dadosContratadoExecutante:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosContratadoExecutante
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosContratadoExecutante
+                setter: setDadosContratadoExecutante
+            type: ans\schemes\CtmHonorarioIndividualGuiaType\DadosContratadoExecutanteAType
+        dadosInternacao:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosInternacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosInternacao
+                setter: setDadosInternacao
+            type: ans\schemes\CtmHonorarioIndividualGuiaType\DadosInternacaoAType
+        procedimentosRealizados:
+            expose: true
+            access_type: public_method
+            serialized_name: procedimentosRealizados
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getProcedimentosRealizados
+                setter: setProcedimentosRealizados
+            type: array<ans\schemes\CtProcedimentoExecutadoHonorIndivType>
+            xml_list:
+                inline: false
+                entry_name: procedimentoRealizado
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+        observacao:
+            expose: true
+            access_type: public_method
+            serialized_name: observacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getObservacao
+                setter: setObservacao
+            type: string
+        valorTotalHonorarios:
+            expose: true
+            access_type: public_method
+            serialized_name: valorTotalHonorarios
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorTotalHonorarios
+                setter: setValorTotalHonorarios
+            type: float
+        dataEmissaoGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: dataEmissaoGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataEmissaoGuia
+                setter: setDataEmissaoGuia
+            type: 'DateTime<''Y-m-d''>'
+        assinaturaDigital:
+            expose: true
+            access_type: public_method
+            serialized_name: assinaturaDigital
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAssinaturaDigital
+                setter: setAssinaturaDigital
+            type: ans\schemes\AssinaturaDigitalType

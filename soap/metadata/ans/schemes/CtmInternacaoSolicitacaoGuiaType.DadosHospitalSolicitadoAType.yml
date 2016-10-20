@@ -1,0 +1,32 @@
+ans\schemes\CtmInternacaoSolicitacaoGuiaType\DadosHospitalSolicitadoAType:
+    properties:
+        codigoIndicadonaOperadora:
+            expose: true
+            access_type: public_method
+            serialized_name: codigoIndicadonaOperadora
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodigoIndicadonaOperadora
+                setter: setCodigoIndicadonaOperadora
+            type: string
+        nomeContratadoIndicado:
+            expose: true
+            access_type: public_method
+            serialized_name: nomeContratadoIndicado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNomeContratadoIndicado
+                setter: setNomeContratadoIndicado
+            type: string
+        dataSugeridaInternacao:
+            expose: true
+            access_type: public_method
+            serialized_name: dataSugeridaInternacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataSugeridaInternacao
+                setter: setDataSugeridaInternacao
+            type: 'DateTime<''Y-m-d''>'

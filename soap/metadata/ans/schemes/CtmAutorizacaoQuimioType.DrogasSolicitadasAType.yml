@@ -1,0 +1,16 @@
+ans\schemes\CtmAutorizacaoQuimioType\DrogasSolicitadasAType:
+    properties:
+        drogaSolicitada:
+            expose: true
+            access_type: public_method
+            serialized_name: drogaSolicitada
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDrogaSolicitada
+                setter: setDrogaSolicitada
+            xml_list:
+                inline: true
+                entry_name: drogaSolicitada
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtDrogasSolicitadasType>

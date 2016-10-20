@@ -1,0 +1,32 @@
+ans\schemes\CtmAnexoSolicitacaoQuimioType\DiagnosticoOncologicoQuimioterapiaAType:
+    properties:
+        diagQuimio:
+            expose: true
+            access_type: public_method
+            serialized_name: diagQuimio
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDiagQuimio
+                setter: setDiagQuimio
+            type: ans\schemes\CtDiagnosticoOncologicoType
+        tipoQuimioterapia:
+            expose: true
+            access_type: public_method
+            serialized_name: tipoQuimioterapia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTipoQuimioterapia
+                setter: setTipoQuimioterapia
+            type: string
+        planoTerapeutico:
+            expose: true
+            access_type: public_method
+            serialized_name: planoTerapeutico
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getPlanoTerapeutico
+                setter: setPlanoTerapeutico
+            type: string

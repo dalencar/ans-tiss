@@ -1,0 +1,42 @@
+ans\schemes\CtContratadoDadosType:
+    properties:
+        codigoPrestadorNaOperadora:
+            expose: true
+            access_type: public_method
+            serialized_name: codigoPrestadorNaOperadora
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodigoPrestadorNaOperadora
+                setter: setCodigoPrestadorNaOperadora
+            type: string
+        cpfContratado:
+            expose: true
+            access_type: public_method
+            serialized_name: cpfContratado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCpfContratado
+                setter: setCpfContratado
+            type: string
+        cnpjContratado:
+            expose: true
+            access_type: public_method
+            serialized_name: cnpjContratado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCnpjContratado
+                setter: setCnpjContratado
+            type: string
+        nomeContratado:
+            expose: true
+            access_type: public_method
+            serialized_name: nomeContratado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNomeContratado
+                setter: setNomeContratado
+            type: string

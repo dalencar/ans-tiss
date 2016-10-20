@@ -1,0 +1,32 @@
+ans\schemes\CtValorCreditoDescontoType:
+    properties:
+        tipoLancamento:
+            expose: true
+            access_type: public_method
+            serialized_name: tipoLancamento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTipoLancamento
+                setter: setTipoLancamento
+            type: string
+        descricao:
+            expose: true
+            access_type: public_method
+            serialized_name: descricao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDescricao
+                setter: setDescricao
+            type: string
+        valor:
+            expose: true
+            access_type: public_method
+            serialized_name: valor
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValor
+                setter: setValor
+            type: float

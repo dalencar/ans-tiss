@@ -1,0 +1,76 @@
+ans\schemes\CtmAnexoSolicitacaoOPMEType:
+    properties:
+        cabecalhoAnexo:
+            expose: true
+            access_type: public_method
+            serialized_name: cabecalhoAnexo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCabecalhoAnexo
+                setter: setCabecalhoAnexo
+            type: ans\schemes\CtAnexoCabecalhoType
+        dadosBeneficiario:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosBeneficiario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosBeneficiario
+                setter: setDadosBeneficiario
+            type: ans\schemes\CtBeneficiarioDadosType
+        profissionalSolicitante:
+            expose: true
+            access_type: public_method
+            serialized_name: profissionalSolicitante
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getProfissionalSolicitante
+                setter: setProfissionalSolicitante
+            type: ans\schemes\CtmAnexoSolicitanteType
+        justificativaTecnica:
+            expose: true
+            access_type: public_method
+            serialized_name: justificativaTecnica
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getJustificativaTecnica
+                setter: setJustificativaTecnica
+            type: string
+        especificacaoMaterial:
+            expose: true
+            access_type: public_method
+            serialized_name: especificacaoMaterial
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getEspecificacaoMaterial
+                setter: setEspecificacaoMaterial
+            type: string
+        opmeSolicitadas:
+            expose: true
+            access_type: public_method
+            serialized_name: opmeSolicitadas
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getOpmeSolicitadas
+                setter: setOpmeSolicitadas
+            type: array<ans\schemes\CtmAnexoSolicitacaoOPMEType\OpmeSolicitadasAType\OpmeSolicitadaAType>
+            xml_list:
+                inline: false
+                entry_name: opmeSolicitada
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+        observacao:
+            expose: true
+            access_type: public_method
+            serialized_name: Observacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getObservacao
+                setter: setObservacao
+            type: string

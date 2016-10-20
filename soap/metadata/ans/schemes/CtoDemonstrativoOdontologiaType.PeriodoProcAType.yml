@@ -1,0 +1,22 @@
+ans\schemes\CtoDemonstrativoOdontologiaType\PeriodoProcAType:
+    properties:
+        datainicio:
+            expose: true
+            access_type: public_method
+            serialized_name: datainicio
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDatainicio
+                setter: setDatainicio
+            type: 'DateTime<''Y-m-d''>'
+        datafim:
+            expose: true
+            access_type: public_method
+            serialized_name: datafim
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDatafim
+                setter: setDatafim
+            type: 'DateTime<''Y-m-d''>'

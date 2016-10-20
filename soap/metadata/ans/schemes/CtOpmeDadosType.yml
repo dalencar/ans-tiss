@@ -1,0 +1,22 @@
+ans\schemes\CtOpmeDadosType:
+    properties:
+        identificacaoOPME:
+            expose: true
+            access_type: public_method
+            serialized_name: identificacaoOPME
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIdentificacaoOPME
+                setter: setIdentificacaoOPME
+            type: ans\schemes\CtProcedimentoDadosType
+        nomeFabricante:
+            expose: true
+            access_type: public_method
+            serialized_name: nomeFabricante
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNomeFabricante
+                setter: setNomeFabricante
+            type: string

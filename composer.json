@@ -13,6 +13,10 @@
     ],
     "minimum-stability": "dev",
     "require": {
+        "goetas-webservices/xsd2php-runtime":"^0.2.2"
+    },
+    "require-dev": {
+        "goetas-webservices/xsd2php":"^0.2"
     },
     "autoload": {
         "psr-4": {

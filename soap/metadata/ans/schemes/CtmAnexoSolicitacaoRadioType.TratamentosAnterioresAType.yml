@@ -1,0 +1,42 @@
+ans\schemes\CtmAnexoSolicitacaoRadioType\TratamentosAnterioresAType:
+    properties:
+        cirurgia:
+            expose: true
+            access_type: public_method
+            serialized_name: cirurgia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCirurgia
+                setter: setCirurgia
+            type: string
+        datacirurgia:
+            expose: true
+            access_type: public_method
+            serialized_name: datacirurgia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDatacirurgia
+                setter: setDatacirurgia
+            type: 'DateTime<''Y-m-d''>'
+        quimioterapia:
+            expose: true
+            access_type: public_method
+            serialized_name: quimioterapia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getQuimioterapia
+                setter: setQuimioterapia
+            type: string
+        dataQuimioterapia:
+            expose: true
+            access_type: public_method
+            serialized_name: dataQuimioterapia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataQuimioterapia
+                setter: setDataQuimioterapia
+            type: 'DateTime<''Y-m-d''>'

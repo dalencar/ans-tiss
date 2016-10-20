@@ -1,0 +1,32 @@
+ans\schemes\CtAutorizacaoSolicitaStatusType:
+    properties:
+        identificacaoSolicitacao:
+            expose: true
+            access_type: public_method
+            serialized_name: identificacaoSolicitacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIdentificacaoSolicitacao
+                setter: setIdentificacaoSolicitacao
+            type: ans\schemes\CtGuiaCabecalhoType
+        dadosBeneficiario:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosBeneficiario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosBeneficiario
+                setter: setDadosBeneficiario
+            type: ans\schemes\CtBeneficiarioDadosType
+        dadosContratado:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosContratado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosContratado
+                setter: setDadosContratado
+            type: ans\schemes\CtContratadoDadosType

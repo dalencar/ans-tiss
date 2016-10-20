@@ -1,0 +1,32 @@
+ans\schemes\CtProtocoloAnexoStatusType:
+    properties:
+        identificacaoOperadora:
+            expose: true
+            access_type: public_method
+            serialized_name: identificacaoOperadora
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIdentificacaoOperadora
+                setter: setIdentificacaoOperadora
+            type: string
+        dadosPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosPrestador
+                setter: setDadosPrestador
+            type: ans\schemes\CtContratadoDadosType
+        loteAnexo:
+            expose: true
+            access_type: public_method
+            serialized_name: loteAnexo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getLoteAnexo
+                setter: setLoteAnexo
+            type: ans\schemes\CtProtocoloAnexoStatusType\LoteAnexoAType

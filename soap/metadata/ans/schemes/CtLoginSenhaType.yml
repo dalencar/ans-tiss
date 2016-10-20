@@ -1,0 +1,22 @@
+ans\schemes\CtLoginSenhaType:
+    properties:
+        loginPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: loginPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getLoginPrestador
+                setter: setLoginPrestador
+            type: string
+        senhaPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: senhaPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getSenhaPrestador
+                setter: setSenhaPrestador
+            type: string

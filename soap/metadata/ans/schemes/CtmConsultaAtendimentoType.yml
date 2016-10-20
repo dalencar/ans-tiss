@@ -1,0 +1,32 @@
+ans\schemes\CtmConsultaAtendimentoType:
+    properties:
+        dataAtendimento:
+            expose: true
+            access_type: public_method
+            serialized_name: dataAtendimento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataAtendimento
+                setter: setDataAtendimento
+            type: 'DateTime<''Y-m-d''>'
+        tipoConsulta:
+            expose: true
+            access_type: public_method
+            serialized_name: tipoConsulta
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTipoConsulta
+                setter: setTipoConsulta
+            type: string
+        procedimento:
+            expose: true
+            access_type: public_method
+            serialized_name: procedimento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getProcedimento
+                setter: setProcedimento
+            type: ans\schemes\CtmConsultaAtendimentoType\ProcedimentoAType

@@ -1,0 +1,72 @@
+ans\schemes\CtIdentEquipeSADTType:
+    properties:
+        grauPart:
+            expose: true
+            access_type: public_method
+            serialized_name: grauPart
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getGrauPart
+                setter: setGrauPart
+            type: string
+        codProfissional:
+            expose: true
+            access_type: public_method
+            serialized_name: codProfissional
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodProfissional
+                setter: setCodProfissional
+            type: ans\schemes\CtIdentEquipeSADTType\CodProfissionalAType
+        nomeProf:
+            expose: true
+            access_type: public_method
+            serialized_name: nomeProf
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNomeProf
+                setter: setNomeProf
+            type: string
+        conselho:
+            expose: true
+            access_type: public_method
+            serialized_name: conselho
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getConselho
+                setter: setConselho
+            type: string
+        numeroConselhoProfissional:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroConselhoProfissional
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroConselhoProfissional
+                setter: setNumeroConselhoProfissional
+            type: string
+        uF:
+            expose: true
+            access_type: public_method
+            serialized_name: UF
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getUF
+                setter: setUF
+            type: string
+        cBOS:
+            expose: true
+            access_type: public_method
+            serialized_name: CBOS
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCBOS
+                setter: setCBOS
+            type: string

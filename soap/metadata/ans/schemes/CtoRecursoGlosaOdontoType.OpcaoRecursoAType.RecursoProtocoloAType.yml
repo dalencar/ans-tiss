@@ -1,0 +1,22 @@
+ans\schemes\CtoRecursoGlosaOdontoType\OpcaoRecursoAType\RecursoProtocoloAType:
+    properties:
+        codigoGlosaProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: codigoGlosaProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodigoGlosaProtocolo
+                setter: setCodigoGlosaProtocolo
+            type: string
+        justificativaProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: justificativaProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getJustificativaProtocolo
+                setter: setJustificativaProtocolo
+            type: string

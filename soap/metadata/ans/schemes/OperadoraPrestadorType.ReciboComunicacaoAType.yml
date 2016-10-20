@@ -1,0 +1,22 @@
+ans\schemes\OperadoraPrestadorType\ReciboComunicacaoAType:
+    properties:
+        mensagemErro:
+            expose: true
+            access_type: public_method
+            serialized_name: mensagemErro
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getMensagemErro
+                setter: setMensagemErro
+            type: ans\schemes\CtMotivoGlosaType
+        reciboComunicacaoDetalhe:
+            expose: true
+            access_type: public_method
+            serialized_name: reciboComunicacaoDetalhe
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getReciboComunicacaoDetalhe
+                setter: setReciboComunicacaoDetalhe
+            type: ans\schemes\CtmBeneficiarioComunicacaoReciboType

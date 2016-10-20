@@ -1,0 +1,32 @@
+ans\schemes\CtmAutorizacaoProrrogacaoType:
+    properties:
+        autorizacaoDosServicos:
+            expose: true
+            access_type: public_method
+            serialized_name: autorizacaoDosServicos
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAutorizacaoDosServicos
+                setter: setAutorizacaoDosServicos
+            type: ans\schemes\CtmAutorizacaoServicoType
+        diariasAutorizadas:
+            expose: true
+            access_type: public_method
+            serialized_name: diariasAutorizadas
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDiariasAutorizadas
+                setter: setDiariasAutorizadas
+            type: integer
+        acomodacaoAutorizada:
+            expose: true
+            access_type: public_method
+            serialized_name: acomodacaoAutorizada
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAcomodacaoAutorizada
+                setter: setAcomodacaoAutorizada
+            type: string

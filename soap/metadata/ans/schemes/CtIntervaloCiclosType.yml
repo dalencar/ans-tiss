@@ -1,0 +1,22 @@
+ans\schemes\CtIntervaloCiclosType:
+    properties:
+        tempo:
+            expose: true
+            access_type: public_method
+            serialized_name: tempo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTempo
+                setter: setTempo
+            type: integer
+        unidade:
+            expose: true
+            access_type: public_method
+            serialized_name: unidade
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getUnidade
+                setter: setUnidade
+            type: string

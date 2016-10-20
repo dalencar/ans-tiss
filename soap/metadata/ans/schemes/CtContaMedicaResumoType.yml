@@ -1,0 +1,106 @@
+ans\schemes\CtContaMedicaResumoType:
+    properties:
+        numeroLotePrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroLotePrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroLotePrestador
+                setter: setNumeroLotePrestador
+            type: string
+        numeroProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroProtocolo
+                setter: setNumeroProtocolo
+            type: string
+        dataProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: dataProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataProtocolo
+                setter: setDataProtocolo
+            type: 'DateTime<''Y-m-d''>'
+        valorProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: valorProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorProtocolo
+                setter: setValorProtocolo
+            type: float
+        valorGlosaProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: valorGlosaProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorGlosaProtocolo
+                setter: setValorGlosaProtocolo
+            type: float
+        glosaProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: GlosaProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getGlosaProtocolo
+                setter: setGlosaProtocolo
+            type: ans\schemes\CtMotivoGlosaType
+        relacaoGuias:
+            expose: true
+            access_type: public_method
+            serialized_name: relacaoGuias
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRelacaoGuias
+                setter: setRelacaoGuias
+            xml_list:
+                inline: true
+                entry_name: relacaoGuias
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtContaMedicaResumoType\RelacaoGuiasAType>
+        valorInformadoProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: valorInformadoProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorInformadoProtocolo
+                setter: setValorInformadoProtocolo
+            type: float
+        valorProcessadoProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: valorProcessadoProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorProcessadoProtocolo
+                setter: setValorProcessadoProtocolo
+            type: float
+        valorLiberadoProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: valorLiberadoProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorLiberadoProtocolo
+                setter: setValorLiberadoProtocolo
+            type: float

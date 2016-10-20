@@ -1,0 +1,32 @@
+ans\schemes\CtAnexoRecebimentoType\AnexosClinicosAType:
+    properties:
+        anexoOPME:
+            expose: true
+            access_type: public_method
+            serialized_name: anexoOPME
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAnexoOPME
+                setter: setAnexoOPME
+            type: ans\schemes\CtmAutorizacaoOPMEType
+        anexoQuimio:
+            expose: true
+            access_type: public_method
+            serialized_name: anexoQuimio
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAnexoQuimio
+                setter: setAnexoQuimio
+            type: ans\schemes\CtmAutorizacaoQuimioType
+        anexoRadio:
+            expose: true
+            access_type: public_method
+            serialized_name: anexoRadio
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAnexoRadio
+                setter: setAnexoRadio
+            type: ans\schemes\CtmAutorizacaoRadioType

@@ -1,0 +1,140 @@
+ans\schemes\CtmDemonstrativoPagamentoType:
+    properties:
+        cabecalhoDemonstrativo:
+            expose: true
+            access_type: public_method
+            serialized_name: cabecalhoDemonstrativo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCabecalhoDemonstrativo
+                setter: setCabecalhoDemonstrativo
+            type: ans\schemes\CtDemonstrativoCabecalhoType
+        dadosContratado:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosContratado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosContratado
+                setter: setDadosContratado
+            type: ans\schemes\CtmDemonstrativoPagamentoType\DadosContratadoAType
+        dadosPagamento:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosPagamento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosPagamento
+                setter: setDadosPagamento
+            type: ans\schemes\CtPagamentoDadosType
+        dadosResumo:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosResumo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosResumo
+                setter: setDadosResumo
+            xml_list:
+                inline: true
+                entry_name: dadosResumo
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtmDemonstrativoPagamentoType\DadosResumoAType>
+        valorInformadoBruto:
+            expose: true
+            access_type: public_method
+            serialized_name: valorInformadoBruto
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorInformadoBruto
+                setter: setValorInformadoBruto
+            type: float
+        valorProcessadoBruto:
+            expose: true
+            access_type: public_method
+            serialized_name: valorProcessadoBruto
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorProcessadoBruto
+                setter: setValorProcessadoBruto
+            type: float
+        valorLiberadoBruto:
+            expose: true
+            access_type: public_method
+            serialized_name: valorLiberadoBruto
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorLiberadoBruto
+                setter: setValorLiberadoBruto
+            type: float
+        valorGlosaBruto:
+            expose: true
+            access_type: public_method
+            serialized_name: valorGlosaBruto
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorGlosaBruto
+                setter: setValorGlosaBruto
+            type: float
+        demaisDebitosCreditos:
+            expose: true
+            access_type: public_method
+            serialized_name: demaisDebitosCreditos
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDemaisDebitosCreditos
+                setter: setDemaisDebitosCreditos
+            type: array<ans\schemes\CtDescontosType>
+            xml_list:
+                inline: false
+                entry_name: descontos
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+        totalDemaisDebitos:
+            expose: true
+            access_type: public_method
+            serialized_name: totalDemaisDebitos
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTotalDemaisDebitos
+                setter: setTotalDemaisDebitos
+            type: float
+        totalDemaisCreditos:
+            expose: true
+            access_type: public_method
+            serialized_name: totalDemaisCreditos
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTotalDemaisCreditos
+                setter: setTotalDemaisCreditos
+            type: float
+        valorFinalReceber:
+            expose: true
+            access_type: public_method
+            serialized_name: valorFinalReceber
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorFinalReceber
+                setter: setValorFinalReceber
+            type: float
+        observacao:
+            expose: true
+            access_type: public_method
+            serialized_name: observacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getObservacao
+                setter: setObservacao
+            type: string

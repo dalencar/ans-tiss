@@ -1,0 +1,32 @@
+ans\schemes\CtmSpSadtGuiaType\DadosSolicitacaoAType:
+    properties:
+        dataSolicitacao:
+            expose: true
+            access_type: public_method
+            serialized_name: dataSolicitacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataSolicitacao
+                setter: setDataSolicitacao
+            type: 'DateTime<''Y-m-d''>'
+        caraterAtendimento:
+            expose: true
+            access_type: public_method
+            serialized_name: caraterAtendimento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCaraterAtendimento
+                setter: setCaraterAtendimento
+            type: string
+        indicacaoClinica:
+            expose: true
+            access_type: public_method
+            serialized_name: indicacaoClinica
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIndicacaoClinica
+                setter: setIndicacaoClinica
+            type: string

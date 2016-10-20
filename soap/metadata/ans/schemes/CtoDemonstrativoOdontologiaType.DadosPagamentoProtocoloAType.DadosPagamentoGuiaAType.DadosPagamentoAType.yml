@@ -1,0 +1,116 @@
+ans\schemes\CtoDemonstrativoOdontologiaType\DadosPagamentoProtocoloAType\DadosPagamentoGuiaAType\DadosPagamentoAType:
+    properties:
+        procedimento:
+            expose: true
+            access_type: public_method
+            serialized_name: procedimento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getProcedimento
+                setter: setProcedimento
+            type: ans\schemes\CtProcedimentoDadosType
+        denteRegiao:
+            expose: true
+            access_type: public_method
+            serialized_name: denteRegiao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDenteRegiao
+                setter: setDenteRegiao
+            type: ans\schemes\CtoDemonstrativoOdontologiaType\DadosPagamentoProtocoloAType\DadosPagamentoGuiaAType\DadosPagamentoAType\DenteRegiaoAType
+        denteFace:
+            expose: true
+            access_type: public_method
+            serialized_name: denteFace
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDenteFace
+                setter: setDenteFace
+            type: string
+        dataRealizacao:
+            expose: true
+            access_type: public_method
+            serialized_name: dataRealizacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataRealizacao
+                setter: setDataRealizacao
+            type: 'DateTime<''Y-m-d''>'
+        qtdProc:
+            expose: true
+            access_type: public_method
+            serialized_name: qtdProc
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getQtdProc
+                setter: setQtdProc
+            type: integer
+        valorInformado:
+            expose: true
+            access_type: public_method
+            serialized_name: valorInformado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorInformado
+                setter: setValorInformado
+            type: float
+        valorProcessado:
+            expose: true
+            access_type: public_method
+            serialized_name: valorProcessado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorProcessado
+                setter: setValorProcessado
+            type: float
+        valorGlosaEstorno:
+            expose: true
+            access_type: public_method
+            serialized_name: valorGlosaEstorno
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorGlosaEstorno
+                setter: setValorGlosaEstorno
+            type: float
+        valorFranquia:
+            expose: true
+            access_type: public_method
+            serialized_name: valorFranquia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorFranquia
+                setter: setValorFranquia
+            type: float
+        valorLiberado:
+            expose: true
+            access_type: public_method
+            serialized_name: valorLiberado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorLiberado
+                setter: setValorLiberado
+            type: float
+        codigosGlosa:
+            expose: true
+            access_type: public_method
+            serialized_name: codigosGlosa
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodigosGlosa
+                setter: setCodigosGlosa
+            xml_list:
+                inline: true
+                entry_name: codigosGlosa
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<string>

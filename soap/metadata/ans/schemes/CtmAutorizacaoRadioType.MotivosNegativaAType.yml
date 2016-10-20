@@ -1,0 +1,16 @@
+ans\schemes\CtmAutorizacaoRadioType\MotivosNegativaAType:
+    properties:
+        motivoNegativa:
+            expose: true
+            access_type: public_method
+            serialized_name: motivoNegativa
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getMotivoNegativa
+                setter: setMotivoNegativa
+            xml_list:
+                inline: true
+                entry_name: motivoNegativa
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtMotivoGlosaType>

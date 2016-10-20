@@ -1,0 +1,22 @@
+ans\schemes\CtGlosaReciboType\OpcaoRecursoAType\RecursoGuiaAType:
+    properties:
+        respostaGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: respostaGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRespostaGuia
+                setter: setRespostaGuia
+            type: ans\schemes\CtRespostaGlosaGuiaMedicaType
+        respostaGuiaItens:
+            expose: true
+            access_type: public_method
+            serialized_name: respostaGuiaItens
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRespostaGuiaItens
+                setter: setRespostaGuiaItens
+            type: ans\schemes\CtRespostaGlosaItemMedicoType

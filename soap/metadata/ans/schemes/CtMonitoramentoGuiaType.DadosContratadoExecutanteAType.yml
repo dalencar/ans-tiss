@@ -1,0 +1,42 @@
+ans\schemes\CtMonitoramentoGuiaType\DadosContratadoExecutanteAType:
+    properties:
+        cNES:
+            expose: true
+            access_type: public_method
+            serialized_name: CNES
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCNES
+                setter: setCNES
+            type: string
+        identificadorExecutante:
+            expose: true
+            access_type: public_method
+            serialized_name: identificadorExecutante
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIdentificadorExecutante
+                setter: setIdentificadorExecutante
+            type: string
+        codigoCNPJCPF:
+            expose: true
+            access_type: public_method
+            serialized_name: codigoCNPJ_CPF
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodigoCNPJCPF
+                setter: setCodigoCNPJCPF
+            type: string
+        municipioExecutante:
+            expose: true
+            access_type: public_method
+            serialized_name: municipioExecutante
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getMunicipioExecutante
+                setter: setMunicipioExecutante
+            type: string

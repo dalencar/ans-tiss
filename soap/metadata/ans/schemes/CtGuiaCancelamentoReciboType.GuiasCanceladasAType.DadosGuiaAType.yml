@@ -1,0 +1,32 @@
+ans\schemes\CtGuiaCancelamentoReciboType\GuiasCanceladasAType\DadosGuiaAType:
+    properties:
+        numeroGuiaPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroGuiaPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroGuiaPrestador
+                setter: setNumeroGuiaPrestador
+            type: string
+        tipoGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: tipoGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTipoGuia
+                setter: setTipoGuia
+            type: string
+        statusCancelamento:
+            expose: true
+            access_type: public_method
+            serialized_name: statusCancelamento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getStatusCancelamento
+                setter: setStatusCancelamento
+            type: string

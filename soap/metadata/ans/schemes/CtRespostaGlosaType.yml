@@ -1,0 +1,32 @@
+ans\schemes\CtRespostaGlosaType:
+    properties:
+        reciboGlosa:
+            expose: true
+            access_type: public_method
+            serialized_name: reciboGlosa
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getReciboGlosa
+                setter: setReciboGlosa
+            type: ans\schemes\CtGlosaReciboType
+        reciboGlosaOdonto:
+            expose: true
+            access_type: public_method
+            serialized_name: reciboGlosaOdonto
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getReciboGlosaOdonto
+                setter: setReciboGlosaOdonto
+            type: ans\schemes\CtGlosaReciboOdontoType
+        reciboGlosaStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: reciboGlosaStatus
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getReciboGlosaStatus
+                setter: setReciboGlosaStatus
+            type: ans\schemes\CtRespostaGlosaType\ReciboGlosaStatusAType

@@ -1,0 +1,44 @@
+ans\schemes\MensagemTISS:
+    xml_root_name: mensagemTISS
+    xml_root_namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+    properties:
+        cabecalho:
+            expose: true
+            access_type: public_method
+            serialized_name: cabecalho
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCabecalho
+                setter: setCabecalho
+            type: ans\schemes\CabecalhoTransacaoType
+        operadoraParaPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: operadoraParaPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getOperadoraParaPrestador
+                setter: setOperadoraParaPrestador
+            type: ans\schemes\OperadoraPrestadorType
+        prestadorParaOperadora:
+            expose: true
+            access_type: public_method
+            serialized_name: prestadorParaOperadora
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getPrestadorParaOperadora
+                setter: setPrestadorParaOperadora
+            type: ans\schemes\PrestadorOperadoraType
+        epilogo:
+            expose: true
+            access_type: public_method
+            serialized_name: epilogo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getEpilogo
+                setter: setEpilogo
+            type: ans\schemes\EpilogoType

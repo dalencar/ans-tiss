@@ -1,0 +1,130 @@
+ans\schemes\CtmInternacaoResumoGuiaType:
+    properties:
+        cabecalhoGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: cabecalhoGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCabecalhoGuia
+                setter: setCabecalhoGuia
+            type: ans\schemes\CtGuiaCabecalhoType
+        numeroGuiaSolicitacaoInternacao:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroGuiaSolicitacaoInternacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroGuiaSolicitacaoInternacao
+                setter: setNumeroGuiaSolicitacaoInternacao
+            type: string
+        dadosAutorizacao:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosAutorizacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosAutorizacao
+                setter: setDadosAutorizacao
+            type: ans\schemes\CtAutorizacaoInternacaoType
+        dadosBeneficiario:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosBeneficiario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosBeneficiario
+                setter: setDadosBeneficiario
+            type: ans\schemes\CtBeneficiarioDadosType
+        dadosExecutante:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosExecutante
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosExecutante
+                setter: setDadosExecutante
+            type: ans\schemes\CtmInternacaoResumoGuiaType\DadosExecutanteAType
+        dadosInternacao:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosInternacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosInternacao
+                setter: setDadosInternacao
+            type: ans\schemes\CtmInternacaoDadosType
+        dadosSaidaInternacao:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosSaidaInternacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosSaidaInternacao
+                setter: setDadosSaidaInternacao
+            type: ans\schemes\CtmInternacaoDadosSaidaType
+        procedimentosExecutados:
+            expose: true
+            access_type: public_method
+            serialized_name: procedimentosExecutados
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getProcedimentosExecutados
+                setter: setProcedimentosExecutados
+            type: array<ans\schemes\CtProcedimentoExecutadoIntType>
+            xml_list:
+                inline: false
+                entry_name: procedimentoExecutado
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+        valorTotal:
+            expose: true
+            access_type: public_method
+            serialized_name: valorTotal
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorTotal
+                setter: setValorTotal
+            type: ans\schemes\CtGuiaValorTotalType
+        outrasDespesas:
+            expose: true
+            access_type: public_method
+            serialized_name: outrasDespesas
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getOutrasDespesas
+                setter: setOutrasDespesas
+            type: array<ans\schemes\CtOutrasDespesasType\DespesaAType>
+            xml_list:
+                inline: false
+                entry_name: despesa
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+        observacao:
+            expose: true
+            access_type: public_method
+            serialized_name: observacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getObservacao
+                setter: setObservacao
+            type: string
+        assinaturaDigital:
+            expose: true
+            access_type: public_method
+            serialized_name: assinaturaDigital
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAssinaturaDigital
+                setter: setAssinaturaDigital
+            type: ans\schemes\AssinaturaDigitalType

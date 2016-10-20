@@ -1,0 +1,42 @@
+ans\schemes\CtmSpSadtAtendimentoType:
+    properties:
+        tipoAtendimento:
+            expose: true
+            access_type: public_method
+            serialized_name: tipoAtendimento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTipoAtendimento
+                setter: setTipoAtendimento
+            type: string
+        indicacaoAcidente:
+            expose: true
+            access_type: public_method
+            serialized_name: indicacaoAcidente
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIndicacaoAcidente
+                setter: setIndicacaoAcidente
+            type: string
+        tipoConsulta:
+            expose: true
+            access_type: public_method
+            serialized_name: tipoConsulta
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTipoConsulta
+                setter: setTipoConsulta
+            type: string
+        motivoSaida:
+            expose: true
+            access_type: public_method
+            serialized_name: motivoSaida
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getMotivoSaida
+                setter: setMotivoSaida
+            type: string

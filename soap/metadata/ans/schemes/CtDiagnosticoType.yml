@@ -1,0 +1,32 @@
+ans\schemes\CtDiagnosticoType:
+    properties:
+        tabelaDiagnostico:
+            expose: true
+            access_type: public_method
+            serialized_name: tabelaDiagnostico
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTabelaDiagnostico
+                setter: setTabelaDiagnostico
+            type: string
+        codigoDiagnostico:
+            expose: true
+            access_type: public_method
+            serialized_name: codigoDiagnostico
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodigoDiagnostico
+                setter: setCodigoDiagnostico
+            type: string
+        descricaoDiagnostico:
+            expose: true
+            access_type: public_method
+            serialized_name: descricaoDiagnostico
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDescricaoDiagnostico
+                setter: setDescricaoDiagnostico
+            type: string

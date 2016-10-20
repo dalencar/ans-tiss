@@ -1,0 +1,76 @@
+ans\schemes\CtDiagnosticoOncologicoType:
+    properties:
+        dataDiagnostico:
+            expose: true
+            access_type: public_method
+            serialized_name: dataDiagnostico
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataDiagnostico
+                setter: setDataDiagnostico
+            type: 'DateTime<''Y-m-d''>'
+        diagnosticoCID:
+            expose: true
+            access_type: public_method
+            serialized_name: diagnosticoCID
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDiagnosticoCID
+                setter: setDiagnosticoCID
+            xml_list:
+                inline: true
+                entry_name: diagnosticoCID
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<string>
+        estadiamento:
+            expose: true
+            access_type: public_method
+            serialized_name: estadiamento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getEstadiamento
+                setter: setEstadiamento
+            type: string
+        finalidade:
+            expose: true
+            access_type: public_method
+            serialized_name: finalidade
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getFinalidade
+                setter: setFinalidade
+            type: string
+        ecog:
+            expose: true
+            access_type: public_method
+            serialized_name: ecog
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getEcog
+                setter: setEcog
+            type: string
+        diagnosticoHispatologico:
+            expose: true
+            access_type: public_method
+            serialized_name: diagnosticoHispatologico
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDiagnosticoHispatologico
+                setter: setDiagnosticoHispatologico
+            type: string
+        infoRelevantes:
+            expose: true
+            access_type: public_method
+            serialized_name: infoRelevantes
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getInfoRelevantes
+                setter: setInfoRelevantes
+            type: string

@@ -1,0 +1,42 @@
+ans\schemes\CtmAutorizacaoInternacaoType:
+    properties:
+        autorizacaoDosServicos:
+            expose: true
+            access_type: public_method
+            serialized_name: autorizacaoDosServicos
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAutorizacaoDosServicos
+                setter: setAutorizacaoDosServicos
+            type: ans\schemes\CtmAutorizacaoServicoType
+        dataProvavelAdmissao:
+            expose: true
+            access_type: public_method
+            serialized_name: dataProvavelAdmissao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataProvavelAdmissao
+                setter: setDataProvavelAdmissao
+            type: 'DateTime<''Y-m-d''>'
+        qtdDiariasAutorizadas:
+            expose: true
+            access_type: public_method
+            serialized_name: qtdDiariasAutorizadas
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getQtdDiariasAutorizadas
+                setter: setQtdDiariasAutorizadas
+            type: integer
+        tipoAcomodacaoAutorizada:
+            expose: true
+            access_type: public_method
+            serialized_name: tipoAcomodacaoAutorizada
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTipoAcomodacaoAutorizada
+                setter: setTipoAcomodacaoAutorizada
+            type: string

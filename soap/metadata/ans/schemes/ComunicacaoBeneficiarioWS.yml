@@ -1,0 +1,34 @@
+ans\schemes\ComunicacaoBeneficiarioWS:
+    xml_root_name: comunicacaoBeneficiarioWS
+    xml_root_namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+    properties:
+        cabecalho:
+            expose: true
+            access_type: public_method
+            serialized_name: cabecalho
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCabecalho
+                setter: setCabecalho
+            type: ans\schemes\CabecalhoTransacaoType
+        comunicacaoBeneficiario:
+            expose: true
+            access_type: public_method
+            serialized_name: comunicacaoBeneficiario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getComunicacaoBeneficiario
+                setter: setComunicacaoBeneficiario
+            type: ans\schemes\CtmBeneficiarioComunicacaoType
+        hash:
+            expose: true
+            access_type: public_method
+            serialized_name: hash
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getHash
+                setter: setHash
+            type: string

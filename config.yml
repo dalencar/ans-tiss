@@ -1,0 +1,17 @@
+# config.yml
+
+xsd2php:
+  namespaces:
+    'http://www.ans.gov.br/padroes/tiss/schemas': 'ans\schemes'
+    'http://www.w3.org/2000/09/xmldsig#': 'ans\xmldsig'
+  destinations_php:
+    'ans\schemes': 'ans//schemes'
+    'ans\xmldsig': 'ans//xmldsig'
+  destinations_jms:
+    'ans\schemes': soap//metadata//ans//schemes
+    'ans\xmldsig': soap//metadata//ans//xmldsig
+  aliases: # optional
+    'http://www.example.org/test/':
+      MyCustomXSDType:  'MyCustomMappedPHPType'
+  naming_strategy: short # optional and default
+  path_generator: psr4 # optional and default

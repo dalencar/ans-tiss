@@ -1,0 +1,82 @@
+ans\schemes\OperadoraPrestadorType\DemonstrativosRetornoAType\SituacaoDemonstrativoAType:
+    properties:
+        identificacaoOperadora:
+            expose: true
+            access_type: public_method
+            serialized_name: identificacaoOperadora
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIdentificacaoOperadora
+                setter: setIdentificacaoOperadora
+            type: string
+        dadosPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosPrestador
+                setter: setDadosPrestador
+            type: ans\schemes\CtContratadoDadosType
+        periodo:
+            expose: true
+            access_type: public_method
+            serialized_name: periodo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getPeriodo
+                setter: setPeriodo
+            type: ans\schemes\OperadoraPrestadorType\DemonstrativosRetornoAType\SituacaoDemonstrativoAType\PeriodoAType
+        numeroProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroProtocolo
+                setter: setNumeroProtocolo
+            type: string
+        protocoloSolicitacaoDemonstrativo:
+            expose: true
+            access_type: public_method
+            serialized_name: protocoloSolicitacaoDemonstrativo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getProtocoloSolicitacaoDemonstrativo
+                setter: setProtocoloSolicitacaoDemonstrativo
+            type: string
+        tipoDemonstrativo:
+            expose: true
+            access_type: public_method
+            serialized_name: tipoDemonstrativo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getTipoDemonstrativo
+                setter: setTipoDemonstrativo
+            type: string
+        dataSituacaoDemonstrativo:
+            expose: true
+            access_type: public_method
+            serialized_name: dataSituacaoDemonstrativo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDataSituacaoDemonstrativo
+                setter: setDataSituacaoDemonstrativo
+            type: 'DateTime<''Y-m-d''>'
+        situacaoDemonstrativo:
+            expose: true
+            access_type: public_method
+            serialized_name: situacaoDemonstrativo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getSituacaoDemonstrativo
+                setter: setSituacaoDemonstrativo
+            type: string

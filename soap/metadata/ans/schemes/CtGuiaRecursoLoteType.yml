@@ -1,0 +1,30 @@
+ans\schemes\CtGuiaRecursoLoteType:
+    properties:
+        guiaRecursoGlosaOdonto:
+            expose: true
+            access_type: public_method
+            serialized_name: guiaRecursoGlosaOdonto
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getGuiaRecursoGlosaOdonto
+                setter: setGuiaRecursoGlosaOdonto
+            xml_list:
+                inline: true
+                entry_name: guiaRecursoGlosaOdonto
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtoRecursoGlosaOdontoType>
+        guiaRecursoGlosa:
+            expose: true
+            access_type: public_method
+            serialized_name: guiaRecursoGlosa
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getGuiaRecursoGlosa
+                setter: setGuiaRecursoGlosa
+            xml_list:
+                inline: true
+                entry_name: guiaRecursoGlosa
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtmRecursoGlosaType>

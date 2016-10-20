@@ -1,0 +1,62 @@
+ans\schemes\CtRespostaRecursoGuiaOdontoType:
+    properties:
+        numeroGuiaPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroGuiaPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroGuiaPrestador
+                setter: setNumeroGuiaPrestador
+            type: string
+        senha:
+            expose: true
+            access_type: public_method
+            serialized_name: senha
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getSenha
+                setter: setSenha
+            type: string
+        nomeBeneficiario:
+            expose: true
+            access_type: public_method
+            serialized_name: nomeBeneficiario
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNomeBeneficiario
+                setter: setNomeBeneficiario
+            type: string
+        codGlosaGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: codGlosaGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodGlosaGuia
+                setter: setCodGlosaGuia
+            type: string
+        justificativaGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: justificativaGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getJustificativaGuia
+                setter: setJustificativaGuia
+            type: string
+        recursoAcatadoGuia:
+            expose: true
+            access_type: public_method
+            serialized_name: recursoAcatadoGuia
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRecursoAcatadoGuia
+                setter: setRecursoAcatadoGuia
+            type: string

@@ -1,0 +1,92 @@
+ans\schemes\CtmAnexoSolicitacaoOPMEType\OpmeSolicitadasAType\OpmeSolicitadaAType:
+    properties:
+        identificacaoOPME:
+            expose: true
+            access_type: public_method
+            serialized_name: identificacaoOPME
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getIdentificacaoOPME
+                setter: setIdentificacaoOPME
+            type: ans\schemes\CtProcedimentoDadosType
+        opcaoFabricante:
+            expose: true
+            access_type: public_method
+            serialized_name: opcaoFabricante
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getOpcaoFabricante
+                setter: setOpcaoFabricante
+            type: string
+        quantidadeSolicitada:
+            expose: true
+            access_type: public_method
+            serialized_name: quantidadeSolicitada
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getQuantidadeSolicitada
+                setter: setQuantidadeSolicitada
+            type: integer
+        valorSolicitado:
+            expose: true
+            access_type: public_method
+            serialized_name: valorSolicitado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorSolicitado
+                setter: setValorSolicitado
+            type: float
+        quantidadeAutorizada:
+            expose: true
+            access_type: public_method
+            serialized_name: quantidadeAutorizada
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getQuantidadeAutorizada
+                setter: setQuantidadeAutorizada
+            type: integer
+        valorAutorizado:
+            expose: true
+            access_type: public_method
+            serialized_name: valorAutorizado
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorAutorizado
+                setter: setValorAutorizado
+            type: float
+        registroANVISA:
+            expose: true
+            access_type: public_method
+            serialized_name: registroANVISA
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRegistroANVISA
+                setter: setRegistroANVISA
+            type: string
+        codigoRefFabricante:
+            expose: true
+            access_type: public_method
+            serialized_name: codigoRefFabricante
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCodigoRefFabricante
+                setter: setCodigoRefFabricante
+            type: string
+        autorizacaoFuncionamento:
+            expose: true
+            access_type: public_method
+            serialized_name: autorizacaoFuncionamento
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getAutorizacaoFuncionamento
+                setter: setAutorizacaoFuncionamento
+            type: string

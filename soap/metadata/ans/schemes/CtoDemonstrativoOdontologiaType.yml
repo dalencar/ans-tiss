@@ -1,0 +1,168 @@
+ans\schemes\CtoDemonstrativoOdontologiaType:
+    properties:
+        registroANS:
+            expose: true
+            access_type: public_method
+            serialized_name: registroANS
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getRegistroANS
+                setter: setRegistroANS
+            type: string
+        numeroDemonstrativo:
+            expose: true
+            access_type: public_method
+            serialized_name: numeroDemonstrativo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNumeroDemonstrativo
+                setter: setNumeroDemonstrativo
+            type: string
+        nomeOperadora:
+            expose: true
+            access_type: public_method
+            serialized_name: nomeOperadora
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getNomeOperadora
+                setter: setNomeOperadora
+            type: string
+        cnpjOper:
+            expose: true
+            access_type: public_method
+            serialized_name: cnpjOper
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getCnpjOper
+                setter: setCnpjOper
+            type: string
+        periodoProc:
+            expose: true
+            access_type: public_method
+            serialized_name: periodoProc
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getPeriodoProc
+                setter: setPeriodoProc
+            type: ans\schemes\CtoDemonstrativoOdontologiaType\PeriodoProcAType
+        dadosPrestador:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosPrestador
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosPrestador
+                setter: setDadosPrestador
+            type: ans\schemes\CtoDemonstrativoOdontologiaType\DadosPrestadorAType
+        dadosPagamentoProtocolo:
+            expose: true
+            access_type: public_method
+            serialized_name: dadosPagamentoProtocolo
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDadosPagamentoProtocolo
+                setter: setDadosPagamentoProtocolo
+            xml_list:
+                inline: true
+                entry_name: dadosPagamentoProtocolo
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            type: array<ans\schemes\CtoDemonstrativoOdontologiaType\DadosPagamentoProtocoloAType>
+        debitosCreditosTributaveis:
+            expose: true
+            access_type: public_method
+            serialized_name: debitosCreditosTributaveis
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDebitosCreditosTributaveis
+                setter: setDebitosCreditosTributaveis
+            type: array<ans\schemes\CtDescontosType>
+            xml_list:
+                inline: false
+                entry_name: descontos
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+        debitosCreditosNaoTributaveis:
+            expose: true
+            access_type: public_method
+            serialized_name: debitosCreditosNaoTributaveis
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDebitosCreditosNaoTributaveis
+                setter: setDebitosCreditosNaoTributaveis
+            type: array<ans\schemes\CtDescontosType>
+            xml_list:
+                inline: false
+                entry_name: descontos
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+        demaisImpostos:
+            expose: true
+            access_type: public_method
+            serialized_name: demaisImpostos
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getDemaisImpostos
+                setter: setDemaisImpostos
+            type: array<ans\schemes\CtDescontosType>
+            xml_list:
+                inline: false
+                entry_name: descontos
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+        valorTotalTributavel:
+            expose: true
+            access_type: public_method
+            serialized_name: valorTotalTributavel
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorTotalTributavel
+                setter: setValorTotalTributavel
+            type: float
+        valorTotalImpostos:
+            expose: true
+            access_type: public_method
+            serialized_name: valorTotalImpostos
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorTotalImpostos
+                setter: setValorTotalImpostos
+            type: float
+        valorTotalNaoTributavel:
+            expose: true
+            access_type: public_method
+            serialized_name: valorTotalNaoTributavel
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorTotalNaoTributavel
+                setter: setValorTotalNaoTributavel
+            type: float
+        valorFinalReceber:
+            expose: true
+            access_type: public_method
+            serialized_name: valorFinalReceber
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getValorFinalReceber
+                setter: setValorFinalReceber
+            type: float
+        observacao:
+            expose: true
+            access_type: public_method
+            serialized_name: observacao
+            xml_element:
+                namespace: 'http://www.ans.gov.br/padroes/tiss/schemas'
+            accessor:
+                getter: getObservacao
+                setter: setObservacao
+            type: string
